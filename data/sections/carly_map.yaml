@@ -4,6 +4,8 @@ layers: "google_satellite,carly_map"
 zoom: 9
 lat: 45.6
 lng: -73.2
+left_wide: true
+left_bg: "#6610f2"
 left_title: "Study design"
 left_title_fr: "Plan d'étude"
 left_text: "We set up linear transects from the edge to interior of 24 different forest patches, and measured tree species and size to calculate tree diversity and carbon stocks."

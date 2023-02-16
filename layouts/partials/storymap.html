@@ -29,7 +29,10 @@
    {{ if $section.main_title}}
    <section class="{{ replaceRE "(\\s)" "_" $section.name }}"  data-scene="{{ $section.name }}" data-background="{{ $section.background_media }}" lat="{{ $section.lat }}" lng="{{ $section.lng }}" zoom="{{ $section.zoom }}" layers="" init-js="{{ $section.init_js}}">
    {{ else }}
-   <section class="{{ replaceRE "(\\s)" "_" $section.name }} left-content"  data-scene="{{ $section.name }}" lat="{{ $section.lat }}" lng="{{ $section.lng }}" zoom="{{ $section.zoom }}" layers="{{ $section.layers }}" init-js="{{ $section.init_js}}">
+    {{/*  {{ if $section.left_bg}}
+      <section class="{{ replaceRE "(\\s)" "_" $section.name }} left-content"  style="background-color:#999999" data-scene="{{ $section.name }}" lat="{{ $section.lat }}" lng="{{ $section.lng }}" zoom="{{ $section.zoom }}" layers="{{ $section.layers }}" init-js="{{ $section.init_js}}">
+    {{ else }}  */}}
+      <section class="{{ replaceRE "(\\s)" "_" $section.name }} left-content"  data-scene="{{ $section.name }}" lat="{{ $section.lat }}" lng="{{ $section.lng }}" zoom="{{ $section.zoom }}" layers="{{ $section.layers }}" init-js="{{ $section.init_js}}">
    {{end}}
    {{ if $section.main_title }}
 	<div class="fullscreen text-center">
@@ -55,7 +58,12 @@
 	</div>
 	{{end}}
   {{ if $section.left_wide }}
-  <div class="left-wide">  
+    {{/*  {{ if $section.left_bg }}  */}}
+    {{/*  <div class="left-wide" style="background-color:blue">    */}}
+    <div class="left-wide" style="background-color:{{ $section.left_bg }}">  
+    {{/*  {{ else }}  */}}
+    {{/*  <div class="left-wide">  */}}
+    {{/*  {{ end }}  */}}
   {{end}}
 
    {{ if $section.left_title }}
