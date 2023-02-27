@@ -1,0 +1,127 @@
+
+.overview-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: calc(100vh - 34px);
+    vertical-align: bottom;
+    bottom:0;
+    position:fixed;
+    border:7px solid white;
+  }
+  
+  .overview-item {
+    width: 50%;
+    height: 50%;
+    position:relative;
+    padding:25px;
+    border:7px solid white;
+    background-blend-mode: luminosity;
+  }
+  
+  .overview-item:hover {
+      cursor: pointer;
+      background-color: black;
+      background-blend-mode: normal;
+  }
+  
+  .overview-item:hover h1 {
+      /*background:rgba(50,50,50,1);*/
+  }
+  .overview-author{
+    color:white;
+    font-weight:bold;
+  }
+  
+  .project-carly {
+      background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/Carly2_small.jpg) no-repeat center center border-box;
+      background-color: #687E34;
+      background-size:cover;
+  }
+  
+  .project-carly:hover{
+      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url(../img/Carly2_small.jpg) no-repeat center center border-box;
+      background-size:cover;
+  }
+  
+  .project-matt {
+      background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/Matt_sampling_small.jpeg) no-repeat center center border-box;
+      background-color: #23395B;
+      background-size:cover;
+  }
+  
+  .project-matt:hover{
+      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url(../img/Matt_sampling_small.jpeg) no-repeat center center border-box;
+      background-size:cover;
+  }
+  
+  .project-kyle {
+      background:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../img/Kyle6_small.jpeg) no-repeat center center border-box;
+      background-color: #C1AB30;
+      background-size:cover;
+  }
+  .project-kyle:hover{
+      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url(../img/Kyle6_small.jpeg) no-repeat center center border-box;
+      background-size:cover;
+  }
+  
+  
+  .project-dory {
+      background:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/Dory1_small.jpeg) no-repeat center center border-box;
+      background-color: #B35217;
+      background-size:cover;
+  }
+  .project-dory:hover{
+      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url(../img/Dory1_small.jpeg) no-repeat center center border-box;
+      background-size:cover;
+  }
+  
+  
+  .overview-item h1{
+      color:white;
+      font-weight:bold;
+      font-size:2em;
+      /*background:rgba(50,50,50,0.8);*/
+      text-shadow: 2px 2px 2px rgba(0, 0, 0, .95);
+      padding:7px !important;
+      margin-top:10%;
+  }
+  
+
+
+
+  .bg-navbar{
+    /*background: rgb(126,138,137);
+    background: linear-gradient(90deg, rgba(126,138,137,1) 11%, rgba(37,37,37,1) 92%);*/
+    background: #4D5734;
+    /*background: linear-gradient(90deg, rgba(104,126,52,1) 11%, rgba(35,57,91,1) 38%, rgba(193,171,48,1) 67%, rgba(49,32,26,1) 92%);*/
+}
+
+.storymap-navbar a{
+    color:white !important;
+}
+.storymap-navbar a:hover{
+    font-weight:bold;
+}
+
+.navbar-brand{
+    font-size:1em;
+    font-weight:bold;
+    line-height: 2em;
+}
+
+.navbar-brand:hover{
+    color:#fdfd56 !important;
+    font-weight:bold;
+}
+
+.navbar-nav{
+    font-size:13px;
+    right:0;
+    position:fixed;
+  }
+  
+.navbar-nav .nav-item{
+    background:#3a3f44;
+    padding:0px 5px;
+    height:34px;
+}
