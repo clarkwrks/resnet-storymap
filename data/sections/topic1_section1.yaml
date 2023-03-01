@@ -3,9 +3,9 @@
 weight: 1.1
 name: "topic1_section1"
 # layers to load
-layers: "google_satellite,monteregie_municipalities"
+layers: "monteregie_municipalities"
 # set leaflet extent
-zoom: 9
+zoom: 6
 lat: 45.6
 lng: -73.8
 # title above text
@@ -18,6 +18,7 @@ left_text: "The Land use and Development Plan (<a href='https://cmm.qc.ca/planif
 left_img: "../img/1571255-10-ans-population-banlieues-auto.jpg"
 # include in output
 visible: true
+# init_js: "Split_map.init()"
 init_js: "Monteregie_map.init()"
 # add item to navbar
 menu: true

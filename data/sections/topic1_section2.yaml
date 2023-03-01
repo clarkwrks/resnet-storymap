@@ -3,11 +3,11 @@
 weight: 1.2
 name: "topic1_section2"
 # layers to load
-# layers: "google_satellite,monteregie_municipalities"
+layers: "google_satellite,monteregie_municipalities"
 # set leaflet extent
-# zoom: 9
-# lat: 45.6
-# lng: -73.8
+zoom: 7
+lat: 45.6
+lng: -73.8
 # title above text
 left_title: "Topic 1: Section 2"
 # left_title_fr: "La Montérégie. Un défi de conservation."
