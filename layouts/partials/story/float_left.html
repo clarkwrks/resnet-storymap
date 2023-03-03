@@ -19,6 +19,9 @@
         {{ if $section.left_svg_class }}
             <svg class="{{ $section.left_svg_class }}"></svg>
         {{end}}
+        {{ if $section.left_markdown }}
+            <div>{{ $section.left_markdown  | markdownify}}</div>
+        {{ end }}
         {{ if $section.left_html }}
             {{- partial $section.left_html . -}}
         {{end}}

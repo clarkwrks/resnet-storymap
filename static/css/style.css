@@ -174,3 +174,13 @@ html {background-color: #222}
 .left-wide{
     width:55vw;
 }
+/* 
+.left-content a{
+    color: black;
+} */
+
+.splash-tint .text-center{
+    /* background:url(../img/montreal.jpeg); */
+    background-color: rgba(200,100,0,.5);
+    background-blend-mode: multiply;
+}
