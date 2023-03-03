@@ -25,3 +25,4 @@ menu: true
 # item name in navbar
 pretty_name: "Topic 1"
 # pretty_name_fr: "Le défi"
+layout: "float_left"

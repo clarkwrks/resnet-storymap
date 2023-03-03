@@ -10,3 +10,4 @@ main_description: "Description text"
 # lng: -73.8
 visible: true
 # init_js: "Monteregie_map.init()"
+layout: "splash"

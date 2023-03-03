@@ -1,0 +1,26 @@
+<input type="hidden" id="language" value="{{ $.Language.Lang}}">
+
+{{ range $index, $layer := .Site.Data.layers }}
+  <input type="hidden" class="layers" layer-id="{{$index}}" layer-name="{{$layer.name}}" base-layer="{{$layer.base_layer}}" {{ printf "layer-src=%q" $layer.link | safeHTMLAttr }} layer-type="{{$layer.src_type}}">
+  {{ range $ind, $opt := $layer.options }} 
+    <input type="hidden" class="layer-options" layer="{{$layer.name}}" opt-name="{{ $ind }}" opt-value="{{ $opt }}">
+  {{ end }}
+  {{ range $ind, $opt := $layer.style }}
+    <input type="hidden" class="layer-style" layer="{{$layer.name}}" style-name="{{ $ind }}" style-value="{{ $opt }}">
+  {{ end }}
+{{ end }}
+{{/*  {{ $section := . }}  */}}
+
+{{ range $index, $section := sort .Site.Data.sections "weight" }}
+    {{ if $section.visible }}
+        {{ if eq $section.layout "float_left" }}
+            {{- partial "story/float_left.html" . -}}
+        {{ else if eq $section.layout "full_html" }}
+            {{- partial "story/full_html.html" . -}}
+        {{ else if eq $section.layout "splash" }}
+            {{- partial "story/splash.html" . -}}
+        {{/*  {{ else }}  */}}
+            {{/*  {{- partial "story/float_left.html" . -}}  */}}
+        {{ end }}
+    {{ end }}
+{{ end }}

@@ -1,0 +1,29 @@
+{{ $section := . }}
+
+{{/*  <section class="{{ replaceRE '(\\s)' '_' $section.name }} left-content {{ $section.class }}"  data-scene="{{ $section.name }}" lat="{{ $section.lat }}" lng="{{ $section.lng }}" zoom="{{ $section.zoom }}" layers="{{ $section.layers }}" init-js="{{ $section.init_js}}">  */}}
+<section class='{{ replaceRE "(\\s)" "_" $section.name }} left-content {{ $section.class }}'  data-scene="{{ $section.name }}" lat="{{ $section.lat }}" lng="{{ $section.lng }}" zoom="{{ $section.zoom }}" layers="{{ $section.layers }}" init-js="{{ $section.init_js}}">
+        {{/*  {{ if $section.left_wide }}  */}}
+    {{/*  <div class = "left-wide">  */}}
+    {{/*  {{ else }}  */}}
+    {{/*  <div>  */}}
+    {{/*  {{ end }}  */}}
+        {{ if $section.left_title }}
+            <h2>{{ $section.left_title  | safeHTML}}</h2>
+        {{end}}
+        {{ if $section.left_text }}
+            <p class="medium-text">{{ $section.left_text  | safeHTML}}</p>
+        {{end}}
+        {{ if $section.left_img }}
+            <img src="{{ $section.left_img }}" style="width:100%;padding-top:20px">
+        {{end}}
+        {{ if $section.left_svg_class }}
+            <svg class="{{ $section.left_svg_class }}"></svg>
+        {{end}}
+        {{ if $section.left_html }}
+            {{- partial $section.left_html . -}}
+        {{end}}
+    {{/*  </div>  */}}
+    {{ if $section.attribution }}
+        <div class="attribution">{{ $section.attribution }}</div>
+    {{end}}
+</section>

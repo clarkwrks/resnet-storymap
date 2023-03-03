@@ -93,6 +93,7 @@
     /*background: rgb(126,138,137);
     background: linear-gradient(90deg, rgba(126,138,137,1) 11%, rgba(37,37,37,1) 92%);*/
     background: #4D5734;
+    /* background: #3a5e26; */
     /*background: linear-gradient(90deg, rgba(104,126,52,1) 11%, rgba(35,57,91,1) 38%, rgba(193,171,48,1) 67%, rgba(49,32,26,1) 92%);*/
 }
 
@@ -105,7 +106,8 @@
 }
 
 .navbar-brand:hover{
-    color:#fdfd56 !important;
+    /* color:#fdfd56 !important; */
+    color:#fcb126 !important;
     font-weight:bold;
 }
 
@@ -158,12 +160,17 @@
 .navbar-nav .nav-item:hover{
     /* .navbar-nav .nav-item:hover, .nav-item:focus{ */
         border-bottom: 1px solid;
-    background:#3b5734;
-    color:rgb(132, 211, 132) !important;
+    background:#5e78af;
+    /* color:rgb(132, 211, 132) !important; */
+    color:#3d9fc1
 }
 
 html {background-color: #222}
 
 .storymap-map{
     background-color: #222;
+}
+
+.left-wide{
+    width:55vw;
 }

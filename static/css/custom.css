@@ -94,12 +94,12 @@
     z-index:-99;
 }
 
-.left-wide{
+/* .left-wide{
     background: rgba(200,200,200,0.8);
     width:55vw;
     padding:20px;
     border-radius: 10px;
-}
+} */
 
 section.viewing {
     opacity:1 !important;
