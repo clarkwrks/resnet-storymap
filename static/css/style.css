@@ -179,8 +179,24 @@ html {background-color: #222}
     color: black;
 } */
 
-.splash-tint .text-center{
+ .splash-tint .title_splash-bg-img{
     /* background:url(../img/montreal.jpeg); */
     background-color: rgba(200,100,0,.5);
     background-blend-mode: multiply;
 }
+
+/* .fullscreen .splash-solid{ */
+.splash-solid  .body_markdown{
+    background-color: rgba(255, 255, 255, 255);
+    background-blend-mode:color
+}
+
+/* .overview-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: calc(100vh - 34px);
+    vertical-align: bottom;
+    bottom:0;
+    position:fixed;
+    border:7px solid white;
+} */

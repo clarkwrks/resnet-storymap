@@ -1,0 +1,11 @@
+{{ $section := . }}
+
+<section class='{{ replaceRE "(\\s)" "_" $section.name }} {{ $section.class }}'  data-scene="{{ $section.name }}" data-background="{{ $section.background_media }}" lat="{{ $section.lat }}" lng="{{ $section.lng }}" zoom="{{ $section.zoom }}" layers="" init-js="{{ $section.init_js}}">
+
+<div class="fullscreen body_markdown">
+    {{ if $section.body_markdown }}
+    {{ $section.body_markdown  | markdownify}}
+    {{ end }}
+</div>
+
+</section>

@@ -19,6 +19,8 @@
             {{- partial "story/full_html.html" . -}}
         {{ else if eq $section.layout "splash" }}
             {{- partial "story/splash.html" . -}}
+        {{ else if eq $section.layout "fullscreen" }}
+            {{- partial "story/fullscreen.html" . -}}
         {{/*  {{ else }}  */}}
             {{/*  {{- partial "story/float_left.html" . -}}  */}}
         {{ end }}

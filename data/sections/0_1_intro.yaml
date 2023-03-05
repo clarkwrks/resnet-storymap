@@ -1,15 +1,17 @@
 weight: 0.1
-name: "title_splash"
+name: "intro"
 # layers: "google_satellite,monteregie_municipalities"
 # background_media : "../img/Mont-St-Hilaire_short2.mp4"
-background_media : "../img/montreal.jpeg"
-class: "splash-tint"
-main_title: "StoryMap Demo"
-main_description: "HQP Scaling Group"
+# background_media : "../img/montreal.jpeg"
+class: "splash-solid"
+# main_title: "StoryMap Demo"
+# main_description: "HQP Scaling Group"
 # main_title_fr: "StoryMap Demo: Splash"
 # zoom: 9
 # lat: 45.6
 # lng: -73.8
 visible: true
 # init_js: "Monteregie_map.init()"
-layout: "splash"
+layout: "fullscreen"
+body_markdown: |
+  test  
