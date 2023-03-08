@@ -4,7 +4,8 @@ themesDir: "../.."
 baseURL: "https://dev.xylemgeo.com/"
 canonifyURLs: false
 defaultContentLanguage : "en"
-defaultContentLanguageInSubdir : true
+# defaultContentLanguageInSubdir : true
+defaultContentLanguageInSubdir : false
 languages:
   en:
     languageName: English
@@ -12,3 +13,4 @@ languages:
   # fr:
   #   languageName: Français
   #   weight: 2
+publishDir: docs

@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html><head>
+	<meta name="generator" content="Hugo 0.92.2" />
+
+    <title>StoryMap Demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="../css/storymap.2.5.css">
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
+
+    
+    <script src="../js/maki-markers/Leaflet.MakiMarkers.js"></script>
+
+	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300" rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+		
+    
+    <script src="../js/lib/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+    <script src="../js/lib/plotly-binding-4.9.2.1/plotly.js"></script>
+    <script src="../js/lib/typedarray-0.1/typedarray.min.js"></script>
+    <link href="../js/lib/crosstalk-1.1.0.1/css/crosstalk.css" rel="stylesheet" />
+    <script src="../js/lib/crosstalk-1.1.0.1/js/crosstalk.min.js"></script>
+    <link href="../js/lib/plotly-htmlwidgets-css-1.52.2/plotly-htmlwidgets.css" rel="stylesheet" />
+    <script src="../js/lib/plotly-main-1.52.2/plotly-latest.min.js"></script>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../js/awesome-markers/leaflet.awesome-markers.css">
+    <script src="../js/awesome-markers/leaflet.awesome-markers.js"></script>
+
+	
+    <script src="../js/storymap.2.5.js"></script>
+
+    
+<script src="../js/lib/leaflet-side-by-side/leaflet-side-by-side.js"></script>
+
+
+<link href="../css/custom.css" rel="stylesheet">
+
+<link href="../css/monteregie.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
+
+
+<script src="../js/map-story.js"></script>
+
+
+
+
+<script src="../js/dory_map.js"></script>
+
+
+
+
+
+<script src="../js/radar.js"></script>
+
+
+
+
+
+<script src="../js/matt_map.js"></script>
+
+
+
+
+
+<script src="../js/main_map.js"></script>
+
+
+
+
+
+<script src="../js/main_map.js"></script>
+
+
+
+
+
+<script src="../js/main_map.js"></script>
+
+
+
+
+
+<script src="../js/kyle_map.js"></script>
+
+
+
+
+
+<script src="../js/carly_map.js"></script>
+
+
+
+
+
+<script src="../js/main_map.js"></script>
+
+
+
+
+
+<script src="../js/main_map.js"></script>
+
+
+
+
+
+<script src="../js/monteregie_map.js"></script>
+
+
+
+
+
+
+
+
+
+<script src="../js/main_map.js"></script>
+
+
+
+
+
+<script src="../js/main_map.js"></script>
+
+
+
+
+
+<script src="../js/projects.js"></script>
+
+
+
+
+</head><body>
+	<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-navbar storymap-navbar">
+	    <a class="navbar-brand" href="#">
+	        
+	        
+	        <i class="fa fa-home" style="padding-right:10px;"></i>
+	        
+	        	StoryMap Demo
+	        
+	    </a><div class="collapse navbar-collapse">
+<ul class="sections-nav navbar-nav">
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+	<li class="nav-item nav-storymap_overview" section-name="storymap_overview"><a class="nav-link ml-auto" href="javascript:window.scrollBy(0, $('section[data-scene=\'storymap_overview\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
+     
+     	Overview
+ 	 </a></li>
+ 
+
+ 
+
+ 
+	<li class="nav-item nav-story_elements" section-name="story_elements"><a class="nav-link ml-auto" href="javascript:window.scrollBy(0, $('section[data-scene=\'story_elements\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
+     
+     	Story
+ 	 </a></li>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+	<li class="nav-item nav-map_elements" section-name="map_elements"><a class="nav-link ml-auto" href="javascript:window.scrollBy(0, $('section[data-scene=\'map_elements\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
+     
+     	Map
+ 	 </a></li>
+ 
+
+ 
+
+ 
+
+ 
+	<li class="nav-item nav-status" section-name="status"><a class="nav-link ml-auto" href="javascript:window.scrollBy(0, $('section[data-scene=\'status\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
+     
+     	Status
+ 	 </a></li>
+ 
+
+	
+</ul>
+</div></nav>
+
+	<div id="storymap" class="container-fluid" >
+	    <div class="row">
+	        <div class="col-sm-6 col-md-8 storymap-map"></div>
+	        <div class="col-sm-6 col-md-4 storymap-story"><input type="hidden" id="language" value="en">
+
+
+  <input type="hidden" class="layers" layer-id="carly_map" layer-name="carly_map" base-layer="false" layer-src="https://cartodb.ecoconnect.net/user/resnet-admin/api/v2/sql?q=SELECT * FROM carly_carbon&api_key=_mn4R8PisfU7Y-3lBWmHMw&format=geojson" layer-type="L.geoJson.ajax">
+   
+    <input type="hidden" class="layer-options" layer="carly_map" opt-name="opacity" opt-value="0.2">
+   
+    <input type="hidden" class="layer-options" layer="carly_map" opt-name="weight" opt-value="3">
+   
+    <input type="hidden" class="layer-options" layer="carly_map" opt-name="zIndex" opt-value="999">
+  
+  
+    <input type="hidden" class="layer-style" layer="carly_map" style-name="color" style-value="#99c63d">
+  
+    <input type="hidden" class="layer-style" layer="carly_map" style-name="fillColor" style-value="#99c63d">
+  
+    <input type="hidden" class="layer-style" layer="carly_map" style-name="fillOpacity" style-value="0.3">
+  
+    <input type="hidden" class="layer-style" layer="carly_map" style-name="opacity" style-value="0.2">
+  
+    <input type="hidden" class="layer-style" layer="carly_map" style-name="stroke" style-value="true">
+  
+    <input type="hidden" class="layer-style" layer="carly_map" style-name="strokeOpacity" style-value="1">
+  
+
+  <input type="hidden" class="layers" layer-id="carto_darkmatter" layer-name="carto_darkmatter" base-layer="true" layer-src="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png" layer-type="L.tileLayer">
+   
+    <input type="hidden" class="layer-options" layer="carto_darkmatter" opt-name="zIndex" opt-value="1">
+   
+    <input type="hidden" class="layer-options" layer="carto_darkmatter" opt-name="zoomControl" opt-value="false">
+  
+  
+
+  <input type="hidden" class="layers" layer-id="carto_positron" layer-name="carto_positron" base-layer="true" layer-src="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" layer-type="L.tileLayer">
+   
+    <input type="hidden" class="layer-options" layer="carto_positron" opt-name="zIndex" opt-value="1">
+   
+    <input type="hidden" class="layer-options" layer="carto_positron" opt-name="zoomControl" opt-value="false">
+  
+  
+
+  <input type="hidden" class="layers" layer-id="carto_voyager" layer-name="carto_voyager" base-layer="true" layer-src="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png" layer-type="L.tileLayer">
+   
+    <input type="hidden" class="layer-options" layer="carto_voyager" opt-name="zIndex" opt-value="1">
+   
+    <input type="hidden" class="layer-options" layer="carto_voyager" opt-name="zoomControl" opt-value="false">
+  
+  
+
+  <input type="hidden" class="layers" layer-id="dory_map" layer-name="dory_map" base-layer="false" layer-src="https://cartodb.ecoconnect.net/user/resnet-admin/api/v2/sql?q=SELECT * FROM dory_sites&api_key=_mn4R8PisfU7Y-3lBWmHMw&format=geojson" layer-type="L.geoJson.ajax">
+   
+    <input type="hidden" class="layer-options" layer="dory_map" opt-name="opacity" opt-value="0.2">
+   
+    <input type="hidden" class="layer-options" layer="dory_map" opt-name="weight" opt-value="3">
+   
+    <input type="hidden" class="layer-options" layer="dory_map" opt-name="zIndex" opt-value="999">
+  
+  
+    <input type="hidden" class="layer-style" layer="dory_map" style-name="color" style-value="#99c63d">
+  
+    <input type="hidden" class="layer-style" layer="dory_map" style-name="fillColor" style-value="#99c63d">
+  
+    <input type="hidden" class="layer-style" layer="dory_map" style-name="fillOpacity" style-value="0.3">
+  
+    <input type="hidden" class="layer-style" layer="dory_map" style-name="opacity" style-value="0.2">
+  
+    <input type="hidden" class="layer-style" layer="dory_map" style-name="stroke" style-value="true">
+  
+    <input type="hidden" class="layer-style" layer="dory_map" style-name="strokeOpacity" style-value="1">
+  
+
+  <input type="hidden" class="layers" layer-id="es_svg" layer-name="es_types_fig" base-layer="false" layer-src="" layer-type="L.svgOverlay">
+   
+    <input type="hidden" class="layer-options" layer="es_types_fig" opt-name="className" opt-value="spider">
+   
+    <input type="hidden" class="layer-options" layer="es_types_fig" opt-name="weight&#34;" opt-value="10">
+   
+    <input type="hidden" class="layer-options" layer="es_types_fig" opt-name="zIndex" opt-value="100">
+  
+  
+
+  <input type="hidden" class="layers" layer-id="esri_imagery" layer-name="esri_imagery" base-layer="true" layer-src="http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}" layer-type="L.tileLayer">
+   
+    <input type="hidden" class="layer-options" layer="esri_imagery" opt-name="zIndex" opt-value="1">
+   
+    <input type="hidden" class="layer-options" layer="esri_imagery" opt-name="zoomControl" opt-value="false">
+  
+  
+
+  <input type="hidden" class="layers" layer-id="esri_topo" layer-name="esri_topo" base-layer="true" layer-src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}" layer-type="L.tileLayer">
+   
+    <input type="hidden" class="layer-options" layer="esri_topo" opt-name="zIndex" opt-value="1">
+   
+    <input type="hidden" class="layer-options" layer="esri_topo" opt-name="zoomControl" opt-value="false">
+  
+  
+
+  <input type="hidden" class="layers" layer-id="google_satellite" layer-name="google_satellite" base-layer="true" layer-src="https://mt0.google.com/vt/lyrs=s&hl=en&x={x}&y={y}&z={z}" layer-type="L.tileLayer">
+   
+    <input type="hidden" class="layer-options" layer="google_satellite" opt-name="zIndex" opt-value="1">
+   
+    <input type="hidden" class="layer-options" layer="google_satellite" opt-name="zoomControl" opt-value="false">
+  
+  
+
+  <input type="hidden" class="layers" layer-id="kyle_map" layer-name="kyle_map" base-layer="false" layer-src="https://cartodb.ecoconnect.net/user/resnet-admin/api/v2/sql?q=SELECT * FROM martinsetal2018ea_1&api_key=_mn4R8PisfU7Y-3lBWmHMw&format=geojson" layer-type="L.geoJson.ajax">
+   
+    <input type="hidden" class="layer-options" layer="kyle_map" opt-name="opacity" opt-value="0.2">
+   
+    <input type="hidden" class="layer-options" layer="kyle_map" opt-name="weight" opt-value="3">
+   
+    <input type="hidden" class="layer-options" layer="kyle_map" opt-name="zIndex" opt-value="999">
+  
+  
+    <input type="hidden" class="layer-style" layer="kyle_map" style-name="color" style-value="#99c63d">
+  
+    <input type="hidden" class="layer-style" layer="kyle_map" style-name="fillColor" style-value="#99c63d">
+  
+    <input type="hidden" class="layer-style" layer="kyle_map" style-name="fillOpacity" style-value="0.3">
+  
+    <input type="hidden" class="layer-style" layer="kyle_map" style-name="opacity" style-value="0.2">
+  
+    <input type="hidden" class="layer-style" layer="kyle_map" style-name="stroke" style-value="true">
+  
+    <input type="hidden" class="layer-style" layer="kyle_map" style-name="strokeOpacity" style-value="1">
+  
+
+  <input type="hidden" class="layers" layer-id="matt_map" layer-name="matt_map" base-layer="false" layer-src="https://cartodb.ecoconnect.net/user/resnet-admin/api/v2/sql?q=SELECT the_geom, distance, conn, tillage FROM matt_summary&api_key=_mn4R8PisfU7Y-3lBWmHMw&format=geojson" layer-type="L.geoJson.ajax">
+   
+    <input type="hidden" class="layer-options" layer="matt_map" opt-name="opacity" opt-value="0.2">
+   
+    <input type="hidden" class="layer-options" layer="matt_map" opt-name="weight" opt-value="3">
+   
+    <input type="hidden" class="layer-options" layer="matt_map" opt-name="zIndex" opt-value="999">
+  
+  
+    <input type="hidden" class="layer-style" layer="matt_map" style-name="color" style-value="#99c63d">
+  
+    <input type="hidden" class="layer-style" layer="matt_map" style-name="fillColor" style-value="#99c63d">
+  
+    <input type="hidden" class="layer-style" layer="matt_map" style-name="fillOpacity" style-value="0.3">
+  
+    <input type="hidden" class="layer-style" layer="matt_map" style-name="opacity" style-value="0.2">
+  
+    <input type="hidden" class="layer-style" layer="matt_map" style-name="stroke" style-value="true">
+  
+    <input type="hidden" class="layer-style" layer="matt_map" style-name="strokeOpacity" style-value="1">
+  
+
+  <input type="hidden" class="layers" layer-id="monteregie_municipalities" layer-name="monteregie_municipalities" base-layer="false" layer-src="https://cartodb.ecoconnect.net/user/resnet-admin/api/v2/sql?q=SELECT the_geom, mus_nm_mun FROM munic_shp_clean_1&api_key=_mn4R8PisfU7Y-3lBWmHMw&format=geojson" layer-type="L.geoJson.ajax">
+   
+    <input type="hidden" class="layer-options" layer="monteregie_municipalities" opt-name="opacity" opt-value="0.2">
+   
+    <input type="hidden" class="layer-options" layer="monteregie_municipalities" opt-name="weight" opt-value="3">
+   
+    <input type="hidden" class="layer-options" layer="monteregie_municipalities" opt-name="zIndex" opt-value="999">
+  
+  
+    <input type="hidden" class="layer-style" layer="monteregie_municipalities" style-name="color" style-value="#99c63d">
+  
+    <input type="hidden" class="layer-style" layer="monteregie_municipalities" style-name="fillColor" style-value="#99c63d">
+  
+    <input type="hidden" class="layer-style" layer="monteregie_municipalities" style-name="fillOpacity" style-value="0.3">
+  
+    <input type="hidden" class="layer-style" layer="monteregie_municipalities" style-name="opacity" style-value="0.2">
+  
+    <input type="hidden" class="layer-style" layer="monteregie_municipalities" style-name="stroke" style-value="true">
+  
+    <input type="hidden" class="layer-style" layer="monteregie_municipalities" style-name="strokeOpacity" style-value="1">
+  
+
+  <input type="hidden" class="layers" layer-id="osm_mapnik" layer-name="osm_mapnik" base-layer="true" layer-src="https://tile.openstreetmap.org/{z}/{x}/{y}.png" layer-type="L.tileLayer">
+   
+    <input type="hidden" class="layer-options" layer="osm_mapnik" opt-name="zIndex" opt-value="1">
+   
+    <input type="hidden" class="layer-options" layer="osm_mapnik" opt-name="zoomControl" opt-value="false">
+  
+  
+
+  <input type="hidden" class="layers" layer-id="projects" layer-name="projects" base-layer="false" layer-src="" layer-type="L.tileLayer">
+  
+  
+
+  <input type="hidden" class="layers" layer-id="stamen_bw" layer-name="stamen_bw" base-layer="false" layer-src="https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png" layer-type="L.tileLayer">
+   
+    <input type="hidden" class="layer-options" layer="stamen_bw" opt-name="zIndex" opt-value="1">
+  
+  
+
+
+
+
+    
+
+    
+
+    
+
+    
+    
+        
+
+
+
+
+<section class='title_splash splash-tint'  data-scene="title_splash" data-background="../img/montreal.jpeg" lat="45.6" lng="-73.8" zoom="9" layers="" init-js="">
+
+<div class="fullscreen text-center">
+    
+        <h1 class="display-4 d-flex justify-content-center main-title">
+            StoryMap Demo
+        </h1>
+    
+    
+        <span class="subtitle" class="d-flex justify-content-center">
+            HQP Scaling Group
+        </span>
+    
+    
+</div>
+
+</section>
+    
+    
+
+    
+    
+        
+
+
+
+<section class='storymap_overview left-content '  data-scene="storymap_overview" lat="45.6" lng="-73.2" zoom="10" layers="google_satellite" init-js="">
+        
+        
+        
+        
+        
+            <div><p>Storymap App</p>
+<ul>
+<li>Storymap.js (<a href="https://github.com/jakobzhao/storymap">https://github.com/jakobzhao/storymap</a>) = leaflet*javascript events</li>
+<li>Extended by Guillaume LaRoque to use Hugo templating
+<ul>
+<li>See <a href="https://apps.nsercresnet.ca/story/monteregie/en/">https://apps.nsercresnet.ca/story/monteregie/en/</a></li>
+</ul>
+</li>
+</ul>
+<p>Three main components:</p>
+<ul>
+<li>Navbar</li>
+<li>Story Container</li>
+<li>Map Container</li>
+</ul>
+<p>Each story section or &lsquo;slide&rsquo; has an associated map scene. Once a user scrolls past the end of a story slide, the app advances to the next slide and scene.</p>
+</div>
+        
+        
+    <div></div>
+    
+</section>
+
+    
+    
+
+    
+
+    
+    
+        
+
+
+
+<section class='story_elements left-content '  data-scene="story_elements" lat="45.6" lng="-73.2" zoom="10" layers="" init-js="">
+        
+            <h2>Story Elements</h2>
+        
+        
+        
+        
+        
+            <div><p>Story elements float above the map, and are a very flexible container for your content.</p>
+<ul>
+<li>Adjustable style
+<ul>
+<li>Location</li>
+<li>Size</li>
+<li>Color</li>
+<li>Transparency</li>
+</ul>
+</li>
+<li>Rich content
+<ul>
+<li><strong>Formmatted</strong> <code>text</code> <em>blocks</em></li>
+<li>Links to external sites</li>
+<li>Images</li>
+<li>Interactive figures</li>
+<li>Videos</li>
+<li>Tables</li>
+<li>Embedded objects</li>
+</ul>
+</li>
+</ul>
+</div>
+        
+        
+    <div></div>
+    
+</section>
+
+    
+    
+
+    
+    
+        
+
+
+
+<section class='story_formatting left-content left-extrawide section-solid bg-black text-green'  data-scene="story_formatting" lat="45.6" lng="-73.2" zoom="10" layers="" init-js="">
+        
+        
+        
+        
+        
+            <div><h1 id="story-elements-can-be-very">Story elements can be very&hellip;</h1>
+<h1 id="very">very</h1>
+<h1 id="very-1">very</h1>
+<h1 id="very-2">very</h1>
+<h1 id="long-but-probably-shouldnt-be">&hellip;long (but probably shouldn&rsquo;t be)</h1>
+</div>
+        
+        
+    <div></div>
+    
+</section>
+
+    
+    
+
+    
+    
+        
+
+
+
+
+<section class='story_splash bg-black section-solid'  data-scene="story_splash" data-background="" lat="" lng="" zoom="" layers="" init-js="">
+
+<div class="fullscreen text-center">
+    
+        <h1 class="display-4 d-flex justify-content-center main-title">
+            Story Sections
+        </h1>
+    
+    
+        <span class="subtitle" class="d-flex justify-content-center">
+            Can even obscure the map entirely
+        </span>
+    
+    
+</div>
+
+</section>
+    
+    
+
+    
+    
+        
+
+
+
+
+<section class='story_splash_b '  data-scene="story_splash_b" data-background="" lat="" lng="" zoom="" layers="" init-js="">
+
+<div class="fullscreen text-center">
+    
+        <h1 class="display-4 d-flex justify-content-center main-title">
+            Or Not
+        </h1>
+    
+    
+        <span class="subtitle" class="d-flex justify-content-center">
+            and overlay the map
+        </span>
+    
+    
+</div>
+
+</section>
+    
+    
+
+    
+    
+        
+
+
+
+<section class='story_slide left-content full-width '  data-scene="story_slide" lat="" lng="" zoom="" layers="" init-js="">
+        
+            <h2>Slide</h2>
+        
+        
+        
+        
+        
+            <div>Or a little bit of both</div>
+        
+        
+    <div></div>
+    
+</section>
+
+            
+        
+    
+    
+
+    
+    
+        
+
+<section class="overview" data-scene="overview" layers="google_satellite" class="full-html" data-background="" lat="45.6" lng="-73.3" zoom="6" init-js="Projects.init()">
+    <div class="fullscreen">
+     
+      
+     <div id="app" class="overview-container">
+  <div class="overview-item project-carly" scene-name="story_splash">
+    <h1>Story elements</h1>
+    <span class="overview-author">Click to navigate</span>
+  </div>
+  <div class="overview-item project-matt" scene-name="story_splash">
+  	<h1>Can also be</h1>
+    <span class="overview-author">Click to navigate</span>
+  </div>
+  <div class="overview-item project-kyle" scene-name="story_splash">
+	  <h1>Used for</h1>
+    <span class="overview-author">Click to navigate</span>
+  </div>
+  <div class="overview-item project-dory" scene-name="story_splash">
+	  <h1>Custom navigation</h1>
+    <span class="overview-author">Click to navigate</span>
+  </div>
+</div>
+   </div>
+</section>
+    
+    
+
+    
+    
+        
+
+
+
+<section class='story_figures_plotly left-content left-wide'  data-scene="story_figures_plotly" lat="45.6" lng="-73.2" zoom="10" layers="" init-js="">
+        
+            <h2>Plotly Figures</h2>
+        
+        
+            <p class="medium-text">Plotly wraps D3 interactive objects.<br><a href='https://plotly.com/javascript/' target='_blank'>More examples</a></p>
+        
+        
+        
+        
+            <div><p>Plotly provides a variety of dynamic and interactive figures. See the <a href="https://plotly.com/javascript/">Plotly Javascript Gallery</a> for examples.</p>
+<p>Potential to link figures to the map (<code>crosstalk</code>)</p>
+</div>
+        
+            <div id="graph"></div>
+    <script>
+        d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv', function (err, data) {
+            
+            
+            var lookup = {};
+            function getData(year, continent) {
+              var byYear, trace;
+              if (!(byYear = lookup[year])) {;
+                byYear = lookup[year] = {};
+              }
+               
+               
+              if (!(trace = byYear[continent])) {
+                trace = byYear[continent] = {
+                  x: [],
+                  y: [],
+                  id: [],
+                  text: [],
+                  marker: {size: []}
+                };
+              }
+              return trace;
+            }
+          
+            
+            for (var i = 0; i < data.length; i++) {
+              var datum = data[i];
+              var trace = getData(datum.year, datum.continent);
+              trace.text.push(datum.country);
+              trace.id.push(datum.country);
+              trace.x.push(datum.lifeExp);
+              trace.y.push(datum.gdpPercap);
+              trace.marker.size.push(datum.pop);
+            }
+          
+            
+            var years = Object.keys(lookup);
+            
+            
+            var firstYear = lookup[years[0]];
+            var continents = Object.keys(firstYear);
+          
+            
+            var traces = [];
+            for (i = 0; i < continents.length; i++) {
+              var data = firstYear[continents[i]];
+               
+               
+               
+               
+               
+              traces.push({
+                name: continents[i],
+                x: data.x.slice(),
+                y: data.y.slice(),
+                id: data.id.slice(),
+                text: data.text.slice(),
+                mode: 'markers',
+                marker: {
+                  size: data.marker.size.slice(),
+                  sizemode: 'area',
+                  sizeref: 200000
+                }
+              });
+            }
+          
+            
+            
+            
+            
+            var frames = [];
+            for (i = 0; i < years.length; i++) {
+              frames.push({
+                name: years[i],
+                data: continents.map(function (continent) {
+                  return getData(years[i], continent);
+                })
+              })
+            }
+          
+            
+            
+            
+            
+            var sliderSteps = [];
+            for (i = 0; i < years.length; i++) {
+              sliderSteps.push({
+                method: 'animate',
+                label: years[i],
+                args: [[years[i]], {
+                  mode: 'immediate',
+                  transition: {duration: 300},
+                  frame: {duration: 300, redraw: false},
+                }]
+              });
+            }
+          
+            var layout = {
+              xaxis: {
+                title: 'Life Expectancy',
+                range: [30, 85]
+              },
+              yaxis: {
+                title: 'GDP per Capita',
+                type: 'log'
+              },
+              hovermode: 'closest',
+               
+               
+               
+               
+               
+               
+               
+              updatemenus: [{
+                x: 0,
+                y: 0,
+                yanchor: 'top',
+                xanchor: 'left',
+                showactive: false,
+                direction: 'left',
+                type: 'buttons',
+                pad: {t: 87, r: 10},
+                buttons: [{
+                  method: 'animate',
+                  args: [null, {
+                    mode: 'immediate',
+                    fromcurrent: true,
+                    transition: {duration: 300},
+                    frame: {duration: 500, redraw: false}
+                  }],
+                  label: 'Play'
+                }, {
+                  method: 'animate',
+                  args: [[null], {
+                    mode: 'immediate',
+                    transition: {duration: 0},
+                    frame: {duration: 0, redraw: false}
+                  }],
+                  label: 'Pause'
+                }]
+              }],
+               
+               
+              sliders: [{
+                pad: {l: 130, t: 55},
+                currentvalue: {
+                  visible: true,
+                  prefix: 'Year:',
+                  xanchor: 'right',
+                  font: {size: 20, color: '#666'}
+                },
+                steps: sliderSteps
+              }]
+            };
+          
+            
+            Plotly.newPlot('graph', {
+              data: traces,
+              layout: layout,
+              frames: frames,
+            });
+          });          
+    </script>
+
+    <div></div>
+    
+</section>
+
+    
+    
+
+    
+    
+        
+
+
+
+<section class='map_elements left-content left-wide'  data-scene="map_elements" lat="45.6" lng="-73.2" zoom="10" layers="" init-js="">
+        
+            <h2>Map Elements</h2>
+        
+        
+        
+        
+        
+            <div><p>Map elements sit in the background of the app. float above the map, and are a very flexible container for your content.</p>
+<ul>
+<li>Data Layers
+<ul>
+<li>Basemaps</li>
+<li>Vector</li>
+<li>Raster</li>
+</ul>
+</li>
+<li>Adjustable
+<ul>
+<li>Extent (center + zoom level)</li>
+<li>Symbology and color scheme</li>
+<li>Legends</li>
+<li>UI Objects</li>
+</ul>
+</li>
+<li>Interactions
+<ul>
+<li>Pan/zoom</li>
+<li>Query raster value</li>
+<li>View vector attributes</li>
+</ul>
+</li>
+<li>Extensions
+<ul>
+<li>Layer chooser</li>
+<li>Time series animation</li>
+<li>Side by side comparison</li>
+</ul>
+</li>
+</ul>
+</div>
+        
+        
+    <div></div>
+    
+</section>
+
+    
+    
+
+    
+    
+        
+    
+    
+
+    
+    
+        
+    
+    
+
+    
+    
+        
+
+
+
+<section class='status left-content left-wide'  data-scene="status" lat="45.6" lng="-73.2" zoom="10" layers="" init-js="">
+        
+            <h2>Status</h2>
+        
+        
+        
+        
+        
+            <div><h3 id="complete">Complete</h3>
+<ul>
+<li>Pass CSS styling using section classes</li>
+<li>More story element layout options</li>
+<li>Author content using Markdown instead of HTML</li>
+<li>Switched to generate EN pages only, for now</li>
+</ul>
+<h3 id="in-progress">In Progress</h3>
+<ul>
+<li>CSS styling</li>
+<li>Improved leaflet integration
+<ul>
+<li>Rich (html/markdown) popups</li>
+<li>Layer chooser</li>
+</ul>
+</li>
+</ul>
+<h3 id="planned">Planned</h3>
+<ul>
+<li>Credits page</li>
+<li>Data integrations</li>
+</ul>
+<h3 id="use-case-needed">Use Case Needed</h3>
+<ul>
+<li>Additional Leaflet plugins (<a href="https://leafletjs.com/plugins.html">https://leafletjs.com/plugins.html</a>)</li>
+<li>Interactive figures (<a href="https://plotly.com/javascript/">https://plotly.com/javascript/</a>)</li>
+<li>Crosstalk between figures and map</li>
+</ul>
+<h3 id="would-be-nice">Would be Nice</h3>
+<ul>
+<li>Responsive (mobile friendly) layout</li>
+<li>Enhanced navigation and menus</li>
+</ul>
+</div>
+        
+        
+    <div></div>
+    
+</section>
+
+    
+    
+
+
+
+</div>
+	    </div>
+	</div>
+	</body>
+</html>
