@@ -1,6 +1,7 @@
 themesDir: "../.."
 # baseURL: "https://apps.nsercresnet.ca/story/monteregie/"
-baseURL: "http://localhost:1313"
+# baseURL: "http://localhost:1313"
+baseURL: "https://dev.xylemgeo.com/resnet-storymap/"
 canonifyURLs: false
 defaultContentLanguage : "en"
 defaultContentLanguageInSubdir : true
