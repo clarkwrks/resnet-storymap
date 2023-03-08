@@ -102,11 +102,13 @@
 } */
 
 section.viewing {
-    opacity:1 !important;
+    /* opacity:1 !important; */
+    opacity:1;
 }
 
 section.viewing.left-content {
-    opacity:0.90 !important;
+    /* opacity:0.90 !important; */
+    opacity:0.90;
 }
 
 .viewing h2{

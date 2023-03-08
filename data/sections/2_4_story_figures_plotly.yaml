@@ -10,8 +10,8 @@ zoom: 10
 lat: 45.6
 lng: -73.2
 visible: true
-menu: true
-pretty_name: "Topic 5"
+# menu: true
+# pretty_name: "Topic 5"
 layout: "float_left"
 class: "left-wide"
 # using pipe adds inline element declaring height, overflows figure

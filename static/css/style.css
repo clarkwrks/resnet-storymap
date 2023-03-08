@@ -200,3 +200,28 @@ html {background-color: #222}
     position:fixed;
     border:7px solid white;
 } */
+
+.left-extrawide{
+    width:80vw;
+}
+.section-solid{
+    opacity:1 !important
+}
+.bg-black{
+    background-color: black !important;
+}
+.text-green{
+    color: green !important;
+}
+
+.overview-container{
+    width:100%;
+}
+
+.bg-black .fullscreen{
+    background-color: black !important;
+}
+
+.full-width{
+    width:99vw;
+}

@@ -1,5 +1,6 @@
 themesDir: "../.."
-baseURL: "https://apps.nsercresnet.ca/story/monteregie/"
+# baseURL: "https://apps.nsercresnet.ca/story/monteregie/"
+baseURL: "http://localhost:1313"
 canonifyURLs: false
 defaultContentLanguage : "en"
 defaultContentLanguageInSubdir : true
@@ -7,6 +8,6 @@ languages:
   en:
     languageName: English
     weight: 1
-  fr:
-    languageName: Français
-    weight: 2
+  # fr:
+  #   languageName: Français
+  #   weight: 2

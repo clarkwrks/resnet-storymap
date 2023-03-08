@@ -10,7 +10,7 @@
   {{ end }}
 {{ end }}
 
-<section class='{{ replaceRE "(\\s)" "_" $section.name }} left-content {{ $section.class }}'  data-scene="{{ $section.name }}" lat="{{ $section.lat }}" lng="{{ $section.lng }}" zoom="{{ $section.zoom }}" layers="{{ $section.layers }}" init-js="{{ $section.init_js }}">
+<section class='{{ replaceRE "(\\s)" "_" $section.name }} left-content full-width {{ $section.class }}'  data-scene="{{ $section.name }}" lat="{{ $section.lat }}" lng="{{ $section.lng }}" zoom="{{ $section.zoom }}" layers="{{ $section.layers }}" init-js="{{ $section.init_js }}">
         {{ if $section.left_title }}
             <h2>{{ $section.left_title  | safeHTML}}</h2>
         {{end}}

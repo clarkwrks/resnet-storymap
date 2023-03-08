@@ -9,7 +9,7 @@ lng: -73.3
 zoom: 6
 init_js: "Projects.init()"
 visible: true
-menu: true
+# menu: true
 pretty_name: "Overview"
 layout: "full_html"
 # pretty_name_fr: "Projets"
