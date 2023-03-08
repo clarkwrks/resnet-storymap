@@ -12,6 +12,7 @@ name: "story_slide"
 visible: true
 # init_js: "Monteregie_map.init()"
 layout: "full_width"
+left_title: "Slide"
 left_markdown: |
   Or a little bit of both  
 
