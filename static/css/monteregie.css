@@ -235,7 +235,7 @@ h1{
 .Dory_results1{
   width:45vw;
 }
-
+/* 
 .navbar-nav{
   font-size:13px;
 }
@@ -293,7 +293,7 @@ h1{
 .navbar-nav{
   right:0;
   position:fixed;
-}
+} */
 
 .awesome-marker i {
     font-size: 18px;
@@ -350,10 +350,10 @@ h1{
   text-decoration: underline;
   font-weight:bold; 
 }
-
+/* 
 .left-wide a, .medium-text a{
   color:white;
   text-decoration: underline;
   font-weight:bold; 
-}
+} */
 

@@ -1,0 +1,17 @@
+weight: 5
+name: "topic5_section1"
+layers: ""
+# background_media : "../img/Carly_tree.jpeg"
+main_title: " "
+left_title: "Plotly Figures"
+left_text: "Plotly wraps D3 interactive objects.<br><a href='https://plotly.com/javascript/' target='_blank'>More examples</a>" 
+left_wide: true
+left_html: "figures/plotly_gapminder.html"
+zoom: 10
+lat: 45.6
+lng: -73.2
+visible: true
+menu: true
+pretty_name: "Topic 5"
+layout: "float_left"
+class: "left-wide"

@@ -1,0 +1,33 @@
+weight: 0.2
+name: "storymap_overview"
+layers: "google_satellite"
+# background_media : "../img/Carly_tree.jpeg"
+main_title: " "
+# left_title: "Plotly Figures"
+# left_text: "Plotly wraps D3 interactive objects.<br><a href='https://plotly.com/javascript/' target='_blank'>More examples</a>" 
+left_wide: true
+zoom: 10
+lat: 45.6
+lng: -73.2
+visible: true
+menu: true
+pretty_name: "Overview"
+layout: "float_left"
+# class: "left-wide"
+# using pipe adds inline element declaring height, overflows figure
+# left_text: >
+  # - Plotly provides a variety of dynamic and interactive figures.<br><a href='https://plotly.com/javascript/' target='_blank'>More examples</a>
+left_markdown: |
+
+  Storymap App
+  - Storymap.js (https://github.com/jakobzhao/storymap) = leaflet*javascript events
+  - Extended by Guillaume LaRoque to use Hugo templating
+    - See https://apps.nsercresnet.ca/story/monteregie/en/  
+  
+  Three main components:  
+  - Navbar
+  - Story Container
+  - Map Container
+  
+  Each story section or 'slide' has an associated map scene. Once a user scrolls past the end of a story slide, the app advances to the next slide and scene.
+# left_html: "figures/plotly_gapminder.html"

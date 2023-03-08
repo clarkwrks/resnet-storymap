@@ -1,0 +1,11 @@
+{{ $section := . }}
+
+<section class="{{ replaceRE "(\\s)" "_" $section.name }}" data-scene="{{ $section.name }}" layers="{{ $section.layers }}" class="full-html" data-background="{{ $section.background_media }}" lat="{{ $section.lat }}" lng="{{ $section.lng }}" zoom="{{ $section.zoom }}" init-js="{{ $section.init_js}}">
+    <div class="fullscreen">
+     {{/*  {{ if eq $.Language.Lang "fr"}}  */}}
+      {{/*  {{- partial $section.full_html_fr . -}}  */}}
+     {{/*  {{else}}  */}}
+          {{- partial $section.full_html . -}}
+     {{/*  {{end}}  */}}
+   </div>
+</section>
