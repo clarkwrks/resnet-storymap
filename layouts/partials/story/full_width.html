@@ -23,9 +23,11 @@
         {{ if $section.left_svg_class }}
             <svg class="{{ $section.left_svg_class }}"></svg>
         {{end}}
+        <div class = "card mx-auto">
         {{ if $section.left_markdown }}
-            <div>{{ $section.left_markdown  | markdownify}}</div>
+            <div class = "card-body">{{ $section.left_markdown  | markdownify}}</div>
         {{ end }}
+        </div>
         {{ if $section.left_html }}
             {{- partial $section.left_html . -}}
         {{end}}

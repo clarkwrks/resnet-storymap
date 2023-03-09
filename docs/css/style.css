@@ -222,6 +222,20 @@ html {background-color: #222}
     background-color: black !important;
 }
 
+.storymap-story {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.left-content{
+    margin-left:15px;
+}
+
 .full-width{
-    width:99vw;
+    margin-left:0;
+    width:100vw;
+    border-radius: 0;
+}
+.full-width .card{
+    max-width:800px;
 }
