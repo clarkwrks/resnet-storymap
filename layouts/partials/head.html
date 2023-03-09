@@ -55,23 +55,21 @@
     <script src="../js/storymap.2.5.js"></script>
 
     <!--leaflet-side-by-side-->
-<script src="../js/lib/leaflet-side-by-side/leaflet-side-by-side.js"></script>
+    <script src="../js/lib/leaflet-side-by-side/leaflet-side-by-side.js"></script>
 
-<!--link href="{{ "css/custom.css" | relURL}}" rel="stylesheet"-->
-<link href="../css/custom.css" rel="stylesheet">
+    <!--link href="{{ "css/custom.css" | relURL}}" rel="stylesheet"-->
+    <link href="../css/custom.css" rel="stylesheet">
 
-<link href="../css/monteregie.css" rel="stylesheet">
-<link href="../css/style.css" rel="stylesheet">
+    <link href="../css/monteregie.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 
-<!--script src="{{ "js/main.js" | relURL}}"></script-->
-<script src="../js/map-story.js"></script>
+    <!--script src="{{ "js/main.js" | relURL}}"></script-->
+    <script src="../js/map-story.js"></script>
 
-{{ range $index, $layer := sort .Site.Data.layers "weight" }}
-
-{{ if $layer.script_src }}
-<script src="{{ $layer.script_src }}"></script>
-{{ end }}
-
-{{ end }}
+    {{ range $index, $layer := sort .Site.Data.layers "weight" }}
+      {{ if $layer.script_src }}
+      <script src="{{ $layer.script_src }}"></script>
+      {{ end }}
+    {{ end }}
 
 </head>
