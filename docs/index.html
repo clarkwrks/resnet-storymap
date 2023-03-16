@@ -73,7 +73,11 @@
 
     
       
-      <script src="../js/kyle_map.js"></script>
+      <script src="../js/dory_map.js"></script>
+      
+    
+      
+      <script src="../js/main_map.js"></script>
       
     
       
@@ -81,7 +85,7 @@
       
     
       
-      <script src="../js/monteregie_map.js"></script>
+      <script src="../js/main_map.js"></script>
       
     
       
@@ -89,21 +93,13 @@
       
     
       
-      <script src="../js/dory_map.js"></script>
-      
-    
-      
-      <script src="../js/radar.js"></script>
-      
-    
-      
-      <script src="../js/projects.js"></script>
-      
-    
+      <script src="../js/main_map.js"></script>
       
     
       
       <script src="../js/main_map.js"></script>
+      
+    
       
     
       
@@ -119,15 +115,19 @@
       
     
       
-      <script src="../js/main_map.js"></script>
+      <script src="../js/projects.js"></script>
       
     
       
-      <script src="../js/main_map.js"></script>
+      <script src="../js/radar.js"></script>
       
     
       
-      <script src="../js/main_map.js"></script>
+      <script src="../js/kyle_map.js"></script>
+      
+    
+      
+      <script src="../js/monteregie_map.js"></script>
       
     
 
@@ -142,8 +142,6 @@
 	        
 	    </a><div class="collapse navbar-collapse">
 <ul class="sections-nav navbar-nav">
-
- 
 
  
 
@@ -184,6 +182,8 @@
      
      	Map
  	 </a></li>
+ 
+
  
 
  
@@ -401,8 +401,6 @@
     
 
     
-
-    
     
         
 
@@ -430,24 +428,6 @@
     
 
     
-    
-        
-
-
-
-<section class='Big_Science_Question left-content '  data-scene="Big_Science_Question" lat="45.6" lng="-73.8" zoom="9" layers="" init-js="Split_map.init();">
-        
-        
-        
-        
-        
-        
-    <div></div>
-    
-</section>
-
-    
-    
 
     
     
@@ -455,7 +435,7 @@
 
 
 
-<section class='storymap_overview left-content '  data-scene="storymap_overview" lat="45.6" lng="-73.2" zoom="10" layers="google_satellite" init-js="">
+<section class='storymap_overview left-content '  data-scene="storymap_overview" lat="45.6" lng="-73.2" zoom="10" layers="google_satellite" init-js="Split_map.remove();" leftmap="" rightmap="">
         
         
         
@@ -493,7 +473,7 @@
 
 
 
-<section class='story_elements left-content '  data-scene="story_elements" lat="45.6" lng="-73.2" zoom="10" layers="" init-js="">
+<section class='story_elements left-content '  data-scene="story_elements" lat="45.6" lng="-73.2" zoom="10" layers="" init-js="Split_map.remove();" leftmap="" rightmap="">
         
             <h2>Story Elements</h2>
         
@@ -539,7 +519,7 @@
 
 
 
-<section class='story_formatting left-content left-extrawide section-solid bg-black text-green'  data-scene="story_formatting" lat="45.6" lng="-73.2" zoom="10" layers="" init-js="">
+<section class='story_formatting left-content left-extrawide section-solid bg-black text-green'  data-scene="story_formatting" lat="45.6" lng="-73.2" zoom="10" layers="" init-js="" leftmap="" rightmap="">
         
         
         
@@ -685,7 +665,7 @@
 
 
 
-<section class='story_figures_plotly left-content left-wide'  data-scene="story_figures_plotly" lat="45.6" lng="-73.2" zoom="10" layers="" init-js="">
+<section class='story_figures_plotly left-content left-wide'  data-scene="story_figures_plotly" lat="45.6" lng="-73.2" zoom="10" layers="" init-js="" leftmap="" rightmap="">
         
             <h2>Plotly Figures</h2>
         
@@ -878,7 +858,7 @@
 
 
 
-<section class='map_elements left-content left-wide'  data-scene="map_elements" lat="45.6" lng="-73.2" zoom="10" layers="" init-js="">
+<section class='map_elements left-content left-wide'  data-scene="map_elements" lat="45.6" lng="-73.2" zoom="10" layers="" init-js="" leftmap="" rightmap="">
         
             <h2>Map Elements</h2>
         
@@ -934,7 +914,7 @@
 
 
 
-<section class='vector_popup left-content '  data-scene="vector_popup" lat="45.6" lng="-73.8" zoom="9" layers="google_satellite,monteregie_municipalities" init-js="Monteregie_map.init()">
+<section class='vector_popup left-content '  data-scene="vector_popup" lat="45.6" lng="-73.8" zoom="9" layers="google_satellite,monteregie_municipalities" init-js="Monteregie_map.init()" leftmap="" rightmap="">
         
             <h2>Vector Data Polygon</h2>
         
@@ -962,7 +942,7 @@
 
 
 
-<section class='vector_point left-content '  data-scene="vector_point" lat="45.4228" lng="-73.186" zoom="10" layers="google_satellite,kyle_map" init-js="Kyle_map.init()">
+<section class='vector_point left-content '  data-scene="vector_point" lat="45.4228" lng="-73.186" zoom="10" layers="google_satellite,kyle_map" init-js="Split_map.remove();Kyle_map.init();" leftmap="" rightmap="">
         
             <h2>Vector Data Point</h2>
         
@@ -993,7 +973,30 @@
 
 
 
-<section class='status left-content left-wide'  data-scene="status" lat="45.6" lng="-73.2" zoom="10" layers="" init-js="">
+<section class='leaflet_sidebyside left-content '  data-scene="leaflet_sidebyside" lat="45.6" lng="-73.8" zoom="9" layers="google_satellite,osm_mapnik" init-js="Split_map.init(&#39;leaflet_sidebyside&#39;);" leftmap="google_satellite" rightmap="osm_mapnik">
+        
+        
+        
+        
+        
+            <div><h1 id="slide">slide&hellip;</h1>
+</div>
+        
+        
+    <div></div>
+    
+</section>
+
+    
+    
+
+    
+    
+        
+
+
+
+<section class='status left-content left-wide'  data-scene="status" lat="45.6" lng="-73.2" zoom="10" layers="" init-js="Split_map.remove();" leftmap="" rightmap="">
         
             <h2>Status</h2>
         

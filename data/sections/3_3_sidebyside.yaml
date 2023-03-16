@@ -1,6 +1,6 @@
-weight: 0.15
-name: "Big_Science_Question"
-# layers: "google_satellite,carly_map,kyle_map,matt_map,dory_map"
+weight: 3.3
+name: "leaflet_sidebyside"
+layers: "google_satellite,osm_mapnik"
 zoom: 9
 lat: 45.6
 lng: -73.8
@@ -10,5 +10,10 @@ lng: -73.8
 # left_text_fr: "Comment la configuration du paysage (la quantité et l'emplacement des différentes parcelles d'habitat) et la fourniture de multiples services écosystémiques sont-ils liés dans ce paysage?<br><br>La carte montre l'emplacement des sites d'échantillonnage pour quatre projets qui abordent chacun des aspects importants de cette question.<br><br>Faites défiler vers le bas pour explorer chacun de ces projets !"
 # left_img: "../img/Picture3.png"
 visible: true
-init_js: "Split_map.init();"
+init_js: "Split_map.init('leaflet_sidebyside');"
+# class: "left-wide"
 layout: "float_left"
+leftmap: "google_satellite"
+rightmap: "osm_mapnik"
+left_markdown: |
+  # slide...

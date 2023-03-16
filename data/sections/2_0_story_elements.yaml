@@ -12,6 +12,7 @@ lng: -73.2
 visible: true
 menu: true
 pretty_name: "Story"
+init_js: "Split_map.remove();"
 layout: "float_left"
 # class: "left-wide"
 # using pipe adds inline element declaring height, overflows figure

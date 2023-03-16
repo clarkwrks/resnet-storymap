@@ -10,7 +10,7 @@ left_title: "Vector Data Point"
 # left_text_fr: "Le Plan d'aménagement et de développement (PMAD) de la Communauté Métropolitaine de Montréal (CMM) prévoit la conservation de 17 % du Grand Montréal pour maintenir la biodiversité.
 # <br>Quels espaces verts doivent-être conserver ou restaurer pour en tirer le plus de bénéfices ?"
 left_img: "../img/Kyle5.jpeg"
-init_js: "Kyle_map.init()"
+init_js: "Split_map.remove();Kyle_map.init();"
 # menu: true
 # pretty_name: "The Challenge"
 # pretty_name_fr: "Le défi"
@@ -23,4 +23,3 @@ left_markdown: |
   Clicking a point can function the same way as with polygons.  
   
   Note the legend in the upper corner.  
-

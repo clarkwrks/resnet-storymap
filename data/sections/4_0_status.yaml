@@ -15,6 +15,7 @@ pretty_name: "Status"
 layout: "float_left"
 class: "left-wide"
 # using pipe adds inline element declaring height, overflows figure
+init_js: "Split_map.remove();"
 left_markdown: |
   ### Complete
   
