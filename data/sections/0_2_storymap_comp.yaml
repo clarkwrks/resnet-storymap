@@ -13,7 +13,7 @@ visible: true
 menu: true
 pretty_name: "Overview"
 layout: "float_left"
-init_js: "Split_map.remove();"
+# init_js: "Split_map.remove();"
 # class: "left-wide"
 # using pipe adds inline element declaring height, overflows figure
 # left_text: >
