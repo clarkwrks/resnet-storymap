@@ -12,12 +12,13 @@ name: "story_slide"
 visible: true
 # init_js: "Monteregie_map.init()"
 layout: "full_width"
-left_title: "Slide"
-left_markdown: |
-  Or a little bit of both  
-  # Story elements can be very...
-  # very  
-  # very  
-  # very  
-  # ...long (but probably shouldn't be)
+# left_title: "Slide"
+left_markdown: |  
+  # Or a little bit of both!
+  # Fullscreen content can dynamically scroll just like smaller content.
+  # .
+  # .  
+  # .  
+  # .    
+  # ...Isn't that neat?
 

@@ -159,7 +159,7 @@
 
 .navbar-nav .nav-item:hover{
     /* .navbar-nav .nav-item:hover, .nav-item:focus{ */
-        border-bottom: 1px solid;
+        /* border-bottom: 1px solid; */
     background:#5e78af;
     /* color:rgb(132, 211, 132) !important; */
     color:#3d9fc1
@@ -238,4 +238,31 @@ html {background-color: #222}
 }
 .full-width .card{
     max-width:800px;
+}
+
+.left-content h1{
+    margin-top: 0;
+}
+
+.dropdown-item{
+    color:#3a3f44;
+}
+
+
+.storymap-navbar .dropdown-menu{
+    background-color: #3a3f44;
+    border-radius: 0;
+}
+
+.storymap-navbar .dropdown-menu a:hover{
+    background-color: #5e78af;
+}
+
+.storymap-navbar .dropdown-menu a{
+    font-size:13px;
+}
+
+.storymap-scroll-down{
+    width:100%;
+    color:rgba(255, 30, 0, 0.80);
 }
