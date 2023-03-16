@@ -66,6 +66,9 @@
     <!--script src="{{ "js/main.js" | relURL}}"></script-->
     <script src="../js/map-story.js"></script>
 
+    <script src="../js/split_map.js"></script>
+
+
     {{ range $index, $layer := sort .Site.Data.layers "weight" }}
       {{ if $layer.script_src }}
       <script src="{{ $layer.script_src }}"></script>

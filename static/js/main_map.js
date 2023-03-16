@@ -1,5 +1,5 @@
 var Main_map = {
-	cont:{},
+	// cont:{},
 	init: function(){
 		if(typeof map.legend !== 'undefined'){
 			map.removeControl(map.legend)

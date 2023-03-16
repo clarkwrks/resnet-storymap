@@ -1,16 +1,13 @@
 var Split_map = {
-	cont:{},
+	// cont:{},
 	init: function(){
-		map.eachLayer(function(l){
-			if(typeof l.feature != "undefined" && typeof l.feature.properties.mus_nm_mun != "undefined"){
-				l.bindPopup(function (layer) {
-					var html='<div class="marker-popup"><strong>'+layer.feature.properties.mus_nm_mun+'</strong>';
-					return html;
-				})
-			}
-		})
-		if(typeof map.legend !== 'undefined'){
-			map.removeControl(map.legend)
-		}
+
+		var osmLayer = L.tileLayer('https://mt0.google.com/vt/lyrs=s&hl=en&x={x}&y={y}&z={z}', {
+		}).addTo(map);
+	
+		var stamenLayer = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		}).addTo(map)
+	
+		L.control.sideBySide(stamenLayer, osmLayer).addTo(map);
 	}
 }
