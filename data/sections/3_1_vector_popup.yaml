@@ -10,11 +10,12 @@ left_title: "Vector Data Polygon"
 # left_text_fr: "Le Plan d'aménagement et de développement (PMAD) de la Communauté Métropolitaine de Montréal (CMM) prévoit la conservation de 17 % du Grand Montréal pour maintenir la biodiversité.
 # <br>Quels espaces verts doivent-être conserver ou restaurer pour en tirer le plus de bénéfices ?"
 left_img: "../img/1571255-10-ans-population-banlieues-auto.jpg"
-visible: true
 init_js: "Monteregie_map.init()"
 # menu: true
 # pretty_name: "The Challenge"
 # pretty_name_fr: "Le défi"
+visible: true
+layout: "float_left"
 left_markdown: |
   The borders, fill, and transparency of polygons can be adjusted.  
 

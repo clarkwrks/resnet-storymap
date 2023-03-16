@@ -10,6 +10,6 @@ lat: 45.6
 lng: -73.8
 init_js: "Monteregie_map.init()"
 visible: false
-layout: "fullscreen"
+layout: "float_left"
 body_markdown: |
   test  

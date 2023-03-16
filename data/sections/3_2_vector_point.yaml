@@ -10,11 +10,12 @@ left_title: "Vector Data Point"
 # left_text_fr: "Le Plan d'aménagement et de développement (PMAD) de la Communauté Métropolitaine de Montréal (CMM) prévoit la conservation de 17 % du Grand Montréal pour maintenir la biodiversité.
 # <br>Quels espaces verts doivent-être conserver ou restaurer pour en tirer le plus de bénéfices ?"
 left_img: "../img/Kyle5.jpeg"
-visible: true
 init_js: "Kyle_map.init()"
 # menu: true
 # pretty_name: "The Challenge"
 # pretty_name_fr: "Le défi"
+visible: true
+layout: "float_left"
 attribution: "Photo credits: Alex Tran"
 left_markdown: |
   The marker symbol, color, and transparency of points can be adjusted.  
