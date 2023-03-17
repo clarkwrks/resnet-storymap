@@ -23,6 +23,7 @@ left_markdown: |
   - More story element layout options
   - Author content using Markdown instead of HTML
   - Switched to generate EN pages only, for now
+  - Nested navigation
   
   ### In Progress
 
@@ -30,11 +31,17 @@ left_markdown: |
   - Improved leaflet integration
     - Rich (html/markdown) popups
     - Layer chooser
+    - Raster compare
+      - Implemented but:
+        - Interaction handle is offset, need to correct css
+        - Clearing the leaflet control object is awkward (code concern)
 
   ### Planned
 
   - Credits page
+  - People page
   - Data integrations
+  - Help page/modal popup
 
   ### Use Case Needed
 
@@ -45,5 +52,6 @@ left_markdown: |
   ### Would be Nice
 
   - Responsive (mobile friendly) layout
-  - Enhanced navigation and menus
-  
+
+menu_group: "Conclusion"
+menu_name: "Status"

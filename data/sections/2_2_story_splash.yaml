@@ -14,3 +14,5 @@ main_description: "Can even obscure the map entirely"
 visible: true
 # init_js: "Monteregie_map.init()"
 layout: "splash"
+menu_group: "Story"
+menu_name: "Fullscreen"

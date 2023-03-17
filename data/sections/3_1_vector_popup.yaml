@@ -20,4 +20,5 @@ left_markdown: |
   The borders, fill, and transparency of polygons can be adjusted.  
 
   Clicking a polygon opens a pop-up with attribute data.   
-
+menu_group: "Map"
+menu_name: "Vector"

@@ -17,3 +17,5 @@ leftmap: "google_satellite"
 rightmap: "osm_mapnik"
 left_markdown: |
   # slide...
+menu_group: "Map"
+menu_name: "Compare"

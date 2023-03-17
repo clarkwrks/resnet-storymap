@@ -34,5 +34,5 @@ left_markdown: |
     - Layer chooser
     - Time series animation
     - Side by side comparison
-
-  
+menu_group: "Map"
+menu_name: "Elements"

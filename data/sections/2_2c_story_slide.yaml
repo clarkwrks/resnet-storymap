@@ -21,4 +21,5 @@ left_markdown: |
   # .  
   # .    
   # ...Isn't that neat?
-
+menu_group: "Story"
+menu_name: "Sliding"

@@ -13,3 +13,5 @@ visible: true
 pretty_name: "Overview"
 layout: "full_html"
 # pretty_name_fr: "Projets"
+menu_group: "Story"
+menu_name: "Navigation"

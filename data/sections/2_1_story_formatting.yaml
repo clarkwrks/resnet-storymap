@@ -18,3 +18,5 @@ left_markdown: |
   # very  
   # very  
   # ...long (but probably shouldn't be)
+menu_group: "Story"
+menu_name: "Formatting"

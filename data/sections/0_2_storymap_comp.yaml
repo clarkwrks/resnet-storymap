@@ -32,3 +32,5 @@ left_markdown: |
   
   Each story section or 'slide' has an associated map scene. Once a user scrolls past the end of a story slide, the app advances to the next slide and scene.
 # left_html: "figures/plotly_gapminder.html"
+menu_group: "Overview"
+menu_name: "Components"
