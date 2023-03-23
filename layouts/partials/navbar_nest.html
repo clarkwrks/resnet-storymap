@@ -2,7 +2,7 @@
 
 {{ $menu_group_list :=  slice }}
 {{ range sort .Site.Data.sections "weight" }}
-	{{ if .menu_group }}
+	{{ if and (.menu_group) (.visible) }}
 	{{ $menu_group_list = $menu_group_list | append .menu_group }}
 	{{ end }}
 {{ end }}

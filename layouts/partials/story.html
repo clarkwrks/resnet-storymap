@@ -9,11 +9,9 @@
     <input type="hidden" class="layer-style" layer="{{$layer.name}}" style-name="{{ $ind }}" style-value="{{ $opt }}">
   {{ end }}
 {{ end }}
-{{/*  {{ $section := . }}  */}}
 
 {{ range $index, $section := sort .Site.Data.sections "weight" }}
     {{ if $section.visible }}
-    {{/*  <section class='{{ replaceRE "(\\s)" "_" $section.name }} left-content {{ $section.class }}'  data-scene="{{ $section.name }}" lat="{{ $section.lat }}" lng="{{ $section.lng }}" zoom="{{ $section.zoom }}" layers="{{ $section.layers }}" init-js="{{ $section.init_js }}">  */}}
         {{ if eq $section.layout "float_left" }}
             {{- partial "story/float_left.html" . -}}
         {{ else if eq $section.layout "full_html" }}
@@ -24,26 +22,11 @@
             {{- partial "story/fullscreen.html" . -}}
         {{ else if eq $section.layout "full_width" }}
             {{- partial "story/full_width.html" . -}}
+        {{ else if eq $section.layout "accordion" }}
+            {{- partial "story/accordion.html" . -}}
         {{/*  {{ else }}  */}}
             {{/*  {{- partial "story/float_left.html" . -}}  */}}
         {{ end }}
     {{/*  </section>  */}}
     {{ end }}
 {{ end }}
-
-
-{{/*  {{ range $index, $section := sort .Site.Data.sections "weight" }}
-    {{ if $section.visible }}
-    <section class='{{ replaceRE "(\\s)" "_" $section.name }} left-content {{ $section.class }}'  data-scene="{{ $section.name }}" lat="{{ $section.lat }}" lng="{{ $section.lng }}" zoom="{{ $section.zoom }}" layers="{{ $section.layers }}" init-js="{{ $section.init_js }}">
-        {{ if eq $section.layout "float_left" }}
-            {{- partial "story/float_left.html" . -}}
-        {{ else if eq $section.layout "full_html" }}
-            {{- partial "story/full_html.html" . -}}
-        {{ else if eq $section.layout "splash" }}
-            {{- partial "story/splash.html" . -}}
-        {{ else if eq $section.layout "fullscreen" }}
-            {{- partial "story/fullscreen.html" . -}}
-        {{ end }}
-    </section>
-    {{ end }}
-{{ end }}  */}}
