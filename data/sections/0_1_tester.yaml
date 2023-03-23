@@ -8,7 +8,7 @@ left_title: "Tester"
 zoom: 10
 lat: 45.6
 lng: -73.2
-visible: true
+# visible: true
 # init_js: "Split_map.remove();"
 layout: "accordion"
 # class: "left-wide"
