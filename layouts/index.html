@@ -2,21 +2,16 @@
 <html>
     {{- partial "head.html" . -}}
 	<body>
-	<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-navbar storymap-navbar">
+	{{/*  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-navbar storymap-navbar">
 	    <a class="navbar-brand" href="#">
-	        <!--convert the style value to a class and then add the class to the css file.-->
-	        <!--<img src="img/logo.png" class="d-inline-block align-top">-->
 	        <i class="fa fa-home" style="padding-right:10px;"></i>
-	        {{ if eq $.Language.Lang "fr"}}
+
 	            StoryMap Demo
-	        {{ else }}
-	        	StoryMap Demo
-	        {{ end }}
 	    </a>
 	    {{- partial "navbar_nest.html" . -}}
-	</nav>
-
-	<div id="storymap" class="container-fluid" >
+	</nav>  */}}
+	{{- partial "navbar_nest_bs5.html" . -}}
+	<div id="storymap" class="container-fluid">
 	    <div class="row">
 	        <div class="col-sm-6 col-md-8 storymap-map"></div>
 	        <div class="col-sm-6 col-md-4 storymap-story">
