@@ -1,0 +1,14 @@
+weight: 1.1
+name: "title_splash"
+# layers: ""
+background_media : "../img/montreal.jpeg" 
+class: "splash-tint"
+main_title: "StoryMap Demo"
+main_description: "HQP Scaling Group"
+# zoom: 9
+# lat: 45.6
+# lng: -73.8
+visible: true
+layout: "splash"
+menu_group: "Overview"
+menu_name: "Title"
