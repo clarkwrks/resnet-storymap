@@ -1,0 +1,18 @@
+weight: 2.2
+name: "story_splash"
+# layers: "google_satellite,monteregie_municipalities"
+# background_media : "../img/Mont-St-Hilaire_short2.mp4"
+# background_media : "../img/montreal.jpeg" 
+# class: "splash-tint" 
+class: "bg-black section-solid"
+main_title: "Story Sections"
+main_description: "Can even obscure the map entirely"
+# main_title_fr: "StoryMap Demo: Splash"
+# zoom: 9
+# lat: 45.6
+# lng: -73.8
+visible: true
+# init_js: "Monteregie_map.init()"
+layout: "splash"
+menu_group: "Story"
+menu_name: "Fullscreen"

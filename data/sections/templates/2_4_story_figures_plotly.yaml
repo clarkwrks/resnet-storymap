@@ -1,0 +1,29 @@
+weight: 2.4
+name: "story_figures_plotly"
+layers: ""
+# background_media : "../img/Carly_tree.jpeg"
+# main_title: " "
+# left_title: "Plotly Figures"
+# left_text: "Plotly wraps D3 interactive objects.<br><a href='https://plotly.com/javascript/' target='_blank'>More examples</a>" 
+left_wide: true
+zoom: 10
+lat: 45.6
+lng: -73.2
+visible: true
+# menu: true
+# pretty_name: "Topic 5"
+layout: "float_left"
+class: "left-wide"
+# using pipe adds inline element declaring height, overflows figure
+# left_text: >
+  # - Plotly provides a variety of dynamic and interactive figures.<br><a href='https://plotly.com/javascript/' target='_blank'>More examples</a>
+left_markdown: |
+  ## Figures  
+  In addition to static images and tables, interactive figures can be embedded.  
+
+  Plotly provides a variety of dynamic and interactive figures. See the [Plotly Javascript Gallery](https://plotly.com/javascript/) for examples.  
+    
+  Potential to link figures to the map (`crosstalk`)  
+left_html: "figures/plotly_gapminder.html"
+menu_group: "Story"
+menu_name: "Figures"

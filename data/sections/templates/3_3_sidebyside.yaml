@@ -1,0 +1,21 @@
+weight: 3.3
+name: "leaflet_sidebyside"
+layers: "google_satellite,osm_mapnik"
+zoom: 9
+lat: 45.6
+lng: -73.8
+# left_title: "The Big Science Question"
+# left_title_fr: "La grande question scientifique"
+# left_text: "How are landscape configuration (the amount and location of different patches of habitat) and the provision of multiple ecosystem services linked in this landscape? <br><br>The map shows the location of sampling sites for four projects that each address important aspects of this question.<br><br>Scroll down to explore each of those projects!"
+# left_text_fr: "Comment la configuration du paysage (la quantité et l'emplacement des différentes parcelles d'habitat) et la fourniture de multiples services écosystémiques sont-ils liés dans ce paysage?<br><br>La carte montre l'emplacement des sites d'échantillonnage pour quatre projets qui abordent chacun des aspects importants de cette question.<br><br>Faites défiler vers le bas pour explorer chacun de ces projets !"
+# left_img: "../img/Picture3.png"
+visible: true
+init_js: "Split_map.init('leaflet_sidebyside');"
+# class: "left-wide"
+layout: "float_left"
+leftmap: "google_satellite"
+rightmap: "osm_mapnik"
+left_markdown: |
+  # slide...
+menu_group: "Map"
+menu_name: "Compare"

@@ -1,0 +1,38 @@
+weight: 3.0
+name: "map_elements"
+layers: ""
+# background_media : "../img/Carly_tree.jpeg"
+# main_title: ""
+left_title: "Map Elements"
+# left_text: "" 
+left_wide: true
+zoom: 10
+lat: 45.6
+lng: -73.2
+visible: true
+menu: true
+pretty_name: "Map"
+layout: "float_left"
+class: "left-wide"
+# using pipe adds inline element declaring height, overflows figure
+left_markdown: |
+  Map elements sit in the background of the app. float above the map, and are a very flexible container for your content.
+  - Data Layers
+    - Basemaps
+    - Vector
+    - Raster
+  - Adjustable
+    - Extent (center + zoom level)
+    - Symbology and color scheme
+    - Legends
+    - UI Objects
+  - Interactions
+    - Pan/zoom
+    - Query raster value
+    - View vector attributes
+  - Extensions
+    - Layer chooser
+    - Time series animation
+    - Side by side comparison
+menu_group: "Map"
+menu_name: "Elements"

@@ -1,0 +1,17 @@
+weight: 2.3
+name: "overview"
+layers: "google_satellite"
+full_html: "overview.html"
+# full_html_fr: "projects_page_fr.html"
+# background_media : "../img/Carly_tree.jpeg"
+lat: 45.6
+lng: -73.3
+zoom: 6
+init_js: "Projects.init()"
+visible: true
+# menu: true
+pretty_name: "Overview"
+layout: "full_html"
+# pretty_name_fr: "Projets"
+menu_group: "Story"
+menu_name: "Navigation"

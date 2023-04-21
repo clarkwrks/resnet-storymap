@@ -1,0 +1,22 @@
+weight: 2.1
+name: "story_formatting"
+layers: ""
+# main_title: " "
+# left_title: "Story Elements"
+left_wide: true
+zoom: 10
+lat: 45.6
+lng: -73.2
+visible: true
+# menu: true
+# pretty_name: "Story"
+layout: "float_left"
+class: "left-extrawide section-solid bg-black text-green"
+left_markdown: |
+  # Story elements can be very...
+  # very  
+  # very  
+  # very  
+  # ...long (but probably shouldn't be)
+menu_group: "Story"
+menu_name: "Formatting"

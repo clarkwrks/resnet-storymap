@@ -1,0 +1,16 @@
+weight: 1.1
+name: "title_splash"
+layers: "google_satellite"
+zoom: 10
+lat: 45.6
+lng: -73.2
+# background_media : "../img/montreal.jpeg" 
+# background_media : "../img/title-bg.webp" 
+background_media : "../img/title-bg.jpg" 
+# class: "splash-tint"
+main_title: "Scaling of Ecosystem Services"
+main_description: "NSERC ResNet HQP Scaling Group"
+visible: true
+layout: "splash"
+menu_group: "Overview"
+menu_name: "Title"
