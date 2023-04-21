@@ -101,15 +101,15 @@
     border-radius: 10px;
 } */
 
-section.viewing {
-    /* opacity:1 !important; */
+/* section.viewing {
     opacity:1;
-}
+} */
 
+/* opacity bad, use background:rgba
 section.viewing.left-content {
-    /* opacity:0.90 !important; */
+    opacity:0.90 !important;
     opacity:0.90;
-}
+} */
 
 .viewing h2{
     font-weight:bold;
