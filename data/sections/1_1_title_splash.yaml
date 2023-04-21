@@ -1,7 +1,7 @@
 weight: 1.1
 name: "title_splash"
 # layers: ""
-# background_media : "../img/montreal.jpeg" 
+background_media : "../img/montreal.jpeg" 
 class: "splash-tint"
 main_title: "StoryMap Demo"
 main_description: "HQP Scaling Group"
