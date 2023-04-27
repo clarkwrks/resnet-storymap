@@ -1,0 +1,19 @@
+weight: 2.50
+name: "who_we_are"
+layers: "google_satellite"
+zoom: 10
+lat: 45.6
+lng: -73.2
+background_media : "../img/title-bg.jpg" 
+visible: true
+layout: "full_width_inset"
+menu_group: "About"
+menu_name: "Who we are"
+body_md: |  
+  ### Who we are:
+  `NoData`
+  - Picture 
+  - Name
+  - Associated university 
+  - Role in academia: PhD student, master student, postdoc, 
+  - Link to your website or google scholar (if you have one)

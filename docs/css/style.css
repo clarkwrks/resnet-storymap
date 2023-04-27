@@ -98,6 +98,13 @@
 }
 
 
+.navbar-dark .navbar-nav .nav-link{
+    color:white
+}
+
+/* .navbar-dark .navbar-nav .nav-link .disabled{
+    color:grey
+} */
 
 .navbar-brand{
     font-size:1em;
@@ -112,7 +119,7 @@
 }
 
 .storymap-navbar a{
-    color:white !important;
+    color:white;
     /* letter-spacing: 0.36px; */
 }
 /* .storymap-navbar a:hover{ */
@@ -162,25 +169,8 @@
         /* border-bottom: 1px solid; */
     background:#5e78af;
     /* color:rgb(132, 211, 132) !important; */
-    color:#3d9fc1
-}
 
-html {background-color: #222}
 
-.storymap-map{
-    background-color: #222;
-}
-
-.left-wide{
-    width:55vw;
-}
-/* 
-.left-content a{
-    color: black;
-} */
-
- .splash-tint .title_splash-bg-img{
-    /* background:url(../img/montreal.jpeg); */
     background-color: rgba(200,100,0,.5);
     background-blend-mode: multiply;
 }
@@ -236,6 +226,16 @@ html {background-color: #222}
     width:100vw;
     border-radius: 0;
 }
+.inset-width{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 90vw;
+}
+
+.inset-width .card img{
+    max-width: 75vw;
+}
+
 .full-width .card{
     max-width:800px;
 }
@@ -296,4 +296,11 @@ html {background-color: #222}
   }
   .carousel-item img {
     opacity: 1.0;
+  }
+
+
+  .card-body h1{
+    margin-top: 1em;
+    color: black;
+    text-shadow: unset;
   }

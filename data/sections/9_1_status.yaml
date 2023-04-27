@@ -1,0 +1,24 @@
+weight: 9.1
+name: "status"
+layers: "google_satellite"
+zoom: 10
+lat: 45.6
+lng: -73.2
+visible: true
+background_media : "../img/title-bg.jpg" 
+layout: "full_width_inset"
+menu_group: "About"
+menu_name: "Development"
+left_markdown: |  
+  ## Project Status 
+  ### This is a living project. We're making this work-in-progress publically visible to faciliate collaboration across our spatially, temporally, and thematically expansive group. Thank you for your understanding.
+  - Layout
+    - Inset full width with parallax bg scroll
+      - Blocked by leaflet layer etc... js issue
+    - Case study 'icons'
+      - Most useful with logical, consistent placement. Anything towards right will block leaflet interaction
+  - Admin
+    - Consistently styled banner for under construction, AGM only
+    - Within markdown+yaml, inline css classes for img sizing etc https://roneo.org/en/hugo-custom-css-classes-images-markdown-attributes/
+      - inline class assignment works `{.custom-css-class}|{.myclass class="custom-css-class1 custom-class2"}`
+        - well... for markdown, not hugo-parsed-markdown. solutions out there. something in render-hooks

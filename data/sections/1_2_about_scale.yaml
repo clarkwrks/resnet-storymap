@@ -1,0 +1,22 @@
+weight: 1.2
+name: "about_scale"
+layers: "google_satellite"
+zoom: 5
+lat: 55.0
+lng: -97.0
+background_media : "../img/title-bg.jpg" 
+visible: true
+layout: "full_width_inset"
+menu_group: "Introduction"
+menu_name: "Different scales, different questions"
+body_md: | 
+  `bg img instead of leaflet`  
+  
+  ## Different scale(s) are most meaningful for a given decision or research question
+
+  We design studies at different scales, because (1) decision-makers require data at different spatio-temporal scales and (2) scientists seek to understand how ecosystem processes and properties vary across scales. There are cost and time constraints to collecting data; therefore, we target the scale most relevant for a given question or decision.
+
+  ![Example sketch](img/FigureIntroSlide2.png)
+
+  `Text for image: The idea behind this drawing is to start as a decision-maker, researcher, and/or explorer, and show how the view (scale) may change, in a fun way, before we dive into the scientific details. We will finish this sketch after the AGM.`
+

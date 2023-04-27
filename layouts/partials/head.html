@@ -1,6 +1,6 @@
 <head>
 
-    <title>StoryMap Demo</title>
+    <title>HQP Scaling TITLE</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--add required stylesheets-->
@@ -70,8 +70,15 @@
     <script src="../js/map-story.js"></script>
 
     <script src="../js/split_map.js"></script>
-
-
+    
+    <!--Modal JS Script -->
+    <script type="text/javascript">
+        window.onload = () => {
+          const myModal = new bootstrap.Modal('#onload');
+          myModal.show();
+        }
+    </script>
+    
     {{ range $index, $layer := sort .Site.Data.layers "weight" }}
       {{ if $layer.script_src }}
       <script src="{{ $layer.script_src }}"></script>

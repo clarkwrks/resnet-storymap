@@ -1,0 +1,15 @@
+weight: 2.230
+name: "challenge2c_title"
+layers: "google_satellite"
+zoom: 10
+lat: 45.6
+lng: -73.2
+background_media : "../img/title-bg.jpg" 
+visible: true
+layout: "splash_md"
+menu_group: "Challenges"
+menu_name: "- How to consider non-linearities?"
+body_md: |  
+  # Challenge: How to consider non-linearities?
+  `Section is in development.`
+  ### Short description

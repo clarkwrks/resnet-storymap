@@ -1,0 +1,15 @@
+weight: 9999.0
+name: "end"
+layers: "google_satellite"
+zoom: 10
+lat: 45.6
+lng: -73.2
+visible: true
+background_media : "../img/title-bg.jpg" 
+layout: "splash_md"
+# main_title: "Thank You!"
+# main_description: "Learn more about NSERC ResNet's work at www.nsercresnet.ca"
+body_md: |  
+  # Thank You!
+  ### Learn more about our work at the [NSERC ResNet website](https://www.nsercresnet.ca)
+  
