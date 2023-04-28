@@ -332,8 +332,28 @@ section.viewing.left-content {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 25vh;
 }
 
+.viewing{
+    box-shadow:none;
+}
+.viewing .card{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+section{
+    /* background-color: none; */
+    background: none;
+}
+
+.section-splash{
+    padding-top:25vh;
+    padding-bottom:25vh;
+}
+
+.section-splash h1{
+    margin-top:0;
+}
 
 /* .leaflet-container{
     display:none;

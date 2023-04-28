@@ -11,7 +11,24 @@
 {{ end }}
 
 <section class='{{ replaceRE "(\\s)" "_" $section.name }} wide-over-bg {{ $section.class }}'  data-scene="{{ $section.name }}" data-background="{{ $section.background_media }}" lat="{{ $section.lat }}" lng="{{ $section.lng }}" zoom="{{ $section.zoom }}" layers="{{ $section.layers }}" init-js="{{ $section.init_js }}">
-        <div class = "card mx-auto">
+  
+{{ if $section.splash }}
+  <div class="section-splash justify-content-center text-center">
+  {{ if $section.title }}
+  <h1>{{ $section.title }}</h1>
+  {{ end }}
+
+  {{ if $section.subtitle }}
+  <h2>{{ $section.subtitle }}</h2>
+  {{ end }}
+
+  {{ if $section.description }}
+  <p>{{ $section.description | markdownify }}</p>
+  {{ end }}
+  </div>
+{{ end }}  
+  
+  <div class = "card mx-auto">
         {{ if $section.left_markdown }}
             <div class = "card-body">{{ $section.left_markdown  | markdownify}}</div>
         {{ end }}

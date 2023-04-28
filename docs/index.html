@@ -71,24 +71,20 @@
 
     <script src="../js/split_map.js"></script>
     
-    
-    <script type="text/javascript">
-        window.onload = () => {
-            if($(window).width() > 960) {
+
+        
+        <script type="text/javascript">
+            window.onload = () => {
                 const onLoadModal = new bootstrap.Modal('#onload-modal');
                 onLoadModal.show();
-            } else {
-                const onMobileModal = new bootstrap.Modal('#onmobile-modal');
-                onMobileModal.show();
             }
+        </script>
 
-     
-        }
-    </script>
+    
     
     
       
-      <script src="../js/main_map.js"></script>
+    
       
     
       
@@ -96,7 +92,7 @@
       
     
       
-    
+      <script src="../js/main_map.js"></script>
       
     
       
@@ -156,8 +152,6 @@
 
 	
 
-	
-
 
 
 
@@ -183,14 +177,6 @@
 							Introduction
 						</a>
 						<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-							
-								
-									<li><a class="dropdown-item" href="javascript:window.scrollBy(0, $('section[data-scene=\'title_splash_logo\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
-										Scaling of Ecosystem Services
-									</a></li>
-								
-								
-
 							
 								
 									<li><a class="dropdown-item" href="javascript:window.scrollBy(0, $('section[data-scene=\'about_scale\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
@@ -450,28 +436,6 @@
     
 
     
-    
-        
-
-
-
-
-
-<section class='title_splash_logo '  data-scene="title_splash_logo" data-background="../img/title-bg.jpg" lat="55" lng="-97" zoom="5" layers="google_satellite" init-js="">
-  <div class="fullscreen text-center">
-      
-      <div class="justify-content-center fullscreen text-center">
-        <h1 id="scaling-of-ecosystem-services">Scaling of Ecosystem Services</h1>
-<h3 id="nserc-resnet-hqp-scaling-group">NSERC ResNet HQP Scaling Group</h3>
-
-        
-      </div>
-      
-
-  </div>
-</section>
-    
-    
 
     
     
@@ -480,12 +444,27 @@
 
 
 <section class='about_scale wide-over-bg '  data-scene="about_scale" data-background="../img/title-bg.jpg" lat="55" lng="-97" zoom="5" layers="google_satellite" init-js="">
-        <div class = "card mx-auto">
+  
+
+  <div class="section-splash justify-content-center text-center">
+  
+  <h1>Scaling of Ecosystem Services</h1>
+  
+
+  
+
+  
+  <p><p><img src="img/resnet-logo-trans.png" alt="ResNet Logo"></p>
+<h2 id="nserc-resnet-hqp-scaling-group">NSERC ResNet HQP Scaling Group</h2>
+</p>
+  
+  </div>
+  
+  
+  <div class = "card mx-auto">
         
         
-            <div class = "card-body"><p><code>bg img instead of leaflet</code></p>
-<p><img src="img/resnet-logo.jpg" alt="Changing scales"></p>
-<h2 id="different-scales-are-most-meaningful-for-a-given-decision-or-research-question">Different scale(s) are most meaningful for a given decision or research question</h2>
+            <div class = "card-body"><h2 id="different-scales-are-most-meaningful-for-a-given-decision-or-research-question">Different scale(s) are most meaningful for a given decision or research question</h2>
 <p>We design studies at different scales, because (1) decision-makers require data at different spatio-temporal scales and (2) scientists seek to understand how ecosystem processes and properties vary across scales. There are cost and time constraints to collecting data; therefore, we target the scale most relevant for a given question or decision.</p>
 <p><img src="img/FigureIntroSlide2.png" alt="Example sketch"></p>
 <p><code>Text for image: The idea behind this drawing is to start as a decision-maker, researcher, and/or explorer, and show how the view (scale) may change, in a fun way, before we dive into the scientific details. We will finish this sketch after the AGM.</code></p>
@@ -596,9 +575,7 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
       
       <div class="justify-content-center fullscreen text-center">
         <h1 id="challenge-field-sampling">Challenge: Field Sampling</h1>
-<p><code>Section is in development.</code></p>
-<h3 id="short-description">Short description</h3>
-
+<p><code>Section is in development.</code>
         
       </div>
       
@@ -609,107 +586,7 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
     
 
     
-    
-        
 
-
-
-<section class='c1_1 inset-width '  data-scene="c1_1" data-background="../img/title-bg.jpg" lat="" lng="" zoom="" layers="google_satellite" init-js="">
-        <div class = "card mx-auto">
-        
-        
-            <div class = "card-body"><h2 id="challenge--overview-of-why-field-sampling-matters">Challenge / overview of why field sampling matters</h2>
-<ul>
-<li>(Brittney &amp; David) Trade-off between the need for field data but the time and funding needed to collect and process field samples</li>
-<li>These challenges - and why these challenges matter - explain nuances of collecting data</li>
-<li>Heterogeneity of the environment</li>
-<li>Background research needed to choose a proper sampling scheme</li>
-<li>Balancing within site and between variability</li>
-<li>Ideal sampling vs what’s actually feasible (resources, time, $, administrative)</li>
-<li>Cost - collection and analysis (lab work)</li>
-<li>Unexpected situations (e.g. equipment breaking) - need to be flexible (best laid plans, often fail?)</li>
-<li>Explain what those N/As are about (missing data)</li>
-<li>Physical work / bugs</li>
-<li>Environmental/ecological challenges (bears, flooding, fire, tides, navigation)</li>
-<li>Different methodologies used (how to upscale when data collected from different methods - Apples to Oranges?)</li>
-</ul>
-<h3 id="you-may-have-seen-something-like-the-map-below---where-do-these-c-stock-numbers-come-from">You may have seen something like the map below - where do these ‘C stock’ numbers come from?</h3>
-<h4 id="httpswwfcacarbon-stocks"><a href="https://wwf.ca/carbon-stocks/">https://wwf.ca/carbon-stocks/</a></h4>
-<h4 id="httpsagupubsonlinelibrarywileycomdoi1010292021gb007213"><a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021GB007213">https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021GB007213</a></h4>
-<ul>
-<li>[WWF screenshot within google slides, no file or metadata in drive]</li>
-</ul>
-<h2 id="case-studies">Case studies</h2>
-<ul>
-<li>Origin story of where data comes from (It’s not delivered by a stork). Pictures of field work and discussion of lengthy process to collect and process a single soil core</li>
-<li>Ideas for visualization: Maybe a slide deck with dots that changes as you move through time. Maybe separate slide decks for field and lab steps</li>
-<li><a href="https://www.whoi.edu/oceanus/feature/marsh-bothering/">https://www.whoi.edu/oceanus/feature/marsh-bothering/</a></li>
-</ul>
-<p>Case Study 1 - Carbon stocks within a chronosequence of restored salt marshes in  the Bay of Fundy</p>
-<p>[Many examples of sampling locations and action photos in slides, but not in drive. Unable to use currently.]</p>
-<h2 id="best-practices-and-opportunities-requires-1-funding-2-a-network-of-researchers-sharing-instruments-3-selecting-an-appropriate-sampling-scheme-to-support-scaling-brittney-and-david-feel-free-to-change-these-to-best-match-your-case-study">Best practices and opportunities: Requires (1) funding (2) a network of researchers sharing instruments, (3) selecting an appropriate sampling scheme to support scaling (Brittney and David, feel free to change these to best match your case study)</h2>
-<ul>
-<li>
-<p>Spending the time planning your field work (to help with unexpected things, and get the data as efficiently as possible)</p>
-</li>
-<li>
-<p>Capture as much variation as you can</p>
-</li>
-<li>
-<p>Integration of modelers and field data - help identify the type of data you need (before you go and collect it) - collaboration</p>
-</li>
-<li>
-<p>Standardizing methodologies</p>
-</li>
-<li>
-<p>Graphic showing how methods may differ and hinder comparisons across time, space, and scales</p>
-</li>
-<li>
-<p>Missing data issue</p>
-</li>
-<li>
-<h3 id="best-practice-for-upscaling-soil-organic-carbon-stocks-in-salt-marshes">Best practice for upscaling soil organic carbon stocks in salt marshes</h3>
-<ul>
-<li><a href="https://www.sciencedirect.com/science/article/pii/S0016706122004955">https://www.sciencedirect.com/science/article/pii/S0016706122004955</a></li>
-</ul>
-</li>
-</ul>
-</div>
-         
-        </div>
-        
-    <div></div>
-    
-</section>
-
-    
-    
-
-    
-    
-        
-
-
-
-<section class='c1_2 inset-width '  data-scene="c1_2" data-background="../img/title-bg.jpg" lat="" lng="" zoom="" layers="google_satellite" init-js="">
-        <div class = "card mx-auto">
-        
-        
-            <div class = "card-body"><h3 id="you-may-have-seen-something-like-the-map-below---where-do-these-c-stock-numbers-come-from">You may have seen something like the map below - where do these ‘C stock’ numbers come from?</h3>
-<h4 id="httpswwfcacarbon-stocks"><a href="https://wwf.ca/carbon-stocks/">https://wwf.ca/carbon-stocks/</a></h4>
-<h4 id="httpsagupubsonlinelibrarywileycomdoi1010292021gb007213"><a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021GB007213">https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021GB007213</a></h4>
-<ul>
-<li>[WWF screenshot within google slides, no file or metadata in drive]</li>
-</ul>
-</div>
-         
-        </div>
-        
-    <div></div>
-    
-</section>
-
-    
     
 
     
@@ -753,6 +630,7 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
 <li>How to consider non-linearities?</li>
 <li>How does the monitoring time period influence outcomes?</li>
 </ul>
+<p><code>[Add quick nav to challenge pages]</code></p>
 </div>
          
         </div>
@@ -800,8 +678,9 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
         
         
             <div class = "card-body"><h2 id="why-does-spatial-resolution-matter">Why does spatial resolution matter?</h2>
-<h3 id="best-practices-and-opportunities">Best practices and opportunities</h3>
-<p>When we change the spatial resolution of a pixel, we change the number and type of elements (for example landcovers) that compose it. This highly impacts outcomes where we attempt to classify pixels based on their composition.</div>
+<p>When we change the spatial resolution of a pixel, we change the number and type of elements (for example landcovers) that compose it. This highly impacts outcomes where we attempt to classify pixels based on their composition.</p>
+<p><code>figure in slide, none in drive</code></p>
+</div>
          
         </div>
         
@@ -826,8 +705,8 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
 <p>In the figure on the top right, we show two major forest disturbance agents (panel a) and the results of a geo-spatial trend analysis (panel b to d) over a relatively small study area (26,000 ha) located along the northern boundary of Algonquin Park. The vegetation greenness of forests, as measured by the Normalized Difference Vegetation index (NDVI), shows many trend breakpoints over an 18-year long period (2003-2020). Trend breakpoints refer to structural changes in the trend line of a measurement (bottom figure). Trend breakpoints can be positive or negative and can result from forest natural and anthropogenic disturbances.</p>
 <p>When using MODIS derived NDVI at a 250 m resolution (panel  b) we find 312 different trend breakpoints in the data. Most of these are negative breakpoints (orange color pixels), meaning that some forest areas have experienced important decreases in greenness at some particular point in time.  However, there are also some forest areas that have seen significant increases (turquoise color pixels) in greenness at a particular point in time. When a 500 m resolution NDVI time series is used instead (panel c), the number of breakpoints drops to 71. Similarly, when a 1 km resolution NDVI time series is used (panel d), the number of breaks further decreases to 17.</p>
 <p>Interestingly, not only does the number (and direction/sign) of forest pixels with trend breakpoints change depending on the resolution of the data but also the pixel locations over the study area.  Some of these trend breakpoint pixels spatially and temporally overlap with forest harvest and fire events. The largest overlaps occur when using the finest spatial resolution (250 m) data. Thus, the spatial resolution of a dataset may influence the results obtained and in turn, the management decisions that may arise from them.</p>
-<p><code>two figures</code></p>
-<p><code>thumbnail</code></p>
+<p><img src="/img/c2a/FigureIntroSlide4.png" alt="Grain Size"></p>
+<p><code>two figures in slide, one in drive</code></p>
 </div>
          
         </div>
@@ -853,6 +732,7 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
 <h3 id="best-practices-and-opportunities">Best practices and opportunities</h3>
 <p>In cases where different data resolutions are available, the recommendation is to use data at the finest spatial resolution to ensure that potentially relevant ecological patterns are not missed.</p>
 <p>Even though, fine scale data usually leads to improved accuracy of models (Fig. a &amp; b), there are several constraints such as data availability, data storage, computing power, time, and financial resources (Fig. c). Finer grain size (i.e., smaller pixel size) usually leads to better accuracy but some processes actually plateau at a certain resolution and there is no need to go finer. This is often used as a baseline for future studies. Higher resolution often comes with higher cost and time and hence, it is important to identify the most optimal point for a given study based on resources available.</p>
+<p><img src="/img/c2a/resnet_upscaling_grain_size2.png" alt="Grain Size"></p>
 </div>
          
         </div>
@@ -902,6 +782,7 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
             <div class = "card-body"><h2 id="how-to-aggregate-data-to-scale-up">How to aggregate data to scale up?</h2>
 <p>In addition to the resolution, boundaries used to aggregate smaller scale data may influence the visual assessment of ES supply and demand information and relationships</p>
 <p>Example: Pollination supply and demand aggregated to watersheds (left) tend to show ES surplus (i.e. higher ratios) at areas with little demand, while the supply and demand relationships represented at 3km grid cells (right) can help identify more precisely high demand areas that could benefit from more agricultural support</p>
+<p><img src="/img/c2b/supply-demand_ratio_rescale.png" alt="Grain Size"></p>
 <p><code>Visualization: Figure showing pixel vs. watershed spatial patterns. Leaflet (slider transition window), dissolves from pixel to watershed. </code></p>
 </div>
          
@@ -1020,6 +901,52 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
 
 
 
+<section class='who_we_are inset-width '  data-scene="who_we_are" data-background="../img/title-bg.jpg" lat="45.6" lng="-73.2" zoom="10" layers="google_satellite" init-js="">
+        <div class = "card mx-auto">
+        
+        
+            <div class = "card-body"><h3 id="authors">Authors:</h3>
+<h6 id="alphabetical-order-by-surname">(Alphabetical order by surname)</h6>
+<ul>
+<li>Miguel Arias</li>
+<li>David Bysouth</li>
+<li>John Clark</li>
+<li>David Ferguson</li>
+<li>Evan McNamara</li>
+<li>Poliana Mendes</li>
+<li>Peter Morrison</li>
+<li>Ehsan Pashanejad</li>
+<li>Peter Rodriguez</li>
+<li>Brittney Roughan</li>
+<li>Amanda Schwantes</li>
+<li>Hugo Thierry</li>
+<li>Gabriela María Torchio</li>
+<li>Ágnes Vári</li>
+<li>Yiyi Zhang</li>
+</ul>
+<p><code>[[</code><br>
+<code>Picture</code><br>
+<code>Name</code><br>
+<code>Associated university</code><br>
+<code>Role in academia: PhD student, master student, postdoc,</code><br>
+<code>Link to your website or google scholar (if you have one)</code><br>
+<code>]]</code></div>
+         
+        </div>
+        
+    <div></div>
+    
+</section>
+
+    
+    
+
+    
+    
+        
+
+
+
 
 
 <section class='challenge5_title '  data-scene="challenge5_title" data-background="../img/title-bg.jpg" lat="45.6" lng="-73.2" zoom="10" layers="google_satellite" init-js="">
@@ -1036,36 +963,6 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
 
   </div>
 </section>
-    
-    
-
-    
-    
-        
-
-
-
-<section class='who_we_are inset-width '  data-scene="who_we_are" data-background="../img/title-bg.jpg" lat="45.6" lng="-73.2" zoom="10" layers="google_satellite" init-js="">
-        <div class = "card mx-auto">
-        
-        
-            <div class = "card-body"><h3 id="who-we-are">Who we are:</h3>
-<p><code>NoData</code></p>
-<ul>
-<li>Picture</li>
-<li>Name</li>
-<li>Associated university</li>
-<li>Role in academia: PhD student, master student, postdoc,</li>
-<li>Link to your website or google scholar (if you have one)</li>
-</ul>
-</div>
-         
-        </div>
-        
-    <div></div>
-    
-</section>
-
     
     
 

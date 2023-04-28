@@ -17,4 +17,4 @@ body_md: |
   
   Even though, fine scale data usually leads to improved accuracy of models (Fig. a & b), there are several constraints such as data availability, data storage, computing power, time, and financial resources (Fig. c). Finer grain size (i.e., smaller pixel size) usually leads to better accuracy but some processes actually plateau at a certain resolution and there is no need to go finer. This is often used as a baseline for future studies. Higher resolution often comes with higher cost and time and hence, it is important to identify the most optimal point for a given study based on resources available.  
 
-
+  ![Grain Size](/img/c2a/resnet_upscaling_grain_size2.png)

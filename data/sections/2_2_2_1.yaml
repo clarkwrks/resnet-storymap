@@ -14,6 +14,8 @@ body_md: |
 
   In addition to the resolution, boundaries used to aggregate smaller scale data may influence the visual assessment of ES supply and demand information and relationships 
   
-  Example: Pollination supply and demand aggregated to watersheds (left) tend to show ES surplus (i.e. higher ratios) at areas with little demand, while the supply and demand relationships represented at 3km grid cells (right) can help identify more precisely high demand areas that could benefit from more agricultural support  
+  Example: Pollination supply and demand aggregated to watersheds (left) tend to show ES surplus (i.e. higher ratios) at areas with little demand, while the supply and demand relationships represented at 3km grid cells (right) can help identify more precisely high demand areas that could benefit from more agricultural support
+  
+  ![Grain Size](/img/c2b/supply-demand_ratio_rescale.png)
 
   `Visualization: Figure showing pixel vs. watershed spatial patterns. Leaflet (slider transition window), dissolves from pixel to watershed. `

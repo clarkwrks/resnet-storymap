@@ -255,7 +255,7 @@
                     if (path.indexOf("jpg") >= 0 || path.indexOf("jpeg") >= 0 || path.indexOf("png") >= 0 || path.indexOf("bmp") >= 0 || path.indexOf("gif") >= 0) {
                         $("head").append("<style> ." + section.data('scene') + "-bg-img { background: url(" + path + ") no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover;  -o-background-size: cover; background-size: cover; }</style>");
 
-                        $(section).find(".fullscreen").addClass(section.data('scene') + "-bg-img");
+                        $(section).find(".wide_over_bg").addClass(section.data('scene') + "-bg-img");
 
                     } else if (path.indexOf("mp4") >= 0) {
 

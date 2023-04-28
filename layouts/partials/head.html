@@ -71,7 +71,16 @@
 
     <script src="../js/split_map.js"></script>
     
-    <!--Modal JS Script -->
+
+        <!--Modal JS Script -->
+        <script type="text/javascript">
+            window.onload = () => {
+                const onLoadModal = new bootstrap.Modal('#onload-modal');
+                onLoadModal.show();
+            }
+        </script>
+
+    <!--Modal JS Script
     <script type="text/javascript">
         window.onload = () => {
             if($(window).width() > 960) {
@@ -81,10 +90,8 @@
                 const onMobileModal = new bootstrap.Modal('#onmobile-modal');
                 onMobileModal.show();
             }
-
-     
         }
-    </script>
+    </script> -->
     
     {{ range $index, $layer := sort .Site.Data.layers "weight" }}
       {{ if $layer.script_src }}

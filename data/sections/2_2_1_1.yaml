@@ -11,7 +11,9 @@ layout: "full_width_inset"
 # menu_name: "Shared challenges"
 body_md: | 
   ## Why does spatial resolution matter?
-  ### Best practices and opportunities  
 
   When we change the spatial resolution of a pixel, we change the number and type of elements (for example landcovers) that compose it. This highly impacts outcomes where we attempt to classify pixels based on their composition.  
+
+  `figure in slide, none in drive`
+
 

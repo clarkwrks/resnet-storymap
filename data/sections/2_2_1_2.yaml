@@ -17,7 +17,7 @@ body_md: |
   
   Interestingly, not only does the number (and direction/sign) of forest pixels with trend breakpoints change depending on the resolution of the data but also the pixel locations over the study area.  Some of these trend breakpoint pixels spatially and temporally overlap with forest harvest and fire events. The largest overlaps occur when using the finest spatial resolution (250 m) data. Thus, the spatial resolution of a dataset may influence the results obtained and in turn, the management decisions that may arise from them. 
 
-  `two figures` 
-  
-  `thumbnail`
+  ![Grain Size](/img/c2a/FigureIntroSlide4.png)
+
+  `two figures in slide, one in drive` 
 
