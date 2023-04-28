@@ -76,15 +76,20 @@
     
     <script type="text/javascript">
         window.onload = () => {
-          const myModal = new bootstrap.Modal('#onload');
-          myModal.show();
+            if($(window).width() > 960) {
+                const onLoadModal = new bootstrap.Modal('#onload-modal');
+                onLoadModal.show();
+            } else {
+                const onMobileModal = new bootstrap.Modal('#onmobile-modal');
+                onMobileModal.show();
+            }
+
+     
         }
     </script>
     
     
       
-    
-      
       <script src="../js/main_map.js"></script>
       
     
@@ -108,6 +113,8 @@
     
       
       <script src="../js/main_map.js"></script>
+      
+    
       
     
       
@@ -122,12 +129,6 @@
 
 
 
-
-	
-
-	
-
-	
 
 	
 
@@ -176,11 +177,8 @@
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			
-				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-			  
+		<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 				
 					<li class="nav-item dropdown nav-Introduction" section-name="Introduction">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -193,6 +191,7 @@
 										Scaling of Ecosystem Services
 									</a></li>
 								
+								
 
 							
 								
@@ -200,26 +199,6 @@
 										Different scales, different questions
 									</a></li>
 								
-
-							
-								
-									<li><a class="dropdown-item" href="javascript:window.scrollBy(0, $('section[data-scene=\'about_es_terms\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
-										What are ecosystem services?
-									</a></li>
-								
-
-							
-								
-									<li><a class="dropdown-item" href="javascript:window.scrollBy(0, $('section[data-scene=\'about_change\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
-										Changing spatial and temporal scales
-									</a></li>
-								
-
-							
-								
-									<li><a class="dropdown-item" href="javascript:window.scrollBy(0, $('section[data-scene=\'about_why\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
-										Why do we scale up or down?
-									</a></li>
 								
 
 							
@@ -228,8 +207,8 @@
 										Shared challenges
 									</a></li>
 								
+								
 
-							
 							
 						</ul>
 					</li>
@@ -245,12 +224,14 @@
 										Overview
 									</a></li>
 								
+								
 
 							
 								
 									<li><i><a class="dropdown-item disabled" tabindex="-1" aria-disabled="true" tabindex="-1" aria-disabled="true" href="javascript:window.scrollBy(0, $('section[data-scene=\'challenge1_title\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
 										Field Sampling
 									</a></i></li>
+								
 								
 
 							
@@ -259,12 +240,14 @@
 										Things change as we change scales
 									</a></li>
 								
+								
 
 							
 								
 									<li><a class="dropdown-item" href="javascript:window.scrollBy(0, $('section[data-scene=\'challenge2a_title\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
 										- Why does spatial resolution matter?
 									</a></li>
+								
 								
 
 							
@@ -273,12 +256,14 @@
 										- How to aggregate data to scale up?
 									</a></li>
 								
+								
 
 							
 								
 									<li><a class="dropdown-item" href="javascript:window.scrollBy(0, $('section[data-scene=\'challenge2c_title\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
 										- How to consider non-linearities?
 									</a></li>
+								
 								
 
 							
@@ -287,12 +272,14 @@
 										- How does the monitoring time period influence outcomes?
 									</a></li>
 								
+								
 
 							
 								
 									<li><a class="dropdown-item" href="javascript:window.scrollBy(0, $('section[data-scene=\'challenge3_title\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
 										Spatial, temporal, &amp; scale mismatches
 									</a></li>
+								
 								
 
 							
@@ -301,6 +288,7 @@
 										The future is not like the past
 									</a></li>
 								
+								
 
 							
 								
@@ -308,8 +296,8 @@
 										Model comparisons
 									</a></li>
 								
+								
 
-							
 							
 						</ul>
 					</li>
@@ -325,6 +313,7 @@
 										Who we are
 									</a></li>
 								
+								
 
 							
 								
@@ -332,8 +321,8 @@
 										Development
 									</a></li>
 								
+								
 
-							
 							
 						</ul>
 					</li>
@@ -341,24 +330,46 @@
 			</ul>
 		</div>
 	</div>
-</nav><div class="modal fade" id="onload" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-        <div class="modal-content">
+</nav>
+
+<div class="modal fade" id="onload-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+    <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">Modal title</h5>
+                <h2 class="modal-title">Welcome to Our Work-In-Progress!</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
         <div class="modal-body">
-          <p>Modal body text goes here.</p>
+          <p>We're excited to share a sneak peak of our project with AGM attendees...</p>
+          <h3>Our Vision</h3>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">I Understand.</button>
         </div>
       </div>
     </div>
   </div>
-  <div id="storymap" class="container-fluid">
+  <div class="modal fade" id="onmobile-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">This application is not compatible with mobile devices.</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+        <div class="modal-body">
+          <p>Your are attempting to view this application from a mobile device, or from a browser window with a narrow horizontal resolution.</p>
+          <p>This application is deisgned and tested with a mininum width of 800px, A mobile-friendly layout for this website HAS NOT BEEN IMPLEMENTED.</p>
+          <p>You will be unable to view content or navigate.</p>
+          <p>There are plans to implement a mobile responsive design. Please hold any comments or feedback on your mobile experience until that version is released.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">I insist.</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<div id="storymap" class="container-fluid">
 	    <div class="row">
 	        <div class="col-sm-6 col-md-8 storymap-map"></div>
 	        <div class="col-sm-6 col-md-4 storymap-story"><input type="hidden" id="language" value="en">
@@ -437,6 +448,8 @@
     
 
     
+
+    
         
 
 
@@ -444,19 +457,19 @@
 
 
 <section class='title_splash_md '  data-scene="title_splash_md" data-background="../img/title-bg.jpg" lat="55" lng="-97" zoom="5" layers="google_satellite" init-js="">
+  <div class="fullscreen text-center">
+      
+      <div class="justify-content-center fullscreen text-center">
+        <h1 id="scaling-of-ecosystem-services">Scaling of Ecosystem Services</h1>
+<h3 id="nserc-resnet-hqp-scaling-group">NSERC ResNet HQP Scaling Group</h3>
 
-<div class="fullscreen text-center">
-    
-    <div class="justify-content-center fullscreen text-center">
-      <h1 id="scaling-of-ecosystem-services">Scaling of Ecosystem Services</h1>
-<h3 id="nserc-resnet-hqp-scaling-group-test">NSERC ResNet HQP Scaling Group test</h3>
-
-    </div>
-    
-</div>
-
+      </div>
+      
+  </div>
 </section>
     
+    
+
     
 
     
@@ -464,38 +477,32 @@
 
 
 
-<section class='about_scale inset-width '  data-scene="about_scale" data-background="../img/title-bg.jpg" lat="55" lng="-97" zoom="5" layers="google_satellite" init-js="">
+<section class='about_scale wide-over-bg '  data-scene="about_scale" data-background="../img/title-bg.jpg" lat="55" lng="-97" zoom="5" layers="google_satellite" init-js="">
         <div class = "card mx-auto">
         
         
             <div class = "card-body"><p><code>bg img instead of leaflet</code></p>
+<p><img src="img/resnet_logo.jpg" alt="Changing scales"></p>
 <h2 id="different-scales-are-most-meaningful-for-a-given-decision-or-research-question">Different scale(s) are most meaningful for a given decision or research question</h2>
 <p>We design studies at different scales, because (1) decision-makers require data at different spatio-temporal scales and (2) scientists seek to understand how ecosystem processes and properties vary across scales. There are cost and time constraints to collecting data; therefore, we target the scale most relevant for a given question or decision.</p>
 <p><img src="img/FigureIntroSlide2.png" alt="Example sketch"></p>
 <p><code>Text for image: The idea behind this drawing is to start as a decision-maker, researcher, and/or explorer, and show how the view (scale) may change, in a fun way, before we dive into the scientific details. We will finish this sketch after the AGM.</code></p>
-</div>
-         
-        </div>
-        
-    <div></div>
-    
-</section>
-
-    
-    
-
-    
-        
-
-
-
-<section class='about_es_terms inset-width '  data-scene="about_es_terms" data-background="../img/title-bg.jpg" lat="" lng="" zoom="" layers="google_satellite" init-js="">
-        <div class = "card mx-auto">
-        
-        
-            <div class = "card-body"><h2 id="figure-illustrating-ecosystem-service-terms">Figure illustrating ecosystem service terms</h2>
+<h2 id="figure-illustrating-ecosystem-service-terms">Figure illustrating ecosystem service terms</h2>
 <p><code>Placeholder text: We plan to hire an illustrator to create a visual defining the terms: ecosystem service, supply, demand, flow, benefit, etc. There will be one hexagon at a landscape scale and a second hexagon nested behind at a regional scale.</code></p>
 <p>More information on terms used in this story map can be found here [add hyperlink to glossary].</p>
+<h2 id="changing-spatial-and-temporal-scales">Changing spatial and temporal scales</h2>
+<p>Often data is only available (or can only be collected) at one scale; however, we need information at a different scale to inform a decision or to understand an ecological process. In the figure below we visualize what it means to increase (a) spatial grain size, (b) spatial extent, (c) temporal resolution, and (d) time period.</p>
+<p><img src="img/FigureIntroSlide4.png" alt="Changing scales">
+{ class=&ldquo;w-25&rdquo; }</p>
+<p><code>reflow</code></p>
+<h2 id="why-do-we-scale-up-or-down">Why do we scale up or down?</h2>
+<p>We may scale up or down for many reasons, including these examples:</p>
+<ol>
+<li>It can be expensive, time-consuming, and dangerous to collect data points in the field at every possible location. Instead, we stratify (e.g., partition) a larger landscape into smaller homogenous areas and take representative samples within each group.</li>
+<li>Ecological processes can be difficult to observe directly, including when processes are too fast, too slow, too small, or too large. We develop models to visualize a reality that is inaccessible to our senses.</li>
+<li>Management and policy decisions may require data at a different scale (e.g., extent or grain) compared to the scale of available data. For example, we may collect field data about a management intervention at a local scale; however, we may rely on models to test how scaling these interventions could affect outcomes at a larger scale.</li>
+<li>There are many decision-makers at different (nested) spatial scales, with their own mandates, agendas, and actions. Land-use planning policies are often developed considering scales that represent political needs at regional scales, which may or may not be consistent with ecological and societal needs at local scales. For example, climate change mitigation actions at a national scale, may not address heterogeneous needs at finer scales, for example cooling effects at the neighborhood scale.</li>
+</ol>
 </div>
          
         </div>
@@ -504,17 +511,15 @@
     
 </section>
 
-    
-    
-
-    
+            
         
     
     
 
     
-        
+
     
+
     
 
     
@@ -608,19 +613,119 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
 
 
 <section class='challenge1_title '  data-scene="challenge1_title" data-background="../img/title-bg.jpg" lat="45.6" lng="-73.2" zoom="10" layers="google_satellite" init-js="">
-
-<div class="fullscreen text-center">
-    
-    <div class="justify-content-center fullscreen text-center">
-      <h1 id="challenge-field-sampling">Challenge: Field Sampling</h1>
+  <div class="fullscreen text-center">
+      
+      <div class="justify-content-center fullscreen text-center">
+        <h1 id="challenge-field-sampling">Challenge: Field Sampling</h1>
 <p><code>Section is in development.</code></p>
 <h3 id="short-description">Short description</h3>
 
-    </div>
-    
-</div>
-
+      </div>
+      
+  </div>
 </section>
+    
+    
+
+    
+        
+
+
+
+<section class='c1_1 inset-width '  data-scene="c1_1" data-background="../img/title-bg.jpg" lat="" lng="" zoom="" layers="google_satellite" init-js="">
+        <div class = "card mx-auto">
+        
+        
+            <div class = "card-body"><h2 id="challenge--overview-of-why-field-sampling-matters">Challenge / overview of why field sampling matters</h2>
+<ul>
+<li>(Brittney &amp; David) Trade-off between the need for field data but the time and funding needed to collect and process field samples</li>
+<li>These challenges - and why these challenges matter - explain nuances of collecting data</li>
+<li>Heterogeneity of the environment</li>
+<li>Background research needed to choose a proper sampling scheme</li>
+<li>Balancing within site and between variability</li>
+<li>Ideal sampling vs what’s actually feasible (resources, time, $, administrative)</li>
+<li>Cost - collection and analysis (lab work)</li>
+<li>Unexpected situations (e.g. equipment breaking) - need to be flexible (best laid plans, often fail?)</li>
+<li>Explain what those N/As are about (missing data)</li>
+<li>Physical work / bugs</li>
+<li>Environmental/ecological challenges (bears, flooding, fire, tides, navigation)</li>
+<li>Different methodologies used (how to upscale when data collected from different methods - Apples to Oranges?)</li>
+</ul>
+<h3 id="you-may-have-seen-something-like-the-map-below---where-do-these-c-stock-numbers-come-from">You may have seen something like the map below - where do these ‘C stock’ numbers come from?</h3>
+<h4 id="httpswwfcacarbon-stocks"><a href="https://wwf.ca/carbon-stocks/">https://wwf.ca/carbon-stocks/</a></h4>
+<h4 id="httpsagupubsonlinelibrarywileycomdoi1010292021gb007213"><a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021GB007213">https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021GB007213</a></h4>
+<ul>
+<li>[WWF screenshot within google slides, no file or metadata in drive]</li>
+</ul>
+<h2 id="case-studies">Case studies</h2>
+<ul>
+<li>Origin story of where data comes from (It’s not delivered by a stork). Pictures of field work and discussion of lengthy process to collect and process a single soil core</li>
+<li>Ideas for visualization: Maybe a slide deck with dots that changes as you move through time. Maybe separate slide decks for field and lab steps</li>
+<li><a href="https://www.whoi.edu/oceanus/feature/marsh-bothering/">https://www.whoi.edu/oceanus/feature/marsh-bothering/</a></li>
+</ul>
+<p>Case Study 1 - Carbon stocks within a chronosequence of restored salt marshes in  the Bay of Fundy</p>
+<p>[Many examples of sampling locations and action photos in slides, but not in drive. Unable to use currently.]</p>
+<h2 id="best-practices-and-opportunities-requires-1-funding-2-a-network-of-researchers-sharing-instruments-3-selecting-an-appropriate-sampling-scheme-to-support-scaling-brittney-and-david-feel-free-to-change-these-to-best-match-your-case-study">Best practices and opportunities: Requires (1) funding (2) a network of researchers sharing instruments, (3) selecting an appropriate sampling scheme to support scaling (Brittney and David, feel free to change these to best match your case study)</h2>
+<ul>
+<li>
+<p>Spending the time planning your field work (to help with unexpected things, and get the data as efficiently as possible)</p>
+</li>
+<li>
+<p>Capture as much variation as you can</p>
+</li>
+<li>
+<p>Integration of modelers and field data - help identify the type of data you need (before you go and collect it) - collaboration</p>
+</li>
+<li>
+<p>Standardizing methodologies</p>
+</li>
+<li>
+<p>Graphic showing how methods may differ and hinder comparisons across time, space, and scales</p>
+</li>
+<li>
+<p>Missing data issue</p>
+</li>
+<li>
+<h3 id="best-practice-for-upscaling-soil-organic-carbon-stocks-in-salt-marshes">Best practice for upscaling soil organic carbon stocks in salt marshes</h3>
+<ul>
+<li><a href="https://www.sciencedirect.com/science/article/pii/S0016706122004955">https://www.sciencedirect.com/science/article/pii/S0016706122004955</a></li>
+</ul>
+</li>
+</ul>
+</div>
+         
+        </div>
+        
+    <div></div>
+    
+</section>
+
+    
+    
+
+    
+        
+
+
+
+<section class='c1_2 inset-width '  data-scene="c1_2" data-background="../img/title-bg.jpg" lat="" lng="" zoom="" layers="google_satellite" init-js="">
+        <div class = "card mx-auto">
+        
+        
+            <div class = "card-body"><h3 id="you-may-have-seen-something-like-the-map-below---where-do-these-c-stock-numbers-come-from">You may have seen something like the map below - where do these ‘C stock’ numbers come from?</h3>
+<h4 id="httpswwfcacarbon-stocks"><a href="https://wwf.ca/carbon-stocks/">https://wwf.ca/carbon-stocks/</a></h4>
+<h4 id="httpsagupubsonlinelibrarywileycomdoi1010292021gb007213"><a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021GB007213">https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021GB007213</a></h4>
+<ul>
+<li>[WWF screenshot within google slides, no file or metadata in drive]</li>
+</ul>
+</div>
+         
+        </div>
+        
+    <div></div>
+    
+</section>
+
     
     
 
@@ -632,18 +737,16 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
 
 
 <section class='challenge2_title '  data-scene="challenge2_title" data-background="../img/title-bg.jpg" lat="45.6" lng="-73.2" zoom="10" layers="google_satellite" init-js="">
-
-<div class="fullscreen text-center">
-    
-    <div class="justify-content-center fullscreen text-center">
-      <h1 id="challenge-things-change-as-we-change-scales">Challenge: Things change as we change scales</h1>
+  <div class="fullscreen text-center">
+      
+      <div class="justify-content-center fullscreen text-center">
+        <h1 id="challenge-things-change-as-we-change-scales">Challenge: Things change as we change scales</h1>
 <p><code>Section is in development.</code></p>
 <h3 id="short-description">Short description</h3>
 
-    </div>
-    
-</div>
-
+      </div>
+      
+  </div>
 </section>
     
     
@@ -656,18 +759,16 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
 
 
 <section class='challenge2a_title '  data-scene="challenge2a_title" data-background="../img/title-bg.jpg" lat="45.6" lng="-73.2" zoom="10" layers="google_satellite" init-js="">
-
-<div class="fullscreen text-center">
-    
-    <div class="justify-content-center fullscreen text-center">
-      <h1 id="challenge-why-does-spatial-resolution-matter">Challenge: Why does spatial resolution matter?</h1>
+  <div class="fullscreen text-center">
+      
+      <div class="justify-content-center fullscreen text-center">
+        <h1 id="challenge-why-does-spatial-resolution-matter">Challenge: Why does spatial resolution matter?</h1>
 <p><code>Section is in development.</code></p>
 <h3 id="short-description">Short description</h3>
 
-    </div>
-    
-</div>
-
+      </div>
+      
+  </div>
 </section>
     
     
@@ -752,18 +853,16 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
 
 
 <section class='challenge2b_title '  data-scene="challenge2b_title" data-background="../img/title-bg.jpg" lat="45.6" lng="-73.2" zoom="10" layers="google_satellite" init-js="">
-
-<div class="fullscreen text-center">
-    
-    <div class="justify-content-center fullscreen text-center">
-      <h1 id="challenge-how-to-aggregate-data-to-scale-up">Challenge: How to aggregate data to scale up?</h1>
+  <div class="fullscreen text-center">
+      
+      <div class="justify-content-center fullscreen text-center">
+        <h1 id="challenge-how-to-aggregate-data-to-scale-up">Challenge: How to aggregate data to scale up?</h1>
 <p><code>Section is in development.</code></p>
 <h3 id="short-description">Short description</h3>
 
-    </div>
-    
-</div>
-
+      </div>
+      
+  </div>
 </section>
     
     
@@ -800,18 +899,16 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
 
 
 <section class='challenge2c_title '  data-scene="challenge2c_title" data-background="../img/title-bg.jpg" lat="45.6" lng="-73.2" zoom="10" layers="google_satellite" init-js="">
-
-<div class="fullscreen text-center">
-    
-    <div class="justify-content-center fullscreen text-center">
-      <h1 id="challenge-how-to-consider-non-linearities">Challenge: How to consider non-linearities?</h1>
+  <div class="fullscreen text-center">
+      
+      <div class="justify-content-center fullscreen text-center">
+        <h1 id="challenge-how-to-consider-non-linearities">Challenge: How to consider non-linearities?</h1>
 <p><code>Section is in development.</code></p>
 <h3 id="short-description">Short description</h3>
 
-    </div>
-    
-</div>
-
+      </div>
+      
+  </div>
 </section>
     
     
@@ -824,18 +921,16 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
 
 
 <section class='challenge2d_title '  data-scene="challenge2d_title" data-background="../img/title-bg.jpg" lat="45.6" lng="-73.2" zoom="10" layers="google_satellite" init-js="">
-
-<div class="fullscreen text-center">
-    
-    <div class="justify-content-center fullscreen text-center">
-      <h1 id="challenge-how-does-the-monitoring-time-period-influence-outcomes">Challenge: How does the monitoring time period influence outcomes?</h1>
+  <div class="fullscreen text-center">
+      
+      <div class="justify-content-center fullscreen text-center">
+        <h1 id="challenge-how-does-the-monitoring-time-period-influence-outcomes">Challenge: How does the monitoring time period influence outcomes?</h1>
 <p><code>Section is in development.</code></p>
 <h3 id="short-description">Short description</h3>
 
-    </div>
-    
-</div>
-
+      </div>
+      
+  </div>
 </section>
     
     
@@ -848,18 +943,16 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
 
 
 <section class='challenge3_title '  data-scene="challenge3_title" data-background="../img/title-bg.jpg" lat="45.6" lng="-73.2" zoom="10" layers="google_satellite" init-js="">
-
-<div class="fullscreen text-center">
-    
-    <div class="justify-content-center fullscreen text-center">
-      <h1 id="challenge-spatial-temporal--scale-mismatches">Challenge: Spatial, temporal, &amp; scale mismatches</h1>
+  <div class="fullscreen text-center">
+      
+      <div class="justify-content-center fullscreen text-center">
+        <h1 id="challenge-spatial-temporal--scale-mismatches">Challenge: Spatial, temporal, &amp; scale mismatches</h1>
 <p><code>Section is in development.</code></p>
 <h3 id="short-description">Short description</h3>
 
-    </div>
-    
-</div>
-
+      </div>
+      
+  </div>
 </section>
     
     
@@ -872,18 +965,38 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
 
 
 <section class='challenge4_title '  data-scene="challenge4_title" data-background="../img/title-bg.jpg" lat="45.6" lng="-73.2" zoom="10" layers="google_satellite" init-js="">
-
-<div class="fullscreen text-center">
-    
-    <div class="justify-content-center fullscreen text-center">
-      <h1 id="challenge-the-future-is-not-like-the-past">Challenge: The future is not like the past</h1>
+  <div class="fullscreen text-center">
+      
+      <div class="justify-content-center fullscreen text-center">
+        <h1 id="challenge-the-future-is-not-like-the-past">Challenge: The future is not like the past</h1>
 <p><code>Section is in development.</code></p>
 <h3 id="short-description">Short description</h3>
 
-    </div>
+      </div>
+      
+  </div>
+</section>
     
-</div>
+    
 
+    
+        
+
+
+
+
+
+<section class='challenge5_title '  data-scene="challenge5_title" data-background="../img/title-bg.jpg" lat="45.6" lng="-73.2" zoom="10" layers="google_satellite" init-js="">
+  <div class="fullscreen text-center">
+      
+      <div class="justify-content-center fullscreen text-center">
+        <h1 id="challenge-model-comparisons">Challenge: Model comparisons</h1>
+<p><code>Section is in development.</code></p>
+<h3 id="short-description">Short description</h3>
+
+      </div>
+      
+  </div>
 </section>
     
     
@@ -914,30 +1027,6 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
     
 </section>
 
-    
-    
-
-    
-        
-
-
-
-
-
-<section class='challenge5_title '  data-scene="challenge5_title" data-background="../img/title-bg.jpg" lat="45.6" lng="-73.2" zoom="10" layers="google_satellite" init-js="">
-
-<div class="fullscreen text-center">
-    
-    <div class="justify-content-center fullscreen text-center">
-      <h1 id="challenge-model-comparisons">Challenge: Model comparisons</h1>
-<p><code>Section is in development.</code></p>
-<h3 id="short-description">Short description</h3>
-
-    </div>
-    
-</div>
-
-</section>
     
     
 
@@ -1001,17 +1090,15 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
 
 
 <section class='end '  data-scene="end" data-background="../img/title-bg.jpg" lat="45.6" lng="-73.2" zoom="10" layers="google_satellite" init-js="">
-
-<div class="fullscreen text-center">
-    
-    <div class="justify-content-center fullscreen text-center">
-      <h1 id="thank-you">Thank You!</h1>
+  <div class="fullscreen text-center">
+      
+      <div class="justify-content-center fullscreen text-center">
+        <h1 id="thank-you">Thank You!</h1>
 <h3 id="learn-more-about-our-work-at-the-nserc-resnet-websitehttpswwwnsercresnetca">Learn more about our work at the <a href="https://www.nsercresnet.ca">NSERC ResNet website</a></h3>
 
-    </div>
-    
-</div>
-
+      </div>
+      
+  </div>
 </section>
     
     

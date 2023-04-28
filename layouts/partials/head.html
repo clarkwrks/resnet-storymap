@@ -74,8 +74,15 @@
     <!--Modal JS Script -->
     <script type="text/javascript">
         window.onload = () => {
-          const myModal = new bootstrap.Modal('#onload');
-          myModal.show();
+            if($(window).width() > 960) {
+                const onLoadModal = new bootstrap.Modal('#onload-modal');
+                onLoadModal.show();
+            } else {
+                const onMobileModal = new bootstrap.Modal('#onmobile-modal');
+                onMobileModal.show();
+            }
+
+     
         }
     </script>
     

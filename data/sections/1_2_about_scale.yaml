@@ -5,7 +5,7 @@ zoom: 5
 lat: 55.0
 lng: -97.0
 background_media : "../img/title-bg.jpg" 
-visible: true
+# visible: true
 layout: "full_width_inset"
 menu_group: "Introduction"
 menu_name: "Different scales, different questions"
@@ -19,4 +19,4 @@ body_md: |
   ![Example sketch](img/FigureIntroSlide2.png)
 
   `Text for image: The idea behind this drawing is to start as a decision-maker, researcher, and/or explorer, and show how the view (scale) may change, in a fun way, before we dive into the scientific details. We will finish this sketch after the AGM.`
-
+  

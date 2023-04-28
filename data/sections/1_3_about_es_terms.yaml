@@ -5,7 +5,7 @@ layers: "google_satellite"
 # lat: 45.6
 # lng: -73.2
 background_media : "../img/title-bg.jpg" 
-visible: true
+# visible: true
 layout: "full_width_inset"
 menu_group: "Introduction"
 menu_name: "What are ecosystem services?"

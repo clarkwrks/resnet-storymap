@@ -3,11 +3,11 @@ html {
     height: 100%;
 }
 
-body {
+/* body {
     height: 100%;
     font-family: Cairo, sans-serif;
     font-size: 14px;
-}
+} */
 
 .cesium-viewer-cesiumWidgetContainer {
     position: fixed;
@@ -314,17 +314,16 @@ video {
     box-shadow: 0 0 2px rgba(98, 16, 0, 0.9);
 }
 
-nav {
+/* nav {
     height: 34px !important;
     z-index: 1001;
 }
 
 nav .navbar-brand {
     padding-top: 2px !important;
-    /*padding-bottom: 0 !important;*/
     height: 32px;
-}
-
+} */
+/* 
 .btn {
     position: fixed;
     cursor: pointer;
@@ -335,7 +334,7 @@ nav .navbar-brand {
     z-index: 1005;
     top: 20px;
     left: 5px;
-}
+} */
 
 .btn:hover {
     color: rgba(0, 117, 255, 0.6);
