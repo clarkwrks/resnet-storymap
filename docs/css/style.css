@@ -309,6 +309,10 @@ section.viewing.left-content {
     max-width: 75vw;
 }
 
+.card img {
+	max-width: 75vw;
+	max-height: 25vh;
+}
 .wide-over-bg{
     width: 100vw;
     margin-left:0;
