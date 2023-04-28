@@ -6,13 +6,13 @@ lat: 55.0
 lng: -97.0
 background_media : "../img/title-bg.jpg" 
 # class: "splash-tint"
-# visible: true
+visible: true
 layout: "splash_md"
 menu_group: "Introduction"
 menu_name: "Scaling of Ecosystem Services"
 # main_title: "Scaling of Ecosystem Services"
 # main_description: "NSERC ResNet HQP Scaling Group"
+main_img: "../img/resnet-logo.jpg"
 body_md: |  
   # Scaling of Ecosystem Services  
-  ![NSERC ResNet Logo](img/resnet-logo.jpg)  
   ### NSERC ResNet HQP Scaling Group  

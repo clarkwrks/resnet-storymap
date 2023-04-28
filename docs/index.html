@@ -63,9 +63,7 @@
     <script src="../js/lib/leaflet-side-by-side/leaflet-side-by-side.js"></script>
 
     
-    <link href="../css/custom.css" rel="stylesheet">
-
-    <link href="../css/monteregie.css" rel="stylesheet">
+    
     <link href="../css/style.css" rel="stylesheet">
 
     
@@ -90,8 +88,6 @@
     
     
       
-    
-      
       <script src="../js/main_map.js"></script>
       
     
@@ -100,9 +96,11 @@
       
     
       
-      <script src="../js/main_map.js"></script>
+    
       
     
+      
+      <script src="../js/main_map.js"></script>
       
     
       
@@ -187,7 +185,7 @@
 						<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
 							
 								
-									<li><a class="dropdown-item" href="javascript:window.scrollBy(0, $('section[data-scene=\'title_splash_md\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
+									<li><a class="dropdown-item" href="javascript:window.scrollBy(0, $('section[data-scene=\'title_splash_logo\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
 										Scaling of Ecosystem Services
 									</a></li>
 								
@@ -332,6 +330,7 @@
 	</div>
 </nav>
 
+
 <div class="modal fade" id="onload-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
     <div class="modal-content">
@@ -342,6 +341,7 @@
         <div class="modal-body">
           <p>We're excited to share a sneak peak of our project with AGM attendees...</p>
           <h3>Our Vision</h3>
+          <h3>Current Status</h3>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-primary" data-bs-dismiss="modal">I Understand.</button>
@@ -448,30 +448,32 @@
     
 
     
+
+    
+    
         
 
 
 
 
 
-<section class='title_splash_md '  data-scene="title_splash_md" data-background="../img/title-bg.jpg" lat="55" lng="-97" zoom="5" layers="google_satellite" init-js="">
+<section class='title_splash_logo '  data-scene="title_splash_logo" data-background="../img/title-bg.jpg" lat="55" lng="-97" zoom="5" layers="google_satellite" init-js="">
   <div class="fullscreen text-center">
       
       <div class="justify-content-center fullscreen text-center">
         <h1 id="scaling-of-ecosystem-services">Scaling of Ecosystem Services</h1>
 <h3 id="nserc-resnet-hqp-scaling-group">NSERC ResNet HQP Scaling Group</h3>
 
+        
       </div>
       
+
   </div>
 </section>
     
     
 
     
-
-    
-
     
         
 
@@ -482,7 +484,7 @@
         
         
             <div class = "card-body"><p><code>bg img instead of leaflet</code></p>
-<p><img src="img/resnet_logo.jpg" alt="Changing scales"></p>
+<p><img src="img/resnet-logo.jpg" alt="Changing scales"></p>
 <h2 id="different-scales-are-most-meaningful-for-a-given-decision-or-research-question">Different scale(s) are most meaningful for a given decision or research question</h2>
 <p>We design studies at different scales, because (1) decision-makers require data at different spatio-temporal scales and (2) scientists seek to understand how ecosystem processes and properties vary across scales. There are cost and time constraints to collecting data; therefore, we target the scale most relevant for a given question or decision.</p>
 <p><img src="img/FigureIntroSlide2.png" alt="Example sketch"></p>
@@ -493,8 +495,7 @@
 <h2 id="changing-spatial-and-temporal-scales">Changing spatial and temporal scales</h2>
 <p>Often data is only available (or can only be collected) at one scale; however, we need information at a different scale to inform a decision or to understand an ecological process. In the figure below we visualize what it means to increase (a) spatial grain size, (b) spatial extent, (c) temporal resolution, and (d) time period.</p>
 <p><img src="img/FigureIntroSlide4.png" alt="Changing scales">
-{ class=&ldquo;w-25&rdquo; }</p>
-<p><code>reflow</code></p>
+<code>reflow</code></p>
 <h2 id="why-do-we-scale-up-or-down">Why do we scale up or down?</h2>
 <p>We may scale up or down for many reasons, including these examples:</p>
 <ol>
@@ -511,8 +512,6 @@
     
 </section>
 
-            
-        
     
     
 
@@ -522,6 +521,9 @@
 
     
 
+    
+
+    
     
         
 
@@ -542,6 +544,10 @@
 <li>[ResNet map as figure]</li>
 <li>[Link to website]</li>
 </ul>
+<h2 id="shared-challenges">Shared Challenges</h2>
+<p>In the next sections, we discuss a few of the challenges related to scaling of ecosystem services and best practices for overcoming these challenges.
+We use case studies to illustrate each challenge. Icons at the top right illustrate whether the case study focuses on scaling challenges related to changing</p>
+<p><img src="img/IconSpatialResolutionSlide7.png" alt="Spatial Resolution"><img src="img/IconSpatialExtentSlide7.png" alt="Spatial Extent"><img src="img/IconTemporalResolutionSlide7.png" alt="Temporal Resolution"><img src="img/IconTemporalExtentSlide7.png" alt="Temporal Extent"></p>
 </div>
          
         </div>
@@ -554,36 +560,8 @@
     
 
     
-        
-
-
-
-<section class='shared_challenges inset-width '  data-scene="shared_challenges" data-background="../img/title-bg.jpg" lat="" lng="" zoom="" layers="google_satellite" init-js="">
-        <div class = "card mx-auto">
-        
-            <div class = "card-body"><h2 id="shared-challenges">Shared Challenges</h2>
-<p>In the next sections, we discuss a few of the challenges related to scaling of ecosystem services and best practices for overcoming these challenges.
-We use case studies to illustrate each challenge. Icons at the top right illustrate whether the case study focuses on scaling challenges related to changing</p>
-<p>(a) spatial grain<br>
-<img src="img/IconSpatialResolutionSlide7.png" alt="Spatial grain"><br>
-(b) spatial extent<br>
-<img src="img/IconSpatialResolutionSlide7.png" alt="Spatial extent"><br>
-(c) temporal resolution<br>
-<img src="img/IconSpatialResolutionSlide7.png" alt="Spatial resolution"><br>
-(d) time period<br>
-<img src="img/IconSpatialResolutionSlide7.png" alt="Time period"></p>
-</div>
-        
-        
-        </div>
-        
-    <div></div>
-    
-</section>
 
     
-    
-
     
         
 
@@ -606,6 +584,7 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
     
 
     
+    
         
 
 
@@ -620,13 +599,16 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
 <p><code>Section is in development.</code></p>
 <h3 id="short-description">Short description</h3>
 
+        
       </div>
       
+
   </div>
 </section>
     
     
 
+    
     
         
 
@@ -704,6 +686,7 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
     
 
     
+    
         
 
 
@@ -730,6 +713,7 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
     
 
     
+    
         
 
 
@@ -741,16 +725,46 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
       
       <div class="justify-content-center fullscreen text-center">
         <h1 id="challenge-things-change-as-we-change-scales">Challenge: Things change as we change scales</h1>
-<p><code>Section is in development.</code></p>
-<h3 id="short-description">Short description</h3>
-
+<p><code>Section is in development.</code>
+        
       </div>
       
+
   </div>
 </section>
     
     
 
+    
+    
+        
+
+
+
+<section class='c2_1 inset-width '  data-scene="c2_1" data-background="../img/title-bg.jpg" lat="" lng="" zoom="" layers="google_satellite" init-js="">
+        <div class = "card mx-auto">
+        
+        
+            <div class = "card-body"><h2 id="challenge-things-change-as-we-change-scales">Challenge: Things change as we change scales</h2>
+<p>Environmental processes &amp; properties can change as we change scales (both grain and extent). However, more often, the method choices we make can lead to misleading results as we extend our research to other scales. These choices include how we decide where to draw boundaries, deal with non-linearities, and account for inconsistent baselines. We illustrate this challenge with several case studies, including…</p>
+<ul>
+<li>Why does spatial resolution matter?</li>
+<li>How do we draw boundaries to aggregate data?</li>
+<li>How to consider non-linearities?</li>
+<li>How does the monitoring time period influence outcomes?</li>
+</ul>
+</div>
+         
+        </div>
+        
+    <div></div>
+    
+</section>
+
+    
+    
+
+    
     
         
 
@@ -766,13 +780,16 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
 <p><code>Section is in development.</code></p>
 <h3 id="short-description">Short description</h3>
 
+        
       </div>
       
+
   </div>
 </section>
     
     
 
+    
     
         
 
@@ -795,6 +812,7 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
     
     
 
+    
     
         
 
@@ -822,6 +840,7 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
     
 
     
+    
         
 
 
@@ -846,6 +865,7 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
     
 
     
+    
         
 
 
@@ -860,13 +880,16 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
 <p><code>Section is in development.</code></p>
 <h3 id="short-description">Short description</h3>
 
+        
       </div>
       
+
   </div>
 </section>
     
     
 
+    
     
         
 
@@ -892,6 +915,7 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
     
 
     
+    
         
 
 
@@ -906,13 +930,16 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
 <p><code>Section is in development.</code></p>
 <h3 id="short-description">Short description</h3>
 
+        
       </div>
       
+
   </div>
 </section>
     
     
 
+    
     
         
 
@@ -928,13 +955,16 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
 <p><code>Section is in development.</code></p>
 <h3 id="short-description">Short description</h3>
 
+        
       </div>
       
+
   </div>
 </section>
     
     
 
+    
     
         
 
@@ -950,13 +980,16 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
 <p><code>Section is in development.</code></p>
 <h3 id="short-description">Short description</h3>
 
+        
       </div>
       
+
   </div>
 </section>
     
     
 
+    
     
         
 
@@ -972,13 +1005,16 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
 <p><code>Section is in development.</code></p>
 <h3 id="short-description">Short description</h3>
 
+        
       </div>
       
+
   </div>
 </section>
     
     
 
+    
     
         
 
@@ -994,13 +1030,16 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
 <p><code>Section is in development.</code></p>
 <h3 id="short-description">Short description</h3>
 
+        
       </div>
       
+
   </div>
 </section>
     
     
 
+    
     
         
 
@@ -1030,6 +1069,7 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
     
     
 
+    
     
         
 
@@ -1083,6 +1123,7 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
     
 
     
+    
         
 
 
@@ -1096,8 +1137,10 @@ We use case studies to illustrate each challenge. Icons at the top right illustr
         <h1 id="thank-you">Thank You!</h1>
 <h3 id="learn-more-about-our-work-at-the-nserc-resnet-websitehttpswwwnsercresnetca">Learn more about our work at the <a href="https://www.nsercresnet.ca">NSERC ResNet website</a></h3>
 
+        
       </div>
       
+
   </div>
 </section>
     

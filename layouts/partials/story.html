@@ -12,6 +12,9 @@
 
 {{ range $index, $section := sort .Site.Data.sections "weight" }}
     {{ if $section.visible }}
+    {{/*  <div id="status-warning" class="alert alert-warning" role="alert">
+        A simple warning alert—check it out!
+      </div>  */}}
         {{ if eq $section.layout "float_left" }}
             {{- partial "story/float_left.html" . -}}
         {{ else if eq $section.layout "full_html" }}
@@ -32,6 +35,8 @@
             {{- partial "story/full_width_inset.html" . -}}
         {{ else if eq $section.layout "wide_over_bg" }}
             {{- partial "story/wide_over_bg.html" . -}}
+        {{ else if eq $section.layout "init" }}
+            {{- partial "story/init.html" . -}}
         {{/*  {{ else }}  */}}
             {{/*  {{- partial "story/float_left.html" . -}}  */}}
         {{ end }}

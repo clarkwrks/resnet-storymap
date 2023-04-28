@@ -313,6 +313,11 @@ section.viewing.left-content {
 	max-width: 75vw;
 	max-height: 25vh;
 }
+
+#status-warning{
+    margin:60px;
+    z-index: 9999;
+}
 .wide-over-bg{
     width: 100vw;
     margin-left:0;

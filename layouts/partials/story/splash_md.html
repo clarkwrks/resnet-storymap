@@ -17,7 +17,11 @@
       {{ if $section.body_md }}
       <div class="justify-content-center fullscreen text-center">
         {{ $section.body_md  | markdownify}}
+        {{/*  {{ if $section.main_img }}
+        <img source="{{ $section.main_img }}">
+        {{end}}  */}}
       </div>
       {{ end }}
+
   </div>
 </section>
