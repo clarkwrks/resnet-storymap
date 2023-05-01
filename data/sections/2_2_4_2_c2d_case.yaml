@@ -17,6 +17,8 @@ layout: "wide_over_bg"
 #   ![ResNet Logo](img/resnet-logo-trans.png)  
 #   ## NSERC ResNet HQP Scaling Group
 left_html: "img/c2d/c2d_plotly.html"
+left_html_width: "100%"
+left_html_height: "400"
 
 body_md: | 
   ## Challenge: How does the monitoring time period influence outcomes?

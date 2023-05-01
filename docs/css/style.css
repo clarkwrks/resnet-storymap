@@ -335,6 +335,7 @@ section.viewing.left-content {
   padding-bottom: 25vh;
 }
 
+
 .viewing{
     box-shadow:none;
 }
@@ -371,11 +372,11 @@ section{
   background-size: cover;
 } */
 
-.wide-over-bg .card {
-    max-width: 75vw;
+.wide-over-bg .card{
+    max-width: min(75vw, 1000px);
 }
 .wide-over-bg .card img{
-    max-width: 70vw;
+    max-width: 100%;
 }
 
 

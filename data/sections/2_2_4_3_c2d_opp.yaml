@@ -16,7 +16,10 @@ layout: "wide_over_bg"
 # description: |  
 #   ![ResNet Logo](img/resnet-logo-trans.png)  
 #   ## NSERC ResNet HQP Scaling Group
-
+left_html: "https://data.nsercresnet.ca/maps/163/embed"
+left_html_width: "600"
+left_html_height: "600"
+left_html_class: "pull-right"
 body_md: | 
   ## Challenge: How does the monitoring time period influence outcomes?
 

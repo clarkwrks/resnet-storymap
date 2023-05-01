@@ -38,8 +38,7 @@
         </div>
         {{ if $section.left_html }}
 
-<iframe src="{{ $section.left_html }}" width="100%" height="300" style="border:none;">
-</iframe>
+<iframe src="{{ $section.left_html }}" width="{{ $section.left_html_width }}" height="{{ $section.left_html_height }}" style="border:none;" class="{{ $section.left_html_class}}"></iframe>
             {{/*  {{- partial $section.left_html . -}}  */}}
         {{end}}
     <div></div>
