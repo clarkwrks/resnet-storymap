@@ -6,7 +6,7 @@ layers: "google_satellite"
 # lng: -73.2
 background_media : "../img/title-bg.jpg" 
 # visible: true
-menu_group: "Introduction"
+menu_group: "Navigation"
 menu_name: "Why do we scale up or down?"
 body_md: | 
   ## Why do we scale up or down?

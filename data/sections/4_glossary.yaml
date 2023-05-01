@@ -1,0 +1,55 @@
+weight: 4.1
+name: "glossary"
+layers: "google_satellite"
+zoom: 5
+lat: 55.0
+lng: -97.0
+background_media : "../img/title-bg.jpg" 
+# background_media : "../img/montreal.jpeg" 
+visible: true
+layout: "wide_over_bg"
+menu_group: "About"
+menu_name: "Glossary"
+splash: true
+title: "Glossary"
+description: "`[under construction  note]`"
+# description: |  
+#   ![ResNet Logo](img/resnet-logo-trans.png)  
+#   ## NSERC ResNet HQP Scaling Group
+
+body_md: | 
+  ## Glossary of terms and definitions
+
+  <br>
+
+  `[This section is under construction. References are going to be included in a later stage. Please feel free to suggest any extra definitions and/or terms.]`
+
+  <br>
+
+  List of terms we will likely need to define and simple definitions
+
+  > **Ecosystem Service (ES):** there are many similar, complementary and even contested definitions of ES. Ecosystem services are sometimes broadly defined as the benefits people obtain from nature [1], and more specific as the all the biophysical and social conditions and processes by which people obtain direct or indirect benefits from ecosystems [2, 3]. As a controversial concept, many frameworks have attempted to improve this definition to make it more clear and inclusive [4,5,6].
+
+  > **Ecosystem services supply, demand and flow:**
+
+  > **Extent:** see spatial and temporal extent definitions below.
+
+  > **Grain:** Grain refers to the smallest or finest unit of measurement  in a given data set.
+
+  > **Indicators:**
+
+  > **Landscape Models:** A model is an abstract representation of a system or a process. When describing or analyzing an ecological process, it is almost impossible to account for  all the variables, interactions, feedback loops, inter-dependencies, etc. among ecosystem components, given the limited basic information available for analyses and processing capacities of computers [6,7].
+
+  > **Trade-offs:** Trade-offs occur when the provision of one ES is reduced as a consequence of the provision or use of another ES. For example, carbon storage and sequestration is in trade-offs with timber extraction.
+
+  > **Pixel:**
+
+  > **Patch:** A region, a portion of surface that differs from its surroundings (e.g a patch of forest differs from a patch of agricultural fields). From a computer modelling perspective, a patch is a contiguous group of cells with the same class or category.
+
+  > **Resolution:** Is the precision of a measurement. In the context of spatial analysis, resolution refers to the level of detail at which geographic data is represented. In other words, the resolution determines the smallest object that can be identified as a separate entity on a map or image
+
+  > **Spatial extent:** Geographical size and boundaries of the study area.
+
+  > **Temporal extent:** Duration of time covered by a process, or a study. It is defined by a specific time period.
+
+  > **Watershed:**

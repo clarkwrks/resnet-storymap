@@ -98,9 +98,9 @@
       
     
       
-    
-      
       <script src="../js/main_map.js"></script>
+      
+    
       
     
       
@@ -146,6 +146,12 @@
 
 	
 
+	
+
+	
+
+	
+
 
 
 
@@ -166,15 +172,15 @@
 		<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 				
-					<li class="nav-item dropdown nav-Introduction" section-name="Introduction">
+					<li class="nav-item dropdown nav-Navigation" section-name="Navigation">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Introduction
+							Navigation
 						</a>
 						<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
 							
 								
 									<li><a class="dropdown-item" href="javascript:window.scrollBy(0, $('section[data-scene=\'intro\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
-										Different scales, different questions
+										Introduction
 									</a></li>
 								
 								
@@ -244,6 +250,14 @@
 								
 
 							
+								
+									<li><a class="dropdown-item" href="javascript:window.scrollBy(0, $('section[data-scene=\'synthesis\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
+										Synthesis
+									</a></li>
+								
+								
+
+							
 						</ul>
 					</li>
 				
@@ -252,6 +266,22 @@
 							About
 						</a>
 						<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+							
+								
+									<li><a class="dropdown-item" href="javascript:window.scrollBy(0, $('section[data-scene=\'glossary\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
+										Glossary
+									</a></li>
+								
+								
+
+							
+								
+									<li><a class="dropdown-item" href="javascript:window.scrollBy(0, $('section[data-scene=\'references\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
+										References
+									</a></li>
+								
+								
+
 							
 								
 									<li><a class="dropdown-item" href="javascript:window.scrollBy(0, $('section[data-scene=\'who_we_are\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
@@ -299,7 +329,7 @@
             <h3>Current Status</h3>
             <p>This draft story map is under construction. We are sharing this draft to start a discussion about scaling and about how to best present our findings to a general audience. We welcome any suggestions, as we continue to develop this story map during and after the AGM. </p>
             
-            <p>Content that is still under development or planned is indicated by text in this style: <code>[Incomplete Feature]</code></p>
+            <p>Content that is still under development or planned is indicated by text in this style: <br><code>[Incomplete Feature]</code></p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-primary" data-bs-dismiss="modal">I Understand.</button>
@@ -438,7 +468,7 @@
   <div class = "card mx-auto">
         
         
-            <div class = "card-body"><h1 id="introduction">Introduction</h1>
+            <div class = "card-body"><h2 id="introduction">Introduction</h2>
 <!-- raw HTML omitted -->
 <h2 id="different-scales-are-most-meaningful-for-a-given-decision-or-research-question">Different scale(s) are most meaningful for a given decision or research question</h2>
 <!-- raw HTML omitted -->
@@ -453,25 +483,17 @@
 <p><img src="img/intro/terraincognita.JPG" alt="figure_name"><img src="img/intro/ants.JPG" alt="figure_name"><img src="img/intro/bird.JPG" alt="figure_name"></p>
 <p>*Created by Ágnes Vári. The idea behind this drawing is to start as a decision-maker, researcher, and/or explorer, and show how the view (scale) may change, in a fun way, before we dive into the scientific details. We will finish this sketch after the AGM. *</p>
 <!-- raw HTML omitted -->
-<h2 id="defining-terms">Defining terms</h2>
+<h3 id="defining-terms">Defining terms</h3>
 <!-- raw HTML omitted -->
 <p><code>[Placeholder text: We plan to hire an illustrator to create a visual defining the terms: ecosystem service, supply, demand, flow, benefit, etc. There will be one hexagon at a landscape scale and a second hexagon nested behind at a regional scale. We will also add a glossary section for readers to find more information on the terms used in this story map.]</code></p>
 <!-- raw HTML omitted -->
-<h2 id="changing-spatial-and-temporal-scales">Changing spatial and temporal scales</h2>
+<h3 id="changing-spatial-and-temporal-scales">Changing spatial and temporal scales</h3>
 <!-- raw HTML omitted -->
-<p>Often data is only available (or can only be collected) at one scale; however, we need information at a different scale to inform a decision or to understand an ecological process. In the figure below we visualize what it means to increase</p>
-<!-- raw HTML omitted -->
-<p>(a) spatial grain size,</p>
-<!-- raw HTML omitted -->
-<p>(b) spatial extent,</p>
-<!-- raw HTML omitted -->
-<p>(c) temporal resolution, and</p>
-<!-- raw HTML omitted -->
-<p>(d) time period.</p>
+<p>Often data is only available (or can only be collected) at one scale; however, we need information at a different scale to inform a decision or to understand an ecological process. In the figure below we visualize what it means to increase (a) spatial grain size, (b) spatial extent, (c) temporal resolution, and (d) time period.</p>
 <!-- raw HTML omitted -->
 <p><img src="img/intro/IncreasingGrainExtentFig_30Apr2023Part1.png" alt="figure_name"><img src="img/intro/IncreasingGrainExtentFig_30Apr2023Part2.png" alt="figure_name"></p>
 <!-- raw HTML omitted -->
-<h2 id="why-do-we-scale-up-or-down">Why do we scale up or down?</h2>
+<h3 id="why-do-we-scale-up-or-down">Why do we scale up or down?</h3>
 <!-- raw HTML omitted -->
 <p>We may scale up or down for many reasons, including these examples:</p>
 <ol>
@@ -732,7 +754,7 @@
 
 
 
-<section class='c2a_intro wide-over-bg '  data-scene="c2a_intro" data-background="../img/title-bg.jpg" lat="55" lng="-97" zoom="5" layers="google_satellite" init-js="">
+<section class='c2a_opps wide-over-bg '  data-scene="c2a_opps" data-background="../img/title-bg.jpg" lat="55" lng="-97" zoom="5" layers="google_satellite" init-js="">
   
   
   
@@ -740,12 +762,11 @@
         
         
             <div class = "card-body"><h2 id="challenge-why-does-spatial-resolution-matter">Challenge: Why does spatial resolution matter?</h2>
-<h3 id="case-study">Case study</h3>
-<p>In the figure on the top right, we show two major forest disturbance agents (panel a) and the results of a geo-spatial trend analysis (panel b to d) over a relatively small study area (26,000 ha) located along the northern boundary of Algonquin Park. The vegetation greenness of forests, as measured by the Normalized Difference Vegetation Index (NDVI), shows many trend breakpoints over an 18-year long period (2003-2020). Trend breakpoints refer to structural changes in the trend line of a measurement. Trend breakpoints can be positive or negative and can result from forest natural and anthropogenic disturbances.</p>
-<p>When using MODIS derived NDVI at a 250 m resolution (panel  b) we find 312 different trend breakpoints in the data. Most of these are negative breakpoints (orange color pixels), meaning that some forest areas have experienced important decreases in greenness at some particular point in time.  However, there are also some forest areas that have seen significant increases (turquoise color pixels) in greenness at a particular point in time. When a 500 m resolution NDVI time series is used instead (panel c), the number of breakpoints drops to 71. Similarly, when a 1 km resolution NDVI time series is used (panel d), the number of breaks further decreases to 17.</p>
-<p>Interestingly, not only does the number (and direction/sign) of forest pixels with trend breakpoints change depending on the resolution of the data but also the pixel locations over the study area.  Some of these trend breakpoint pixels spatially and temporally overlap with forest harvest and fire events. The largest overlaps occur when using the finest spatial resolution (250 m) data. Thus, the spatial resolution of a dataset may influence the results obtained and in turn, the management decisions that may arise from them.</p>
+<h3 id="best-practices-and-opportunities">Best practices and opportunities</h3>
+<p>In cases where different data resolutions are available, the recommendation is to use data at the finest spatial resolution to ensure that potentially relevant ecological patterns are not missed.</p>
+<p>Even though, fine scale data usually leads to improved accuracy of models (Fig. a &amp; b), there are several constraints such as data availability, data storage, computing power, time, and financial resources (Fig. c). Finer grain size (i.e., smaller pixel size) usually leads to improved accuracy but some processes actually plateau at a certain resolution and there is no need to go finer. This is often used as a baseline for future studies. Higher resolution often comes with higher cost and time and hence, it is important to identify the most optimal point for a given study based on resources available.</p>
 <!-- raw HTML omitted -->
-<p><img src="img/c2a/ndvi_breakpts_direction_v4.png" alt="figure_name"></p>
+<p><img src="img/c2a/resnet_upscaling_grain_size2.png" alt="figure_name"></p>
 </div>
          
         </div>
@@ -763,7 +784,7 @@
 
 
 
-<section class='c2a_opps wide-over-bg '  data-scene="c2a_opps" data-background="../img/title-bg.jpg" lat="55" lng="-97" zoom="5" layers="google_satellite" init-js="">
+<section class='c2a_intro wide-over-bg '  data-scene="c2a_intro" data-background="../img/title-bg.jpg" lat="55" lng="-97" zoom="5" layers="google_satellite" init-js="">
   
   
   
@@ -771,11 +792,12 @@
         
         
             <div class = "card-body"><h2 id="challenge-why-does-spatial-resolution-matter">Challenge: Why does spatial resolution matter?</h2>
-<h3 id="best-practices-and-opportunities">Best practices and opportunities</h3>
-<p>In cases where different data resolutions are available, the recommendation is to use data at the finest spatial resolution to ensure that potentially relevant ecological patterns are not missed.</p>
-<p>Even though, fine scale data usually leads to improved accuracy of models (Fig. a &amp; b), there are several constraints such as data availability, data storage, computing power, time, and financial resources (Fig. c). Finer grain size (i.e., smaller pixel size) usually leads to improved accuracy but some processes actually plateau at a certain resolution and there is no need to go finer. This is often used as a baseline for future studies. Higher resolution often comes with higher cost and time and hence, it is important to identify the most optimal point for a given study based on resources available.</p>
+<h3 id="case-study">Case study</h3>
+<p>In the figure on the top right, we show two major forest disturbance agents (panel a) and the results of a geo-spatial trend analysis (panel b to d) over a relatively small study area (26,000 ha) located along the northern boundary of Algonquin Park. The vegetation greenness of forests, as measured by the Normalized Difference Vegetation Index (NDVI), shows many trend breakpoints over an 18-year long period (2003-2020). Trend breakpoints refer to structural changes in the trend line of a measurement. Trend breakpoints can be positive or negative and can result from forest natural and anthropogenic disturbances.</p>
+<p>When using MODIS derived NDVI at a 250 m resolution (panel  b) we find 312 different trend breakpoints in the data. Most of these are negative breakpoints (orange color pixels), meaning that some forest areas have experienced important decreases in greenness at some particular point in time.  However, there are also some forest areas that have seen significant increases (turquoise color pixels) in greenness at a particular point in time. When a 500 m resolution NDVI time series is used instead (panel c), the number of breakpoints drops to 71. Similarly, when a 1 km resolution NDVI time series is used (panel d), the number of breaks further decreases to 17.</p>
+<p>Interestingly, not only does the number (and direction/sign) of forest pixels with trend breakpoints change depending on the resolution of the data but also the pixel locations over the study area.  Some of these trend breakpoint pixels spatially and temporally overlap with forest harvest and fire events. The largest overlaps occur when using the finest spatial resolution (250 m) data. Thus, the spatial resolution of a dataset may influence the results obtained and in turn, the management decisions that may arise from them.</p>
 <!-- raw HTML omitted -->
-<p><img src="img/c2a/resnet_upscaling_grain_size2.png" alt="figure_name"></p>
+<p><img src="img/c2a/ndvi_breakpts_direction_v4.png" alt="figure_name"></p>
 </div>
          
         </div>
@@ -1320,6 +1342,187 @@ between scales).</p>
 
 
 
+<section class='synthesis wide-over-bg '  data-scene="synthesis" data-background="../img/title-bg.jpg" lat="55" lng="-97" zoom="5" layers="google_satellite" init-js="">
+  
+
+  <div class="section-splash justify-content-center text-center">
+  
+  <h1>Synthesis</h1>
+  
+
+  
+
+  
+  <p><code>[under construction  note]</code></p>
+  
+  </div>
+  
+  
+  <div class = "card mx-auto">
+        
+        
+            <div class = "card-body"><h2 id="synthesis-of-the-spatial-and-temporal-extents-and-resolutions-of-our-different-studies">Synthesis of the spatial and temporal extents and resolutions of our different studies</h2>
+<p>We would like to synthesize the scales at which we work, inclusive of all ResNet related research projects. If you would like to be represented in our synthesis, please fill out our survey (1 response per research project).</p>
+<p>Survey link: <a href="https://bit.ly/hqp-scale-survey">https://bit.ly/hqp-scale-survey</a></p>
+<p>The purpose of this survey is to gain a better understanding of the spatial extent, spatial grain size, temporal resolution, and time period of research taking place within our network.</p>
+<p>Your responses will be featured on our story map. For example, we hope to create a few scatter graphs showing the spatial and temporal scales at which we work (see example below). We will create a unique icon for each ResNet research study, and as the reader hovers over the icon, your name, title of your research project, and link for more information will be visible.</p>
+<p><img src="Content/Challenges/Synthesis/TradeoffsExtentsRes_14Apr2023.png" alt="figure_name"></p>
+<p><em>[These are placeholder images, we would like to make them interactive with additional information as the reader hovers over each icon.]</em></p>
+<h2 id="a-landscape-of-scaling-challenges">A landscape of scaling challenges</h2>
+<p><em>[This is placeholder text for a figure that synthesizes some of the challenges we discussed in the story map. We will hire an illustrator after the AGM.]</em></p>
+<p><em>[We will also summarize a few key findings, which may include the following]</em></p>
+<p>*Most of us study a specific aspect of this landscape. Only by talking more together can we better see how our studies are small pieces that fit together into a bigger picture.</p>
+<p>*We found ourselves repeating one best practice over and over again: the need for modelers to talk more with field ecologists and local stakeholders.</p>
+</div>
+         
+        </div>
+        
+    <div></div>
+    
+</section>
+
+    
+    
+
+    
+    
+        
+
+
+
+<section class='glossary wide-over-bg '  data-scene="glossary" data-background="../img/title-bg.jpg" lat="55" lng="-97" zoom="5" layers="google_satellite" init-js="">
+  
+
+  <div class="section-splash justify-content-center text-center">
+  
+  <h1>Glossary</h1>
+  
+
+  
+
+  
+  <p><code>[under construction  note]</code></p>
+  
+  </div>
+  
+  
+  <div class = "card mx-auto">
+        
+        
+            <div class = "card-body"><h2 id="glossary-of-terms-and-definitions">Glossary of terms and definitions</h2>
+<!-- raw HTML omitted -->
+<p><code>[This section is under construction. References are going to be included in a later stage. Please feel free to suggest any extra definitions and/or terms.]</code></p>
+<!-- raw HTML omitted -->
+<p>List of terms we will likely need to define and simple definitions</p>
+<blockquote>
+<p><strong>Ecosystem Service (ES):</strong> there are many similar, complementary and even contested definitions of ES. Ecosystem services are sometimes broadly defined as the benefits people obtain from nature [1], and more specific as the all the biophysical and social conditions and processes by which people obtain direct or indirect benefits from ecosystems [2, 3]. As a controversial concept, many frameworks have attempted to improve this definition to make it more clear and inclusive [4,5,6].</p>
+</blockquote>
+<blockquote>
+<p><strong>Ecosystem services supply, demand and flow:</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>Extent:</strong> see spatial and temporal extent definitions below.</p>
+</blockquote>
+<blockquote>
+<p><strong>Grain:</strong> Grain refers to the smallest or finest unit of measurement  in a given data set.</p>
+</blockquote>
+<blockquote>
+<p><strong>Indicators:</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>Landscape Models:</strong> A model is an abstract representation of a system or a process. When describing or analyzing an ecological process, it is almost impossible to account for  all the variables, interactions, feedback loops, inter-dependencies, etc. among ecosystem components, given the limited basic information available for analyses and processing capacities of computers [6,7].</p>
+</blockquote>
+<blockquote>
+<p><strong>Trade-offs:</strong> Trade-offs occur when the provision of one ES is reduced as a consequence of the provision or use of another ES. For example, carbon storage and sequestration is in trade-offs with timber extraction.</p>
+</blockquote>
+<blockquote>
+<p><strong>Pixel:</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>Patch:</strong> A region, a portion of surface that differs from its surroundings (e.g a patch of forest differs from a patch of agricultural fields). From a computer modelling perspective, a patch is a contiguous group of cells with the same class or category.</p>
+</blockquote>
+<blockquote>
+<p><strong>Resolution:</strong> Is the precision of a measurement. In the context of spatial analysis, resolution refers to the level of detail at which geographic data is represented. In other words, the resolution determines the smallest object that can be identified as a separate entity on a map or image</p>
+</blockquote>
+<blockquote>
+<p><strong>Spatial extent:</strong> Geographical size and boundaries of the study area.</p>
+</blockquote>
+<blockquote>
+<p><strong>Temporal extent:</strong> Duration of time covered by a process, or a study. It is defined by a specific time period.</p>
+</blockquote>
+<blockquote>
+<p><strong>Watershed:</strong></p>
+</blockquote>
+</div>
+         
+        </div>
+        
+    <div></div>
+    
+</section>
+
+    
+    
+
+    
+    
+        
+
+
+
+<section class='references wide-over-bg '  data-scene="references" data-background="../img/title-bg.jpg" lat="55" lng="-97" zoom="5" layers="google_satellite" init-js="">
+  
+  
+  
+  <div class = "card mx-auto">
+        
+        
+            <div class = "card-body"><h2 id="references">References:</h2>
+<p><em>[This section is under construction. We will standardize and alphabetize at a later time. Also we are still collecting references from all sections, as some are still under construction]</em></p>
+<blockquote>
+<p>Brimicombe, A. (2010). GIS, Environmental Modeling and Engineering. CRC Press.</p>
+</blockquote>
+<blockquote>
+<p>Hirsh-Pearson, K., Johnson, C. J., Schuster, R., Wheate, R. D., Venter, O., &amp; Hirsh, K. (2022). Canada’s human footprint reveals large intact areas juxtaposed against areas under immense anthropogenic pressure. Https://Doi.Org/10.1139/Facets-2021-0063, 7, 398–419. <a href="https://doi.org/10.1139/FACETS-2021-0063">https://doi.org/10.1139/FACETS-2021-0063</a></p>
+</blockquote>
+<blockquote>
+<p>Oreskes, N., Shrader-Frechette, K., &amp; Belitz, K. (1994). Verification, validation, and confirmation of numerical models in the earth sciences. Science, 263(5147), 641–646. <a href="https://doi.org/10.1126/science.263.5147.641">https://doi.org/10.1126/science.263.5147.641</a></p>
+</blockquote>
+<blockquote>
+<p>Williams, B. A., Venter, O., Allan, J. R., Atkinson, S. C., Rehbein, J. A., Ward, M., Di Marco, M., Grantham, H. S., Ervin, J., Goetz, S. J., Hansen, A. J., Jantz, P., Pillay, R., Rodríguez-Buriticá, S., Supples, C., Virnig, A. L. S., &amp; Watson, J. E. M. (2020). Change in Terrestrial Human Footprint Drives Continued Loss of Intact Ecosystems. One Earth, 3(3), 371–382. <a href="https://doi.org/10.1016/j.oneear.2020.08.009">https://doi.org/10.1016/j.oneear.2020.08.009</a></p>
+</blockquote>
+<blockquote>
+<p>Woolmer, G., Trombulak, S. C., Ray, J. C., Doran, P. J., Anderson, M. G., Baldwin, R. F., Morgan, A., &amp; Sanderson, E. W. (2008). Rescaling the Human Footprint: A tool for conservation planning at an ecoregional scale. Landscape and Urban Planning, 87(1), 42–53. <a href="https://doi.org/10.1016/j.landurbplan.2008.04.005">https://doi.org/10.1016/j.landurbplan.2008.04.005</a></p>
+</blockquote>
+<blockquote>
+<p>Beaudoin A, Bernier PY, Villemaire P, Guindon L, and Guo XJ. 2018. Tracking forest attributes across Canada between 2001 and 2011 using a k nearest neighbors mapping approach applied to MODIS imagery. Canadian Journal of Forest Research, 48: 85–93. <a href="https://doi.org/10.1139/cjfr-2017-0184">https://doi.org/10.1139/cjfr-2017-0184</a></p>
+</blockquote>
+<blockquote>
+<p>Environment and Climate Change Canada. 2021. National Inventory Report 1990–2019: Greenhouse Gas Sources and Sinks in Canada.</p>
+</blockquote>
+<blockquote>
+<p>Natural Resources Canada. 2022. Forest carbon emissions and removals. Net carbon emissions in Canada’s managed forests: All areas, 1990–2019. Retrieved from <a href="https://www.nrcan.gc.ca/our-natural-resources/forests/state-canadas-forests-report/disturbance-canadas-forests/16502">https://www.nrcan.gc.ca/our-natural-resources/forests/state-canadas-forests-report/disturbance-canadas-forests/16502</a> on 22 July 2022.</p>
+</blockquote>
+<blockquote>
+<p>Natural Resources Canada. 2021. Canada’s forests provide solutions to a changing world. The state of Canada’s forests. Annual report 2021.</p>
+</blockquote>
+</div>
+         
+        </div>
+        
+    <div></div>
+    
+</section>
+
+    
+    
+
+    
+    
+        
+
+
+
 <section class='who_we_are inset-width '  data-scene="who_we_are" data-background="../img/title-bg.jpg" lat="45.6" lng="-73.2" zoom="10" layers="google_satellite" init-js="">
         <div class = "card mx-auto">
         
@@ -1388,7 +1591,6 @@ between scales).</p>
 </li>
 <li>Admin
 <ul>
-<li>Consistently styled banner for under construction, AGM only</li>
 <li>Within markdown+yaml, inline css classes for img sizing etc <a href="https://roneo.org/en/hugo-custom-css-classes-images-markdown-attributes/">https://roneo.org/en/hugo-custom-css-classes-images-markdown-attributes/</a>
 <ul>
 <li>inline class assignment works <code>{.custom-css-class}|{.myclass class=&quot;custom-css-class1 custom-class2&quot;}</code>

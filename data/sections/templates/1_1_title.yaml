@@ -8,7 +8,7 @@ background_media : "../img/title-bg.jpg"
 # class: "splash-tint"
 # visible: true
 layout: "splash_md"
-menu_group: "Introduction"
+menu_group: "Navigation"
 menu_name: "Scaling of Ecosystem Services"
 # main_title: "Scaling of Ecosystem Services"
 # main_description: "NSERC ResNet HQP Scaling Group"

@@ -1,0 +1,40 @@
+weight: 5.1
+name: "references"
+layers: "google_satellite"
+zoom: 5
+lat: 55.0
+lng: -97.0
+background_media : "../img/title-bg.jpg" 
+# background_media : "../img/montreal.jpeg" 
+visible: true
+layout: "wide_over_bg"
+menu_group: "About"
+menu_name: "References"
+# splash: true
+# title: "Glossary"
+# description: "`[under construction  note]`"
+# description: |  
+#   ![ResNet Logo](img/resnet-logo-trans.png)  
+#   ## NSERC ResNet HQP Scaling Group
+
+body_md: | 
+  ## References:
+  *[This section is under construction. We will standardize and alphabetize at a later time. Also we are still collecting references from all sections, as some are still under construction]*
+
+  > Brimicombe, A. (2010). GIS, Environmental Modeling and Engineering. CRC Press.
+
+  > Hirsh-Pearson, K., Johnson, C. J., Schuster, R., Wheate, R. D., Venter, O., & Hirsh, K. (2022). Canada’s human footprint reveals large intact areas juxtaposed against areas under immense anthropogenic pressure. Https://Doi.Org/10.1139/Facets-2021-0063, 7, 398–419. https://doi.org/10.1139/FACETS-2021-0063
+
+  > Oreskes, N., Shrader-Frechette, K., & Belitz, K. (1994). Verification, validation, and confirmation of numerical models in the earth sciences. Science, 263(5147), 641–646. https://doi.org/10.1126/science.263.5147.641
+
+  > Williams, B. A., Venter, O., Allan, J. R., Atkinson, S. C., Rehbein, J. A., Ward, M., Di Marco, M., Grantham, H. S., Ervin, J., Goetz, S. J., Hansen, A. J., Jantz, P., Pillay, R., Rodríguez-Buriticá, S., Supples, C., Virnig, A. L. S., & Watson, J. E. M. (2020). Change in Terrestrial Human Footprint Drives Continued Loss of Intact Ecosystems. One Earth, 3(3), 371–382. https://doi.org/10.1016/j.oneear.2020.08.009
+
+  > Woolmer, G., Trombulak, S. C., Ray, J. C., Doran, P. J., Anderson, M. G., Baldwin, R. F., Morgan, A., & Sanderson, E. W. (2008). Rescaling the Human Footprint: A tool for conservation planning at an ecoregional scale. Landscape and Urban Planning, 87(1), 42–53. https://doi.org/10.1016/j.landurbplan.2008.04.005
+
+  > Beaudoin A, Bernier PY, Villemaire P, Guindon L, and Guo XJ. 2018. Tracking forest attributes across Canada between 2001 and 2011 using a k nearest neighbors mapping approach applied to MODIS imagery. Canadian Journal of Forest Research, 48: 85–93. https://doi.org/10.1139/cjfr-2017-0184
+
+  >Environment and Climate Change Canada. 2021. National Inventory Report 1990–2019: Greenhouse Gas Sources and Sinks in Canada.
+
+  >Natural Resources Canada. 2022. Forest carbon emissions and removals. Net carbon emissions in Canada’s managed forests: All areas, 1990–2019. Retrieved from https://www.nrcan.gc.ca/our-natural-resources/forests/state-canadas-forests-report/disturbance-canadas-forests/16502 on 22 July 2022.
+
+  >Natural Resources Canada. 2021. Canada’s forests provide solutions to a changing world. The state of Canada’s forests. Annual report 2021.

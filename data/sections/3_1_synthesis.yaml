@@ -1,0 +1,44 @@
+weight: 3.1
+name: "synthesis"
+layers: "google_satellite"
+zoom: 5
+lat: 55.0
+lng: -97.0
+background_media : "../img/title-bg.jpg" 
+# background_media : "../img/montreal.jpeg" 
+visible: true
+layout: "wide_over_bg"
+menu_group: "Navigation"
+menu_name: "Synthesis"
+splash: true
+title: "Synthesis"
+description: "`[under construction  note]`"
+# description: |  
+#   ![ResNet Logo](img/resnet-logo-trans.png)  
+#   ## NSERC ResNet HQP Scaling Group
+
+body_md: | 
+  
+  ## Synthesis of the spatial and temporal extents and resolutions of our different studies
+
+  We would like to synthesize the scales at which we work, inclusive of all ResNet related research projects. If you would like to be represented in our synthesis, please fill out our survey (1 response per research project).
+
+  Survey link: https://bit.ly/hqp-scale-survey
+
+  The purpose of this survey is to gain a better understanding of the spatial extent, spatial grain size, temporal resolution, and time period of research taking place within our network.
+
+  Your responses will be featured on our story map. For example, we hope to create a few scatter graphs showing the spatial and temporal scales at which we work (see example below). We will create a unique icon for each ResNet research study, and as the reader hovers over the icon, your name, title of your research project, and link for more information will be visible.
+
+  ![figure_name](Content/Challenges/Synthesis/TradeoffsExtentsRes_14Apr2023.png)
+
+  *[These are placeholder images, we would like to make them interactive with additional information as the reader hovers over each icon.]*
+
+  ## A landscape of scaling challenges
+
+  *[This is placeholder text for a figure that synthesizes some of the challenges we discussed in the story map. We will hire an illustrator after the AGM.]*
+
+  *[We will also summarize a few key findings, which may include the following]*  
+
+  *Most of us study a specific aspect of this landscape. Only by talking more together can we better see how our studies are small pieces that fit together into a bigger picture.  
+
+  *We found ourselves repeating one best practice over and over again: the need for modelers to talk more with field ecologists and local stakeholders.

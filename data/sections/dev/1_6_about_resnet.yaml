@@ -7,7 +7,7 @@ layers: "google_satellite"
 background_media : "../img/title-bg.jpg" 
 visible: true
 layout: "full_width_inset"
-menu_group: "Introduction"
+menu_group: "Navigation"
 menu_name: "Shared challenges"
 body_md: | 
   ## As a part of ResNet we research these scaling topics

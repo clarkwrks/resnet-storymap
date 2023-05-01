@@ -1,4 +1,4 @@
-weight: 4.2
+weight: 2.242
 name: "c2d_case"
 layers: "google_satellite"
 zoom: 5
@@ -8,7 +8,7 @@ background_media : "../img/title-bg.jpg"
 # background_media : "../img/montreal.jpeg" 
 visible: true
 layout: "wide_over_bg"
-# menu_group: "Introduction"
+# menu_group: "Navigation"
 # menu_name: "How to consider non-linearities?"
 # splash: true
 # title: "Challenge: How to consider non-linearities?"

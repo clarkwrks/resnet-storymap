@@ -1,4 +1,4 @@
-weight: 5.1
+weight: 2.31
 name: "c3_intro"
 layers: "google_satellite"
 zoom: 5
@@ -8,7 +8,7 @@ background_media : "../img/title-bg.jpg"
 # background_media : "../img/montreal.jpeg" 
 visible: true
 layout: "wide_over_bg"
-menu_group: "Introduction"
+menu_group: "Navigation"
 menu_name: "Spatial, temporal, & scale mismatches"
 splash: true
 title: "Challenge: Spatial, temporal, & scale mismatches"
