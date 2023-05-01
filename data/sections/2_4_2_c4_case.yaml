@@ -1,0 +1,32 @@
+weight: 2.42
+name: "c4_case"
+layers: "google_satellite"
+zoom: 5
+lat: 55.0
+lng: -97.0
+background_media : "../img/title-bg.jpg" 
+# background_media : "../img/montreal.jpeg" 
+visible: true
+layout: "wide_over_bg"
+# menu_group: "Navigation"
+# menu_name: "The future is not like the past"
+# splash: true
+# title: "Challenge: The future is not like the past"
+# description: "`[under construction  note]`"
+# description: |  
+#   ![ResNet Logo](img/resnet-logo-trans.png)  
+#   ## NSERC ResNet HQP Scaling Group
+
+body_md: | 
+  ## Challenge: The future is not like the past
+
+  ### Case study
+  The following case study illustrates some of the challenges with scaling up in time, and the differences between scaling up information from the past and predictions for the future.
+
+  People obtain ecosystem services when they harvest wild plants (such as berries or mushrooms) from forested land. Such harvests go back hundreds of years in Canada, first by Indigenous peoples, then by settlers and now by a mix of different users (Kumar et al., 2019; MacKinnon et al., 2015; Turner, 2020). With the adoption and spread of industrial agriculture, and the reduction in forested land, the relative importance of such food sources in Canadian diets has dropped.
+
+  Here, we create a “snapshot” of the present – to understand the ecosystem services from harvesting wild plants found in Canada’s forests. For this case study, we have focussed just on the Montérégie region of Quebec, but have considered the methods used to scale up in time – either back into the past or forward into the future. [Note: this case study excludes trees harvested for timber or fuel wood, and maple syrup.]
+
+  This region has evolved dramatically over the last five centuries, with changes in control of land from Indigenous people to settlers, growth in human population, shifts in land use, forest clearing, establishment of increasingly industrialized agriculture, urbanization and development of an extensive road network.
+
+  '[To visualize these changes, we will show three images of forest cover for the Monteregie: historical (pre-European), recent past, and current. Potentially with a sliding control so viewers can switch back and forth between them.]'

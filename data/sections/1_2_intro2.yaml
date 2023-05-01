@@ -8,6 +8,7 @@ lng: -97.0
 # background_media : "../img/montreal.jpeg" 
 visible: true
 layout: "wide_over_bg"
+class: "left-third"
 # menu_group: "Navigation"
 # menu_name: "Different scales, different questions"
 # splash: true

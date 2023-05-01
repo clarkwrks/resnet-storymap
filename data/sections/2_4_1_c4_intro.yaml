@@ -6,11 +6,11 @@ lat: 55.0
 lng: -97.0
 background_media : "../img/title-bg.jpg" 
 # background_media : "../img/montreal.jpeg" 
-# visible: true
+visible: true
 layout: "wide_over_bg"
-# menu_group: "Navigation"
-# menu_name: "The future is not like the past"
-# splash: true
+menu_group: "Navigation"
+menu_name: "The future is not like the past"
+splash: true
 title: "Challenge: The future is not like the past"
 description: "`[under construction  note]`"
 # description: |  
@@ -18,14 +18,12 @@ description: "`[under construction  note]`"
 #   ## NSERC ResNet HQP Scaling Group
 
 body_md: | 
-  ## Introduction
-  
-  When we study time scales in ecosystem services, we need different tools and approaches for studying past events and processes from those that will occur in the future. And the further we go into the past or into the future, the greater these differences are.
+  ### Introduction  
 
-  *[This section is under construction. Images we may add, include the following:]*
+  When researchers study ecosystem services they are often interested in how land uses have changed in the past and how they might change in the future, and as a result how the services provided shift in location and amount. More generally, just as researchers choose the spatial extent and grain for their studies, they also choose the temporal extent and grain, asking questions such as: How far back in time should I go? Do I only care about annual changes, or do I want to know about changes within years?
 
-  1. Graphic showing the history of satellite remote sensing with different sensors and their spatial resolution - possibly from David Ferguson?
+  Some ResNet projects have studied historical changes over several decades or centuries (e.g., Venter et al., 2016; Sherren et al., 2021), and in one case back five thousand years (Hillis et al., 2022). Similarly, some projects are focusing on possible future changes in ecosystem services resulting from human actions. For example, one research team is studying restoration of vacant lots in Quebec City (e.g., Rioux et al., 2019; [XXX get suggested reference from Poliana XXX]). Another group is studying the possibility of agriculture in the Northwest Territories 40-60 years in the future (Krishna KC et al., 2021; Lemay et al., 2021).
 
-  2. Graphic of past CO2 concentration showing seasonal variation to present and with projection into the future with increasing uncertainty (see https://ourworldindata.org/future-emissions)
+  The tools and approaches for assessing ecosystem services in the past are not the same as those for projecting into the future – and the methods for studying the recent past or the near future are not the same as those for understanding times more distant from the present. For example, global carbon emissions are well known in the recent past, but the future trajectory is very uncertain and strongly depends on human actions. Especially over large areas, data from satellite sensors has been essential to understanding changes over time, yet accessible satellite data only extend back to 1972 (ref NASA). Before that, other data sources such as aerial photos and historical records, and methods, such as participatory GIS methods with knowledge holders (e.g., Brown and Fagerholm, 2015), must be used. And when studying the social aspects of ecosystem services, for example through interviews, we can only obtain input from people who are still alive.
 
-  3. Cite Dylan's work on sorting out past Indigenous diets on the west coast?
+  This creates significant challenges when scaling up in time, that is, moving from a short duration study to a longer time period, and when combining assessments of past and future services.

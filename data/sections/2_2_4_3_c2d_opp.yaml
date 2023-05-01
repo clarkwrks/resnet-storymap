@@ -16,6 +16,7 @@ layout: "wide_over_bg"
 # description: |  
 #   ![ResNet Logo](img/resnet-logo-trans.png)  
 #   ## NSERC ResNet HQP Scaling Group
+class: "clearfix"
 left_html: "https://data.nsercresnet.ca/maps/163/embed"
 left_html_width: "600"
 left_html_height: "600"

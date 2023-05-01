@@ -1,0 +1,35 @@
+weight: 2.13
+name: "c1_opp"
+layers: "google_satellite"
+# zoom: 10
+# lat: 45.6
+# lng: -73.2
+background_media : "../img/title-bg.jpg" 
+visible: true
+layout: "wide_over_bg"
+# menu_group: "Navigation"
+# menu_name: "Field work"
+# splash: true
+# title: "Challenge: Field work"
+# description: "`[under construction  note]`"
+# description: |  
+#   ![ResNet Logo](img/resnet-logo-trans.png)  
+#   ## NSERC ResNet HQP Scaling Group
+
+body_md: | 
+  ## Challenge: Why field sampling matters
+
+  ### Best practices and opportunities:
+
+  `[This section is under construction and will be updated after the AGM; however, we provide notes of our current thoughts]`
+
+  Field work requires
+  - Funding
+  - A network of researchers sharing instruments
+  - Selecting an appropriate sampling scheme to support scaling
+  - Careful planning, to avoid unexpected issues and get the data as efficiently as possible
+  - Capture of as much variation as you can
+  - Collaboration of modelers and field ecologists - help identify the type of data you need, before you go and collect it
+  - Standardization of methodologies (include a graphic showing how methods may differ and hinder comparisons across time, space, and scales)
+  - Missing data issue
+  - Best practices are already known for many fields (*e.g.*, [Best practice for upscaling soil organic carbon stocks in salt marshes](https://www.sciencedirect.com/science/article/pii/S0016706122004955)

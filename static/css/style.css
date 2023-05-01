@@ -332,7 +332,14 @@ section.viewing.left-content {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 25vh;
+  /* padding-bottom: 25vh; */
+}
+
+.wide-over-bg .card{
+    max-width: min(90vw, 1000px);
+}
+.wide-over-bg .card img{
+    max-width: 100%;
 }
 
 
@@ -371,13 +378,6 @@ section{
   background-repeat: no-repeat;
   background-size: cover;
 } */
-
-.wide-over-bg .card{
-    max-width: min(90vw, 1000px);
-}
-.wide-over-bg .card img{
-    max-width: 100%;
-}
 
 
 
@@ -436,3 +436,9 @@ section{
     color: black;
     text-shadow: unset;
   }
+
+  .wide-over-bg.left-third{
+    width:30vw;
+    margin-left:5vw;
+  }
+

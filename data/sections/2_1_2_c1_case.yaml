@@ -1,0 +1,25 @@
+weight: 2.12
+name: "c1_case"
+layers: "google_satellite"
+# zoom: 10
+# lat: 45.6
+# lng: -73.2
+background_media : "../img/title-bg.jpg" 
+visible: true
+layout: "wide_over_bg"
+# menu_group: "Navigation"
+# menu_name: "Field work"
+# splash: true
+# title: "Challenge: Field work"
+# description: "`[under construction  note]`"
+# description: |  
+#   ![ResNet Logo](img/resnet-logo-trans.png)  
+#   ## NSERC ResNet HQP Scaling Group
+
+body_md: | 
+  
+  ## Challenge: Why field sampling matters
+
+  ### Case study
+
+  `[This section is under construction. However, we will show the origin story of where data comes from. This section will include pictures of field work and a discussion of the lengthy process to collect and process a single soil core]`

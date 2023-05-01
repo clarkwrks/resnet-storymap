@@ -1,0 +1,38 @@
+weight: 2.11
+name: "c1_intro"
+layers: "google_satellite"
+# zoom: 10
+# lat: 45.6
+# lng: -73.2
+background_media : "../img/title-bg.jpg" 
+visible: true
+layout: "wide_over_bg"
+menu_group: "Navigation"
+menu_name: "Field work is critical"
+splash: true
+title: "Challenge: Field work is critical"
+description: "`[under construction  note]`"
+# description: |  
+#   ![ResNet Logo](img/resnet-logo-trans.png)  
+#   ## NSERC ResNet HQP Scaling Group
+
+body_md: | 
+  ### Introduction
+
+  `[This section is under construction and will be updated after the AGM; however, we provide notes of our current thoughts]`
+
+  There is a trade-off between the need for field data but the time and funding needed to collect and process field samples. When collecting samples in the field it is important to consider...
+
+  - Heterogeneity of the environment
+  - Background research needed to choose a proper sampling scheme
+  - Balancing within site and between site variability
+  - Ideal sampling vs what's actually feasible (*e.g.*, resources, time, costs, administrative)
+  - Cost - collection and analysis (lab work)
+  - Unexpected situations (*e.g.*, equipment breaking) - need to be flexible (best laid plans, often fail?)
+  - Explain what those N/As are about (missing data)
+  - Physical work / bugs
+  - Environmental/ecological challenges (bears, flooding, fire, tides, navigation)
+  - Different methodologies used (how to scale up when the data collected uses different methods - Apples to Oranges?)
+
+  There are many carbon maps for Canada (*e.g.*, [WWF](https://wwf.ca/carbon-stocks/)); however, it's important to understand where these carbon stock numbers come from.
+  

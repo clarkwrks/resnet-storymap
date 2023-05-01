@@ -1,0 +1,31 @@
+weight: 2.43
+name: "v4_opp"
+layers: "google_satellite"
+zoom: 5
+lat: 55.0
+lng: -97.0
+background_media : "../img/title-bg.jpg" 
+# background_media : "../img/montreal.jpeg" 
+visible: true
+layout: "wide_over_bg"
+# menu_group: "Navigation"
+# menu_name: "The future is not like the past"
+# splash: true
+# title: "Challenge: The future is not like the past"
+# description: "`[under construction  note]`"
+# description: |  
+#   ![ResNet Logo](img/resnet-logo-trans.png)  
+#   ## NSERC ResNet HQP Scaling Group
+
+body_md: | 
+  ## Challenge: The future is not like the past
+
+  ### Best practices and opportunities
+
+  This case study highlights the potential role for several best practices. These include:
+
+  *	Finding ways to combine information from multiple sources. This will be particularly important when scaling up to longer durations, when a greater variety of data sources and methods need to be used. For example, unconventional sources (e.g. historical photographs, old herbarium records) may be helpful. Bayesian methods can help assign weights to different sources, while retaining estimates of the uncertainty and flexibility in terms of the evolution of functional relationships.  
+
+  *	Using mapping techniques, such as participatory GIS methods, to identify where current beneficiaries are in relation to the locations and services they value.  
+
+  *	Recognizing that the future is not simply a linear extension from the past. This might mean deliberately including decision makers and beneficiaries of ecosystem services in research related to the future, through techniques such as scenarios. It might also include modelling human learning and adaptive management as part of predictions. Some researchers have recommended considering longer time extents than the focus of current decisions (e.g., Lyon et al., 2022).
