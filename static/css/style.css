@@ -322,7 +322,7 @@ section.viewing.left-content {
     width: 100vw;
     margin-left:0;
       /* The image used */
-  background-image: url("../img/title-bg.jpg");
+  /* background-image: url("../img/title-bg.jpg"); */
 
   /* Set a specific height */
   min-height: 500px; 
@@ -373,7 +373,7 @@ section{
 } */
 
 .wide-over-bg .card{
-    max-width: min(75vw, 1000px);
+    max-width: min(90vw, 1000px);
 }
 .wide-over-bg .card img{
     max-width: 100%;
