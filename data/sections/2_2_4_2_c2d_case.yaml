@@ -1,6 +1,6 @@
 weight: 2.242
 name: "c2d_case"
-layers: "google_satellite"
+layers: "c2d_watershed"
 zoom: 5
 lat: 55.0
 lng: -97.0
@@ -16,9 +16,10 @@ layout: "wide_over_bg"
 # description: |  
 #   ![ResNet Logo](img/resnet-logo-trans.png)  
 #   ## NSERC ResNet HQP Scaling Group
-left_html: "img/c2d/c2d_plotly.html"
-left_html_width: "100%"
-left_html_height: "400"
+body_html: "img/c2d/c2d_plotly.html"
+body_html_width: "100%"
+body_html_height: "400"
+init_js: "Main_map.init();"
 
 body_md: | 
   ## Challenge: How does the monitoring time period influence outcomes?

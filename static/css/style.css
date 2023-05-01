@@ -332,7 +332,8 @@ section.viewing.left-content {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* padding-bottom: 25vh; */
+  padding-bottom: 10vh;
+  padding-top: 10vh;
 }
 
 .wide-over-bg .card{

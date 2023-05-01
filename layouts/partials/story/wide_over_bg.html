@@ -35,13 +35,19 @@
         {{ end }}
         {{ if $section.body_md }}
             <div class = "card-body">{{ $section.body_md  | markdownify}}</div>
-         {{ end }}
-        </div>
-        {{ if $section.left_html }}
+            {{ if $section.body_html }}
 
-<iframe src="{{ $section.left_html }}" width="{{ $section.left_html_width }}" height="{{ $section.left_html_height }}" style="border:none;" class="{{ $section.left_html_class}}"></iframe>
-            {{/*  {{- partial $section.left_html . -}}  */}}
+            <iframe src="{{ $section.body_html }}" width="{{ $section.body_html_width }}" height="{{ $section.body_html_height }}" style="border:none;" class="{{ $section.body_html_class}}"></iframe>
+                        {{/*  {{- partial $section.body_html . -}}  */}}
+           {{end}}
+         {{ end }}
+         {{ if $section.left_html }}
+
+         <iframe src="{{ $section.left_html }}" width="{{ $section.left_html_width }}" height="{{ $section.left_html_height }}" style="border:none;" class="{{ $section.left_html_class}}"></iframe>
+                     {{/*  {{- partial $section.left_html . -}}  */}}
         {{end}}
+        </div>
+
     <div></div>
     {{ if $section.attribution }}
         <div class="attribution">{{ $section.attribution }}</div>
