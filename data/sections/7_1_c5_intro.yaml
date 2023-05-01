@@ -1,0 +1,32 @@
+weight: 7.1
+name: "c5_intro"
+layers: "google_satellite"
+zoom: 5
+lat: 55.0
+lng: -97.0
+background_media : "../img/title-bg.jpg" 
+# background_media : "../img/montreal.jpeg" 
+visible: true
+layout: "wide_over_bg"
+menu_group: "Introduction"
+menu_name: "Model comparisons"
+splash: true
+title: "Challenge: Model comparisons"
+description: "`[under construction  note]`"
+# description: |  
+#   ![ResNet Logo](img/resnet-logo-trans.png)  
+#   ## NSERC ResNet HQP Scaling Group
+
+body_md: | 
+  ## Introduction
+  
+  Decision-making and research questions are meaningful at specific scales and often need scale-specific models.
+
+  ![figure_name](img/c5/unknownSourceAskM.png)
+
+  Choosing the right size to study natural phenomena is hard for scientists (Oreskes et al., 1994). An appropriate scale determines how detailed and accurate their models are and how much area they can cover. The scale of a study significantly impacts the complexity, accuracy, spatial extent, and generalizability of the models (Brimicombe, 2010).
+
+  Researching a local scale or small proportion of the territory requires more complex analyses. Researchers need to consider more variables and their relationships to achieve a reliable approximation of the natural phenomena under investigation. Also, the identification of patterns could be more difficult. Furthermore, obtaining more detailed results demands more computational resources. Nevertheless, it should be noted that higher scales at a finer resolution do not always lead to higher accuracy (Brimicombe, 2010).
+
+  On the other hand, examining natural phenomena through regional or global studies may enhance comprehension. Coarser resolutions could lead to reduced complexity, simplifying inputs and outputs. Also, some relationships or patterns emerge to significant geographical extents due to noise reduction. Furthermore, Policymakers tend to favor regional and global scales, as they provide a broader perspective on reality (Brimicombe, 2010; Woolmer et al., 2008).  
+  

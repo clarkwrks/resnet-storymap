@@ -1,14 +1,21 @@
-weight: 2.110
-name: "c1_1"
+weight: 1.41
+name: "c1"
 layers: "google_satellite"
 # zoom: 10
 # lat: 45.6
 # lng: -73.2
 background_media : "../img/title-bg.jpg" 
-# visible: true
-layout: "full_width_inset"
-# menu_group: "Introduction"
-# menu_name: "Shared challenges"
+visible: true
+layout: "wide_over_bg"
+menu_group: "Introduction"
+menu_name: "Field work"
+splash: true
+title: "Challenge: Field work"
+description: "`[under construction  note]`"
+# description: |  
+#   ![ResNet Logo](img/resnet-logo-trans.png)  
+#   ## NSERC ResNet HQP Scaling Group
+
 body_md: | 
   ## Challenge / overview of why field sampling matters
   - (Brittney & David) Trade-off between the need for field data but the time and funding needed to collect and process field samples
@@ -16,7 +23,7 @@ body_md: |
   - Heterogeneity of the environment
   - Background research needed to choose a proper sampling scheme
   - Balancing within site and between variability
-  - Ideal sampling vs what’s actually feasible (resources, time, $, administrative)
+  - Ideal sampling vs what's actually feasible (resources, time, $, administrative)
   - Cost - collection and analysis (lab work)
   - Unexpected situations (e.g. equipment breaking) - need to be flexible (best laid plans, often fail?)
   - Explain what those N/As are about (missing data)
@@ -25,13 +32,13 @@ body_md: |
   - Different methodologies used (how to upscale when data collected from different methods - Apples to Oranges?)
   
 
-  ### You may have seen something like the map below - where do these ‘C stock’ numbers come from?  
+  ### You may have seen something like the map below - where do these 'C stock' numbers come from?  
   #### https://wwf.ca/carbon-stocks/  
   #### https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021GB007213  
   - [WWF screenshot within google slides, no file or metadata in drive]  
 
   ## Case studies  
-  - Origin story of where data comes from (It’s not delivered by a stork). Pictures of field work and discussion of lengthy process to collect and process a single soil core  
+  - Origin story of where data comes from (It's not delivered by a stork). Pictures of field work and discussion of lengthy process to collect and process a single soil core  
   - Ideas for visualization: Maybe a slide deck with dots that changes as you move through time. Maybe separate slide decks for field and lab steps  
   - https://www.whoi.edu/oceanus/feature/marsh-bothering/ 
 

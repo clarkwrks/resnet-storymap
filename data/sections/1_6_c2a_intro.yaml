@@ -9,7 +9,7 @@ background_media : "../img/title-bg.jpg"
 visible: true
 layout: "wide_over_bg"
 menu_group: "Introduction"
-menu_name: "Why does spatial resolution matter?"
+menu_name: " - Why does spatial resolution matter?"
 splash: true
 title: "Challenge: Why does spatial resolution matter?"
 description: "`[under construction  note]`"

@@ -1,0 +1,35 @@
+weight: 7.3
+name: "c5_opp"
+layers: "google_satellite"
+zoom: 5
+lat: 55.0
+lng: -97.0
+background_media : "../img/title-bg.jpg" 
+# background_media : "../img/montreal.jpeg" 
+visible: true
+layout: "wide_over_bg"
+# menu_group: "Introduction"
+# menu_name: "Model comparisons"
+# splash: true
+# title: "Challenge: Model comparisons"
+# description: "`[under construction  note]`"
+# description: |  
+#   ![ResNet Logo](img/resnet-logo-trans.png)  
+#   ## NSERC ResNet HQP Scaling Group
+
+body_md: | 
+  ## Challenge: Model comparisons
+    
+  ### Best practices and opportunities
+  
+  Models are very sensitive to the input data. The more accurate the input data, the higher the reliability of the model. Furthermore, model evaluation can be a complex process based on the nature and the extent of the phenomena. The larger the spatial and temporal scale of the phenomena, the more complex and challenging it can be to evaluate the model. Lastly, models are developed to be applied at a certain scale (spatial and temporal). A model acceptable at one scale might not be at another.
+
+  We suggest the following to improve reliability of models...
+
+  * Clear and explicit criteria for every step of the evaluation
+
+  * Document all decisions made to incorporate input data
+
+  * Be clear about the purpose of the model
+
+  * Conduct a sensitivity analysis to test the consistency of the model under a range of input parameters

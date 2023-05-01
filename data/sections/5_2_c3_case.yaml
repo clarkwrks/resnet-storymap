@@ -1,0 +1,35 @@
+weight: 5.2
+name: "c3_case"
+layers: "google_satellite"
+zoom: 5
+lat: 55.0
+lng: -97.0
+background_media : "../img/title-bg.jpg" 
+# background_media : "../img/montreal.jpeg" 
+visible: true
+layout: "wide_over_bg"
+# menu_group: "Introduction"
+# menu_name: "How to consider non-linearities?"
+# splash: true
+# title: "Challenge: How to consider non-linearities?"
+# description: "`[under construction  note]`"
+# description: |  
+#   ![ResNet Logo](img/resnet-logo-trans.png)  
+#   ## NSERC ResNet HQP Scaling Group
+
+body_md: | 
+  ## Challenge: Spatial, temporal, & scale mismatches
+
+  ### Case Study
+
+  Here, we provide examples of when supply and demand don't overlap due to mismatches in space, time, or scale using the ecosystem service of pollination as an example.
+
+  1. **Spatial:** when we change the spatial extent of a study, we might miss sources of ES supply or ES beneficiaries. The figure in the left shows an example: Even when habitat for pollinators is constant across two landscapes, farmlands with smaller fields often have higher pollinator abundance, showing the influence of the spatial scale on the supply of pollination.
+
+  2. **Temporal:** Not all pollinators are active during all crop bloom seasons. As climate change continues, the phenological response of crop blooms and bee emergence may differ, which may result in greater temporal mismatches.
+
+  3. **Scale mismatch:** The whole process of pollination, from the location of pollinators' habitat, their feeding dynamics and flying range requires a minimum spatial extent and configuration of the habitat that might exceed that of a single farm. In other words, one farmer may not have have enough land to set aside to support pollinator habitat, or an optimal configuration of pollinator habitat, but working together multiple farmers would. So incentives that encourage cooperation among farmers, may be more successful than incentives that support a single farmer increasing bee habitat. This is because the scale of management (a single farm) is too small in spatial extent to match the scale of the process of pollination.
+
+  ![figure_name](img/c3/Challenge3.png)
+
+

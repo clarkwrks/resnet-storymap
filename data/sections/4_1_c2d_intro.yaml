@@ -9,7 +9,7 @@ background_media : "../img/title-bg.jpg"
 visible: true
 layout: "wide_over_bg"
 menu_group: "Introduction"
-menu_name: "How does the monitoring time period influence outcomes?"
+menu_name: " - How does the monitoring time period influence outcomes?"
 splash: true
 title: "Challenge: How does the monitoring time period influence outcomes?"
 description: "`[under construction  note]`"
@@ -21,4 +21,3 @@ body_md: |
   ## Introduction
   
   Often we use time series analysis to understand whether an ecosystem property or service is changing over time. The temporal extent (*e.g.*, time frame or period) of the monitoring data can affect outcomes. For shorter time-series or time-series with high variability, we may not have a correct historical baseline to detect change. For example, if monitoring data does not extend far enough into the past, then an insignificant trend could be interpreted as evidence for stability or no effect, when in reality the system might already be in a degraded state.
-  

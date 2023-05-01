@@ -1,0 +1,31 @@
+weight: 6.1
+name: "c4_intro"
+layers: "google_satellite"
+zoom: 5
+lat: 55.0
+lng: -97.0
+background_media : "../img/title-bg.jpg" 
+# background_media : "../img/montreal.jpeg" 
+# visible: true
+layout: "wide_over_bg"
+# menu_group: "Introduction"
+# menu_name: "The future is not like the past"
+# splash: true
+title: "Challenge: The future is not like the past"
+description: "`[under construction  note]`"
+# description: |  
+#   ![ResNet Logo](img/resnet-logo-trans.png)  
+#   ## NSERC ResNet HQP Scaling Group
+
+body_md: | 
+  ## Introduction
+  
+  When we study time scales in ecosystem services, we need different tools and approaches for studying past events and processes from those that will occur in the future. And the further we go into the past or into the future, the greater these differences are.
+
+  *[This section is under construction. Images we may add, include the following:]*
+
+  1. Graphic showing the history of satellite remote sensing with different sensors and their spatial resolution - possibly from David Ferguson?
+
+  2. Graphic of past CO2 concentration showing seasonal variation to present and with projection into the future with increasing uncertainty (see https://ourworldindata.org/future-emissions)
+
+  3. Cite Dylan's work on sorting out past Indigenous diets on the west coast?
