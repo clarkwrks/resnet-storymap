@@ -1,9 +1,9 @@
 weight: 2.12
 name: "c1_case"
 layers: "google_satellite"
-# zoom: 10
-# lat: 45.6
-# lng: -73.2
+zoom: 8
+lat: 45.6
+lng: -65.0
 background_media : "../img/title-bg.jpg" 
 visible: true
 layout: "wide_over_bg"

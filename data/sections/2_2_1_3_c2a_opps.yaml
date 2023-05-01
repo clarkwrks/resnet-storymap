@@ -1,9 +1,9 @@
-weight: 2.212
+weight: 2.213
 name: "c2a_opps"
 layers: "google_satellite"
-zoom: 5
-lat: 55.0
-lng: -97.0
+zoom: 8
+lat: 46.9
+lng: -77.8
 background_media : "../img/title-bg.jpg" 
 # background_media : "../img/montreal.jpeg" 
 visible: true
