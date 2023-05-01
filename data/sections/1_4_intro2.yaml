@@ -1,0 +1,60 @@
+weight: 1.4
+name: "intro2"
+layers: "google_satellite"
+zoom: 5
+lat: 55.0
+lng: -97.0
+background_media : "../img/title-bg.jpg" 
+# background_media : "../img/montreal.jpeg" 
+visible: true
+layout: "wide_over_bg"
+# menu_group: "Introduction"
+# menu_name: "Different scales, different questions"
+# splash: true
+# title: "Scaling of Ecosystem Services"
+# subtitle: "NSERC ResNet HQP Scaling Group"
+# description: |  
+#   ![ResNet Logo](img/resnet-logo-trans.png)  
+#   ## NSERC ResNet HQP Scaling Group
+
+body_md: | 
+  ## As a part of ResNet we research these scaling topics
+
+  <br>
+
+  ### What is ResNet?
+
+  <br>
+
+  We are part of the ResNet network that unites a broad community of scholars, NGO, government, and industry sectors. We are based in different working landscapes across Canada, and our aim is to improve our capacity to monitor, model, and manage these landscapes and all the ecosystem services that they provide for long-term well-being and shared prosperity.
+
+  <br>
+  <br>
+
+  ### Introduction to the process of creating this story map
+
+  <br>
+
+  Together as students and postdocs within the multi-scale ResNet network, we discuss a few of the challenges and best practices related to scaling. *[Add link to who we are? section]*.
+
+  <br>
+  <br>
+
+  For more information about ResNet click [here](https://www.nsercresnet.ca/index.html)
+
+  <br>
+  <br>
+
+  ### Shared challenges
+
+  <br>
+
+  In the next sections, we discuss a few of the challenges related to scaling of ecosystem services and best practices for overcoming these challenges.
+
+  <br>
+
+  We use case studies to illustrate each challenge. Icons at the top right illustrate whether the case study focuses on scaling challenges related to changing (a) spatial grain size, (b) spatial extent, (c) temporal resolution, and (d) time period
+
+  <br>
+
+  ![figure_name](img/intro/IconSpatialResolutionSlide7.png)![figure_name](img/intro/IconSpatialExtentSlide7.png)![figure_name](img/intro/IconTemporalResolutionSlide7.png)![figure_name](img/intro/IconTemporalExtentSlide7.png)

@@ -1,0 +1,33 @@
+weight: 3.2
+name: "c2c_case"
+layers: "google_satellite"
+zoom: 5
+lat: 55.0
+lng: -97.0
+background_media : "../img/title-bg.jpg" 
+# background_media : "../img/montreal.jpeg" 
+visible: true
+layout: "wide_over_bg"
+# menu_group: "Introduction"
+# menu_name: "How to consider non-linearities?"
+# splash: true
+# title: "Challenge: How to consider non-linearities?"
+# description: "`[under construction  note]`"
+# description: |  
+#   ![ResNet Logo](img/resnet-logo-trans.png)  
+#   ## NSERC ResNet HQP Scaling Group
+
+body_md: | 
+  ## Challenge: How to consider non-linearities?
+
+  ### Case study
+  In this case study, we show the relationship between soil carbon and plant cover in vacant lots in Quebec city. Plant cover can be greater than one in densely vegetated vacant lots when leaves overlap. In this study, vacant lots were carefully selected to represent the entire range of plant cover.
+
+  However, a less careful scientist, could have selected only a subset of these vacant lots (green dots, map on left). The relationship between soil carbon and plant cover only within this subset (green dots, middle panel) is linear and would lead to an incorrect extrapolation to the whole study region (gray dots, middle panel).
+
+  When using data from the whole study region (e.g., increasing the spatial extent), we find that the relationship is actually non-linear (panel on right). In vacant lots with high plant cover, other factors (e.g., soil type, land use history, etc.) might be needed to better explain the variability of carbon.
+
+  ![figure_name](img/c2c/fig2cLeft.png)![figure_name](img/c2c/fig2cMiddle.png)![figure_name](img/c2c/fig2cRight.png)
+
+  *Data source: Poliana Mendes `[add reference to submitted paper]`* 
+  

@@ -1,0 +1,16 @@
+weight: 2.12
+name: "c1_2"
+layers: "google_satellite"
+# zoom: 10
+# lat: 45.6
+# lng: -73.2
+background_media : "../img/title-bg.jpg" 
+# visible: true
+layout: "full_width_inset"
+# menu_group: "Introduction"
+# menu_name: "Shared challenges"
+body_md: | 
+  ### You may have seen something like the map below - where do these ‘C stock’ numbers come from?  
+  #### https://wwf.ca/carbon-stocks/  
+  #### https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021GB007213  
+  - [WWF screenshot within google slides, no file or metadata in drive]  

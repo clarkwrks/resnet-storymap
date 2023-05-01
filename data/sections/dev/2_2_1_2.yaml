@@ -1,0 +1,23 @@
+weight: 2.212
+name: "c2a_2"
+layers: "google_satellite"
+# zoom: 10
+# lat: 45.6
+# lng: -73.2
+background_media : "../img/title-bg.jpg" 
+visible: true
+layout: "full_width_inset"
+# menu_group: "Introduction"
+# menu_name: "Shared challenges"
+body_md: | 
+  ## Why does spatial resolution matter?
+  In the figure on the top right, we show two major forest disturbance agents (panel a) and the results of a geo-spatial trend analysis (panel b to d) over a relatively small study area (26,000 ha) located along the northern boundary of Algonquin Park. The vegetation greenness of forests, as measured by the Normalized Difference Vegetation index (NDVI), shows many trend breakpoints over an 18-year long period (2003-2020). Trend breakpoints refer to structural changes in the trend line of a measurement (bottom figure). Trend breakpoints can be positive or negative and can result from forest natural and anthropogenic disturbances.  
+  
+  When using MODIS derived NDVI at a 250 m resolution (panel  b) we find 312 different trend breakpoints in the data. Most of these are negative breakpoints (orange color pixels), meaning that some forest areas have experienced important decreases in greenness at some particular point in time.  However, there are also some forest areas that have seen significant increases (turquoise color pixels) in greenness at a particular point in time. When a 500 m resolution NDVI time series is used instead (panel c), the number of breakpoints drops to 71. Similarly, when a 1 km resolution NDVI time series is used (panel d), the number of breaks further decreases to 17.  
+  
+  Interestingly, not only does the number (and direction/sign) of forest pixels with trend breakpoints change depending on the resolution of the data but also the pixel locations over the study area.  Some of these trend breakpoint pixels spatially and temporally overlap with forest harvest and fire events. The largest overlaps occur when using the finest spatial resolution (250 m) data. Thus, the spatial resolution of a dataset may influence the results obtained and in turn, the management decisions that may arise from them. 
+
+  ![Grain Size](/img/c2a/FigureIntroSlide4.png)
+
+  `two figures in slide, one in drive` 
+

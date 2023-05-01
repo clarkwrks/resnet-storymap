@@ -1,0 +1,33 @@
+weight: 4.3
+name: "c2d_opp"
+layers: "google_satellite"
+zoom: 5
+lat: 55.0
+lng: -97.0
+background_media : "../img/title-bg.jpg" 
+# background_media : "../img/montreal.jpeg" 
+visible: true
+layout: "wide_over_bg"
+# menu_group: "Introduction"
+# menu_name: "How to consider non-linearities?"
+# splash: true
+# title: "Challenge: How to consider non-linearities?"
+# description: "`[under construction  note]`"
+# description: |  
+#   ![ResNet Logo](img/resnet-logo-trans.png)  
+#   ## NSERC ResNet HQP Scaling Group
+
+body_md: | 
+  ## Challenge: How does the monitoring time period influence outcomes?
+
+  ### Best practices and opportunities
+
+
+  Even when monitoring data are available for 30+ years, we know ecosystems have been changing over centuries. For example, current observations of salmon in the Salmon River are very different from historical reports.
+
+    >> *“In the grey of early morning I was aroused by a commotion, and found the river full of sockeye running upstream. I put in an oar and felt that the river was half fish. The increasing light soon showed that it was red from bank to bank. Then a stampede or panic occurred, and the salmon came surging down, but the river was so full of ascending fish that they blockaded and made a great flat wriggling dam. So jammed were they that they crowded out, and were rushed up the sloping banks out of the water.” -David Salmond Mitchell, fisheries officer 1905*
+    >>> Source for quote: Burt DW and Wallis M. 1997. Assessment of salmonid habitat in the salmon river, salmon arm. Department of Fisheries and Oceans. Vancouver, B.C.  
+
+  `[fix blockquote style]` 
+
+  When appropriate historical baselines are unavailable, comparisons can be made with an equivalent reference site. However, in the age of the anthropocene, finding an appropriate reference site can also be challenging. Therefore, when reading papers and reports, we suggest to critically evaluate how baselines and reference sites were selected and how these choices could impact outcomes. 

@@ -1,0 +1,24 @@
+weight: 1.7
+name: "shared_challenges"
+layers: "google_satellite"
+# zoom: 10
+# lat: 45.6
+# lng: -73.2
+background_media : "../img/title-bg.jpg" 
+# visible: true
+layout: "full_width_inset"
+left_markdown: |  
+  ## Shared Challenges
+
+  In the next sections, we discuss a few of the challenges related to scaling of ecosystem services and best practices for overcoming these challenges. 
+  We use case studies to illustrate each challenge. Icons at the top right illustrate whether the case study focuses on scaling challenges related to changing
+
+  (a) spatial grain  
+  ![Spatial grain](img/IconSpatialResolutionSlide7.png)  
+  (b) spatial extent  
+  ![Spatial extent](img/IconSpatialResolutionSlide7.png)  
+  (c) temporal resolution  
+  ![Spatial resolution](img/IconSpatialResolutionSlide7.png)  
+  (d) time period  
+  ![Time period](img/IconSpatialResolutionSlide7.png)  
+  

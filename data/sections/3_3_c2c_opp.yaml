@@ -1,0 +1,29 @@
+weight: 3.3
+name: "c2c_opp"
+layers: "google_satellite"
+zoom: 5
+lat: 55.0
+lng: -97.0
+background_media : "../img/title-bg.jpg" 
+# background_media : "../img/montreal.jpeg" 
+visible: true
+layout: "wide_over_bg"
+# menu_group: "Introduction"
+# menu_name: "How to consider non-linearities?"
+# splash: true
+# title: "Challenge: How to consider non-linearities?"
+# description: "`[under construction  note]`"
+# description: |  
+#   ![ResNet Logo](img/resnet-logo-trans.png)  
+#   ## NSERC ResNet HQP Scaling Group
+
+body_md: | 
+  ## Challenge: How to consider non-linearities?
+
+  ### Best practices and opportunities
+
+  If funding and time allows, sample across a larger spatial extent to capture the full range of each variable.
+
+  When extrapolating outside of the original study region consider whether the new study region’s environmental variables are within the same range as the original study. If not, consider whether a non-linear relationship is likely.
+
+  Seasonality can also result in nonlinear relationships between a variable and time (*e.g.*, temperature). To account for variables that vary across a year, we may need to monitor at the same time each year or more frequently within the year. Phenological changes are shifting with continuing climate change, which makes monitoring more frequently over time especially important.

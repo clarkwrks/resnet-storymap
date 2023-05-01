@@ -1,0 +1,28 @@
+weight: 1.6
+name: "c2a_intro"
+layers: "google_satellite"
+zoom: 5
+lat: 55.0
+lng: -97.0
+background_media : "../img/title-bg.jpg" 
+# background_media : "../img/montreal.jpeg" 
+visible: true
+layout: "wide_over_bg"
+menu_group: "Introduction"
+menu_name: "Why does spatial resolution matter?"
+splash: true
+title: "Challenge: Why does spatial resolution matter?"
+description: "`[under construction  note]`"
+# description: |  
+#   ![ResNet Logo](img/resnet-logo-trans.png)  
+#   ## NSERC ResNet HQP Scaling Group
+
+body_md: | 
+  
+  ## Introduction  
+  
+  When we change the spatial resolution of a pixel, we change the number and type of elements (for example landcover types) that compose it. This highly impacts outcomes where we attempt to classify pixels based on their composition.
+  
+  <br>
+
+  ![figure_name](img/c2a/ConceptualFigureMixedPixel.png) 

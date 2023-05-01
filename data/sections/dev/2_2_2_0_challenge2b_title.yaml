@@ -1,0 +1,15 @@
+weight: 2.220
+name: "challenge2b_title"
+layers: "google_satellite"
+zoom: 10
+lat: 45.6
+lng: -73.2
+background_media : "../img/title-bg.jpg" 
+visible: true
+layout: "splash_md"
+menu_group: "Challenges"
+menu_name: "- How to aggregate data to scale up?"
+body_md: |  
+  # Challenge: How to aggregate data to scale up?
+  `Section is in development.`
+  ### Short description

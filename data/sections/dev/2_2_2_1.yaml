@@ -1,0 +1,21 @@
+weight: 2.221
+name: "c2b_1"
+layers: "google_satellite"
+# zoom: 10
+# lat: 45.6
+# lng: -73.2
+background_media : "../img/title-bg.jpg" 
+visible: true
+layout: "full_width_inset"
+# menu_group: "Introduction"
+# menu_name: "Shared challenges"
+body_md: | 
+  ## How to aggregate data to scale up?
+
+  In addition to the resolution, boundaries used to aggregate smaller scale data may influence the visual assessment of ES supply and demand information and relationships 
+  
+  Example: Pollination supply and demand aggregated to watersheds (left) tend to show ES surplus (i.e. higher ratios) at areas with little demand, while the supply and demand relationships represented at 3km grid cells (right) can help identify more precisely high demand areas that could benefit from more agricultural support
+  
+  ![Grain Size](/img/c2b/supply-demand_ratio_rescale.png)
+
+  `Visualization: Figure showing pixel vs. watershed spatial patterns. Leaflet (slider transition window), dissolves from pixel to watershed. `

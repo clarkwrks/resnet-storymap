@@ -1,0 +1,19 @@
+weight: 1.3
+name: "about_es_terms"
+layers: "google_satellite"
+# zoom: 10
+# lat: 45.6
+# lng: -73.2
+background_media : "../img/title-bg.jpg" 
+# visible: true
+layout: "full_width_inset"
+menu_group: "Introduction"
+menu_name: "What are ecosystem services?"
+body_md: | 
+  ## Figure illustrating ecosystem service terms
+
+  `Placeholder text: We plan to hire an illustrator to create a visual defining the terms: ecosystem service, supply, demand, flow, benefit, etc. There will be one hexagon at a landscape scale and a second hexagon nested behind at a regional scale.`
+  
+  More information on terms used in this story map can be found here [add hyperlink to glossary]. 
+
+

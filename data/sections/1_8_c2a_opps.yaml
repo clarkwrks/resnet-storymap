@@ -1,0 +1,31 @@
+weight: 1.8
+name: "c2a_opps"
+layers: "google_satellite"
+zoom: 5
+lat: 55.0
+lng: -97.0
+background_media : "../img/title-bg.jpg" 
+# background_media : "../img/montreal.jpeg" 
+visible: true
+layout: "wide_over_bg"
+# menu_group: "Introduction"
+# menu_name: "Why does spatial resolution matter?"
+# splash: true
+# title: "Challenge: Why does spatial resolution matter?"
+# description: "`[under construction  note]`"
+# description: |  
+#   ![ResNet Logo](img/resnet-logo-trans.png)  
+#   ## NSERC ResNet HQP Scaling Group
+
+body_md: | 
+  ## Challenge: Why does spatial resolution matter?  
+
+  ### Best practices and opportunities
+
+  In cases where different data resolutions are available, the recommendation is to use data at the finest spatial resolution to ensure that potentially relevant ecological patterns are not missed.
+
+  Even though, fine scale data usually leads to improved accuracy of models (Fig. a & b), there are several constraints such as data availability, data storage, computing power, time, and financial resources (Fig. c). Finer grain size (i.e., smaller pixel size) usually leads to improved accuracy but some processes actually plateau at a certain resolution and there is no need to go finer. This is often used as a baseline for future studies. Higher resolution often comes with higher cost and time and hence, it is important to identify the most optimal point for a given study based on resources available.
+
+  <br>
+
+  ![figure_name](img/c2a/resnet_upscaling_grain_size2.png)

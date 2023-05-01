@@ -37,7 +37,10 @@
          {{ end }}
         </div>
         {{ if $section.left_html }}
-            {{- partial $section.left_html . -}}
+
+<iframe src="{{ $section.left_html }}" width="100%" height="300" style="border:none;">
+</iframe>
+            {{/*  {{- partial $section.left_html . -}}  */}}
         {{end}}
     <div></div>
     {{ if $section.attribution }}

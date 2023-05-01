@@ -1,0 +1,31 @@
+weight: 1.6
+name: "about_resnet"
+layers: "google_satellite"
+# zoom: 10
+# lat: 45.6
+# lng: -73.2
+background_media : "../img/title-bg.jpg" 
+visible: true
+layout: "full_width_inset"
+menu_group: "Introduction"
+menu_name: "Shared challenges"
+body_md: | 
+  ## As a part of ResNet we research these scaling topics
+
+  ### What is ResNet? 
+  We are part of the ResNet network that unites a broad community of scholars, NGO, government, and industry sectors. We are based in different working landscapes along Canada, and our aim is to improve our capacity to monitor, model, and manage these landscapes and all the ecosystem services that they provide for long-term well-being and shared prosperity.
+
+  ### Introduction to the process of creating this story map 
+  Together as students and postdocs within the multi-scale ResNet network, we discuss a few of the challenges and best practices related to scaling. 
+  
+  - [Add link to who we are? section]
+  - [add ResNet logo]
+  - [ResNet map as figure]
+  - [Link to website]
+
+  ## Shared Challenges
+
+  In the next sections, we discuss a few of the challenges related to scaling of ecosystem services and best practices for overcoming these challenges. 
+  We use case studies to illustrate each challenge. Icons at the top right illustrate whether the case study focuses on scaling challenges related to changing
+
+  ![Spatial Resolution](img/IconSpatialResolutionSlide7.png)![Spatial Extent](img/IconSpatialExtentSlide7.png)![Temporal Resolution](img/IconTemporalResolutionSlide7.png)![Temporal Extent](img/IconTemporalExtentSlide7.png) 

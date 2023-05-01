@@ -1,0 +1,28 @@
+weight: 2.3
+name: "c2b_opps"
+layers: "google_satellite"
+zoom: 5
+lat: 55.0
+lng: -97.0
+background_media : "../img/title-bg.jpg" 
+# background_media : "../img/montreal.jpeg" 
+visible: true
+layout: "wide_over_bg"
+# menu_group: "Introduction"
+# menu_name: "How to aggregate data to scale up?"
+# splash: true
+# title: "Challenge: How to aggregate data to scale up?"
+# description: "`[under construction  note]`"
+# description: |  
+#   ![ResNet Logo](img/resnet-logo-trans.png)  
+#   ## NSERC ResNet HQP Scaling Group
+
+body_md: | 
+  ## Challenge: How to aggregate data to scale up
+  
+  ### Best practices and opportunities
+
+  Careful consideration of the aggregation, reporting, or zonal unit by assessing variance or representativeness (i.e., percentage of outcome agreement and disagreement
+  between scales).
+
+  Consider the effects of aggregating information at the ecologically meaningful level into socially meaningful or management scale.

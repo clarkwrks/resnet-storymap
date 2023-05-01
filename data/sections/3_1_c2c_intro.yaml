@@ -1,0 +1,24 @@
+weight: 3.1
+name: "c2c_intro"
+layers: "google_satellite"
+zoom: 5
+lat: 55.0
+lng: -97.0
+background_media : "../img/title-bg.jpg" 
+# background_media : "../img/montreal.jpeg" 
+visible: true
+layout: "wide_over_bg"
+menu_group: "Introduction"
+menu_name: "How to consider non-linearities?"
+splash: true
+title: "Challenge: How to consider non-linearities?"
+description: "`[under construction  note]`"
+# description: |  
+#   ![ResNet Logo](img/resnet-logo-trans.png)  
+#   ## NSERC ResNet HQP Scaling Group
+
+body_md: | 
+  ## Introduction
+  
+  Often we assume a relationship between two variables is linear; however, if we increase the spatial extent we may see a nonlinear relationship appear. This is important, because we often predict in areas outside of where we sample. If we assume a relationship is linear, when it is not, then our extrapolations will be incorrect.
+
